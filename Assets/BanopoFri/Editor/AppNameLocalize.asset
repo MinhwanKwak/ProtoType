@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 912a891cef2e54effa8e405a97152f58, type: 3}
+  m_Name: AppNameLocalize
+  m_EditorClassIdentifier: 
+  en: Idle Heroes Tycoon
+  ko: "\uC6A9\uBCD1 \uC81C\uC791\uC18C"
+  ja: "\u30D2\u30FC\u30ED\u30FC\u88FD\u4F5C\u6240"
+  de: Idle Heroes Tycoon
+  es: Idle Heroes Tycoon
+  fr: Idle Heroes Tycoon
+  zhHans: Idle Heroes Tycoon
+  zhHant: Idle Heroes Tycoon

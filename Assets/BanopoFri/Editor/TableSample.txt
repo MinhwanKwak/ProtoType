@@ -1,0 +1,17 @@
+using UnityEngine;
+using System.Collections.Generic;
+
+namespace BanpoFri
+{
+    [System.Serializable]
+    public class {@DataName}
+    {
+        {@DataValue}
+    }
+
+    [System.Serializable]
+    public class {@ClassName} : Table<{@DataName}, {@KeyType}>
+    {
+    }
+}
+
