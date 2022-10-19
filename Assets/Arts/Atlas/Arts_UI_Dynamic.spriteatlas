@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Arts_UI_Common
+  m_Name: Arts_UI_Dynamic
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -44,13 +44,21 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 102900000, guid: 98fc9f9cc84a7d24f9d7118b72b67e02, type: 3}
+    - {fileID: 102900000, guid: 6caf0f2c47352e6429133a651c58fc1a, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 21246620171d56c4a85e2ad65127cfe1, type: 3}
+  - {fileID: 21300000, guid: d878104498db58f4e838ec15784f14e5, type: 3}
+  - {fileID: 21300000, guid: cc7ef58a52eec1645933c0236342e885, type: 3}
+  - {fileID: 21300000, guid: a7c50cabbd1798a4fb37b49337e43f21, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Dynamic_Icon_Gold_Stone
+  - Dynamic_Icon_Silver_Stone
+  - Dynamic_Icon_Basic_Stone
+  - Dynamic_Icon_Diamond_Stone
   m_RenderDataMap: {}
-  m_Tag: Arts_UI_Common
+  m_Tag: Arts_UI_Dynamic
   m_IsVariant: 0
