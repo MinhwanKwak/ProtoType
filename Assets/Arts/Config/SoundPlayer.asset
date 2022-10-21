@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9bfa9e5110a14f4298b5295d67fb07e, type: 3}
+  m_Name: SoundPlayer
+  m_EditorClassIdentifier: 
+  soundDatas:
+  - soundKey: bgm
+    audioData: {fileID: 8300000, guid: 82def5bc045b640d0804bc9849bb0b76, type: 3}
+  - soundKey: btn
+    audioData: {fileID: 8300000, guid: 3e3f161166ba72041a40891bd268001f, type: 3}
+  - soundKey: popup
+    audioData: {fileID: 8300000, guid: 658fd53dcb0212b459ead41665ebeecb, type: 3}
+  - soundKey: get
+    audioData: {fileID: 8300000, guid: 32ddbe3cee1cf4acc8a81637f657cf10, type: 3}
+  - soundKey: bgm_fever
+    audioData: {fileID: 8300000, guid: 36d538a616212478493419f461b8871c, type: 3}
+  - soundKey: effect_facility_work
+    audioData: {fileID: 8300000, guid: 6ecd31df2c6074678ac30c6d1308a632, type: 3}
+  - soundKey: effect_facility_appear_popup
+    audioData: {fileID: 8300000, guid: 6763c9323e44c40dbb0dbfa1863fdd30, type: 3}
+  - soundKey: effect_facility_appear_ingame
+    audioData: {fileID: 8300000, guid: 1814eda50e3584c8aa4a16cfcb91810d, type: 3}
+  - soundKey: effect_cardpack_open
+    audioData: {fileID: 8300000, guid: f3cda96d9e2c9465bbb31b6bc0c2aa5f, type: 3}
+  - soundKey: effect_card_reveal
+    audioData: {fileID: 8300000, guid: 59dc87134fe544a92bcdd35d7c84788c, type: 3}
+  - soundKey: effect_manager_new
+    audioData: {fileID: 8300000, guid: dd54ba1f310ac4b2ab34ce2fdc4ced3d, type: 3}
+  - soundKey: effect_rank_upgrade
+    audioData: {fileID: 8300000, guid: 3273bbc63d28246f8bcb733c45eaf259, type: 3}
+  - soundKey: effect_card_shuffle
+    audioData: {fileID: 8300000, guid: 2c42d469e66a649838574a4e6290e3dc, type: 3}
+  - soundKey: effect_card_one
+    audioData: {fileID: 8300000, guid: 108d661b135234e7797bfd4e453aed1d, type: 3}
+  - soundKey: bgm_enter
+    audioData: {fileID: 8300000, guid: 5ebdf41c06ed71741949a738f2201271, type: 3}
+  - soundKey: effect_coin_get
+    audioData: {fileID: 8300000, guid: 43c904693aeda42e293ff1b9feedfdc9, type: 3}
+  - soundKey: effect_dust_get
+    audioData: {fileID: 8300000, guid: 055a918aef0cf42bd97f1bfe8b12ad75, type: 3}
+  - soundKey: bgm_competition
+    audioData: {fileID: 8300000, guid: 785c569ed43c6f34f8f70a90da438f53, type: 3}
+  - soundKey: effect_cabinet_appear
+    audioData: {fileID: 8300000, guid: eb15a82b8f52044ea8441794ae6fbb94, type: 3}
+  - soundKey: bgm_title
+    audioData: {fileID: 8300000, guid: 785c569ed43c6f34f8f70a90da438f53, type: 3}
+  - soundKey: effect_manager_equip
+    audioData: {fileID: 8300000, guid: 077501313b2f3421c9cf787726d8aa83, type: 3}
+  - soundKey: effect_levelup
+    audioData: {fileID: 8300000, guid: 4ae3b049df9cd47e1858017b7b7274e1, type: 3}
+  - soundKey: effect_box_drop
+    audioData: {fileID: 8300000, guid: 6c63c26a69a1b450f80cf1da0eed5f8f, type: 3}
+  - soundKey: effect_box_open
+    audioData: {fileID: 8300000, guid: a28fdfa0425004a72b8590ef7c74b4a8, type: 3}
+  - soundKey: effect_box_card_appear
+    audioData: {fileID: 8300000, guid: 6d9a253a3e9a147fc9440e4dee218560, type: 3}
+  - soundKey: ui_reward_box_btn
+    audioData: {fileID: 8300000, guid: 05d777104a1c043ec9cad0cd90372345, type: 3}
+  - soundKey: effect_trumpet
+    audioData: {fileID: 8300000, guid: 66d619102e7244d97abb72cb8f9e5485, type: 3}
+  - soundKey: effect_monster_attack
+    audioData: {fileID: 8300000, guid: 35119e25a9f824eb5afb06dcf4714be0, type: 3}
+  - soundKey: effect_monster_die
+    audioData: {fileID: 8300000, guid: 714f8e9741fde4124ac93242867fe566, type: 3}
+  - soundKey: bgm_expedition
+    audioData: {fileID: 8300000, guid: 1b33c665793ba45cea57570fe6a92e23, type: 3}
+  - soundKey: ui_expedition_start_btn_1
+    audioData: {fileID: 8300000, guid: 765de0385fc5f46e0b26d17708435073, type: 3}
+  - soundKey: ui_expedition_start_btn_2
+    audioData: {fileID: 8300000, guid: 61882f1622477445a8e766a9a44df796, type: 3}
+  - soundKey: effect_hero_evolution
+    audioData: {fileID: 8300000, guid: dee4ce7b8c55a4bccbf8eb4d06f0afb6, type: 3}
+  - soundKey: effect_unlock
+    audioData: {fileID: 8300000, guid: 604dbba5e2c4a41e782a14c30e9e55b3, type: 3}
+  - soundKey: effect_skill_warrior
+    audioData: {fileID: 8300000, guid: a9dac9f4513204c9f80769bb4413c40c, type: 3}
+  - soundKey: effect_skill_arture
+    audioData: {fileID: 8300000, guid: 87dc7ab52f06048a4a694c4285ad93f4, type: 3}
+  - soundKey: effect_skill_spearman
+    audioData: {fileID: 8300000, guid: eca40569bfc194d94b561b1afab5583d, type: 3}
+  - soundKey: effect_skill_wizard
+    audioData: {fileID: 8300000, guid: 79005492e0864415caba4be276901e79, type: 3}
+  - soundKey: effect_skill_priest
+    audioData: {fileID: 8300000, guid: 5b6ca3bdf749848b0ae1840988bfa241, type: 3}
+  - soundKey: effect_facility_open
+    audioData: {fileID: 8300000, guid: c046b6ad5e8a340c1a91d8e7b71c4b48, type: 3}
+  - soundKey: effect_monster_attack_1
+    audioData: {fileID: 8300000, guid: 569bf0bcf14764ca0a9faf41af6e93da, type: 3}
+  - soundKey: effect_monster_attack_2
+    audioData: {fileID: 8300000, guid: aba08603d77624ad2b06acbdc2c3cb6c, type: 3}
+  - soundKey: effect_intro_start
+    audioData: {fileID: 8300000, guid: d9ff765fdb0cf440a896a2f8af7a6373, type: 3}
+  - soundKey: effect_intro_holy
+    audioData: {fileID: 8300000, guid: e318a71607a794e049e85b67a87ab1f3, type: 3}
+  - soundKey: effect_intro_battlecry
+    audioData: {fileID: 8300000, guid: 7cfe28a66bf9a434293dbf0aca75b2df, type: 3}
+  - soundKey: effect_intro_surprised
+    audioData: {fileID: 8300000, guid: 3d9ee988cae4e46978294fd7b2494df0, type: 3}
+  - soundKey: effect_intro_chicken
+    audioData: {fileID: 8300000, guid: 4d4a36aaece034ce09a6caeb866c5529, type: 3}
+  - soundKey: effect_intro_end
+    audioData: {fileID: 8300000, guid: 1721ef5f396484263875ba0b166b3214, type: 3}
+  - soundKey: bgm_pirate
+    audioData: {fileID: 8300000, guid: 0cc33ea237bb843828f34d2ca40962d9, type: 3}
+  - soundKey: ambient_thunderstorm
+    audioData: {fileID: 8300000, guid: 6072a086647314e3099331eef60e02e6, type: 3}
+  - soundKey: effect_slash1
+    audioData: {fileID: 8300000, guid: 22cc08df9912c4ce7b7f7290f3b7481e, type: 3}
+  - soundKey: effect_slash2
+    audioData: {fileID: 8300000, guid: 27a3b5561c7e14e279382da758d02c44, type: 3}
+  - soundKey: effect_slash3
+    audioData: {fileID: 8300000, guid: 16e8e8a88c0124536974e04bbdb34df9, type: 3}
+  - soundKey: bgm_dragon_hunt
+    audioData: {fileID: 8300000, guid: d7d845aa7d9984945bb52d6afd411b69, type: 3}
+  - soundKey: effect_dragon_attack
+    audioData: {fileID: 8300000, guid: 311f99cb4fdca4cacb5d633001ba7d7e, type: 3}
+  - soundKey: effect_skill_dragon
+    audioData: {fileID: 8300000, guid: f8cd5af5f635446338bd6def051f14a2, type: 3}
+  - soundKey: effect_roar_dragon
+    audioData: {fileID: 8300000, guid: 47c22da02489044608d109057f08d687, type: 3}
+  - soundKey: effect_skill_dragon_hunter
+    audioData: {fileID: 8300000, guid: 0a4bc859fa90d4b29accf68d9b86a906, type: 3}
+  - soundKey: effect_wingflap_dragon
+    audioData: {fileID: 8300000, guid: 105612f39ce2b41898c1b212dace0167, type: 3}
+  - soundKey: effect_egg_creaking
+    audioData: {fileID: 8300000, guid: 01c414f5e30cd48ed8025f7db1141d28, type: 3}
+  - soundKey: effect_magic
+    audioData: {fileID: 8300000, guid: 0b569f4f875d54b46aee80bc46cd0c8f, type: 3}

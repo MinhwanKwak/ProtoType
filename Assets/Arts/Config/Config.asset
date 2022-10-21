@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b6470b1acb3b482c830d432f3c9fc74, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: 
+  _textColorDefines:
+  - key_string: Popup_Header_White
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - key_string: Popup_Desc_DarkGolden
+    color: {r: 0.6117647, g: 0.42352945, b: 0.1254902, a: 1}
+  - key_string: Quest_Btn_Obtain_Green
+    color: {r: 0.8509804, g: 1, b: 0.7411765, a: 1}
+  - key_string: Quest_Btn_Desc_Brown
+    color: {r: 0.28627452, g: 0.02745098, b: 0, a: 1}
+  - key_string: Btn_Yes_DarkBlue
+    color: {r: 0.003921569, g: 0.28627452, b: 0.3372549, a: 1}
+  - key_string: Btn_Yes_CobaltBlue_Seasonal
+    color: {r: 0, g: 0.227451, b: 0.42352945, a: 1}
+  - key_string: Btn_No_DarkRed
+    color: {r: 0.43529415, g: 0.007843138, b: 0.121568635, a: 1}
+  - key_string: Btn_Cash_Indigo
+    color: {r: 0.25882354, g: 0.007843138, b: 0.43529415, a: 1}
+  - key_string: Btn_Point_DarkGreen
+    color: {r: 0.07058824, g: 0.33333334, b: 0.043137256, a: 1}
+  - key_string: Default_White
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - key_string: Default_Black
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - key_string: Default_Gray
+    color: {r: 0.32156864, g: 0.32156864, b: 0.32156864, a: 1}
+  - key_string: Default_Brown
+    color: {r: 0.6039216, g: 0.2901961, b: 0.007843138, a: 1}
+  - key_string: Default_DarkRed
+    color: {r: 0.23921569, g: 0, b: 0.011764706, a: 1}
+  - key_string: Default_RedPink
+    color: {r: 0.81960785, g: 0.08627451, b: 0.15686275, a: 1}
+  - key_string: Default_Orange
+    color: {r: 1, g: 0.5058824, b: 0.047058824, a: 1}
+  - key_string: Default_Yellow
+    color: {r: 1, g: 0.9372549, b: 0.4117647, a: 1}
+  - key_string: Default_Green
+    color: {r: 0.29746842, g: 1, b: 0, a: 1}
+  - key_string: Default_Blue
+    color: {r: 0, g: 0.5897709, b: 0.6603774, a: 1}
+  - key_string: Default_DarkBlue
+    color: {r: 0.07058824, g: 0.2, b: 0.33333334, a: 1}
+  - key_string: Default_Purple
+    color: {r: 0.6492772, g: 0, b: 1, a: 1}
+  - key_string: CardRank_Normal
+    color: {r: 1, g: 0.9245658, b: 0.8632076, a: 1}
+  - key_string: CardRank_Rare
+    color: {r: 0.7019608, g: 0.9019608, b: 1, a: 1}
+  - key_string: CardRank_Unique
+    color: {r: 1, g: 0.88550186, b: 0, a: 1}
+  - key_string: Property_Fire
+    color: {r: 0.81960785, g: 0.08627451, b: 0.15686275, a: 1}
+  - key_string: Property_Forest
+    color: {r: 0.29803923, g: 1, b: 0, a: 1}
+  - key_string: Property_Water
+    color: {r: 0, g: 0.49253702, b: 1, a: 1}
+  - key_string: Property_Darkness
+    color: {r: 0.6392157, g: 0, b: 0.9803922, a: 1}
+  - key_string: Property_Light
+    color: {r: 1, g: 0.93725497, b: 0.41176474, a: 1}
+  - key_string: Property_Dragon
+    color: {r: 0, g: 1, b: 0.8083906, a: 1}
+  - key_string: Stroke_DarkBlue
+    color: {r: 0, g: 0.44705883, b: 0.5019608, a: 1}
+  - key_string: Stroke_White
+    color: {r: 1, g: 1, b: 1, a: 0.07058824}
+  - key_string: Stroke_Beige
+    color: {r: 0.9843137, g: 0.8509804, b: 0.7294118, a: 1}
+  _eventTextColorDefines:
+  - key_string: EventSeasonal_Text_Title_01
+    color: {r: 0.91158485, g: 1, b: 0.7877358, a: 1}
+  _imageColorDefines:
+  - key_string: Image_Common_Yellow
+    color: {r: 1, g: 0.8784314, b: 0.38039216, a: 1}
+  - key_string: Image_Common_Green
+    color: {r: 0.54509807, g: 0.8901961, b: 0.22745098, a: 1}
+  - key_string: Image_Common_Blue
+    color: {r: 0.27450982, g: 0.7921569, b: 0.8980392, a: 1}
+  - key_string: Image_Common_Red
+    color: {r: 0.8392157, g: 0, b: 0.039215688, a: 1}
+  - key_string: Image_Common_Beige
+    color: {r: 1, g: 0.8117647, b: 0.6392157, a: 1}
+  - key_string: Background_Tile
+    color: {r: 1, g: 1, b: 1, a: 0.57254905}
+  - key_string: Card_UnCommon_Bg
+    color: {r: 0.44705886, g: 0.44705886, b: 0.44705886, a: 1}
+  - key_string: Card_Normal_Bg
+    color: {r: 0.85882354, g: 0.5647059, b: 0.24313726, a: 1}
+  - key_string: Card_Rare_Bg
+    color: {r: 0.1764706, g: 0.43529412, b: 0.8627451, a: 1}
+  - key_string: Card_Unique_Bg
+    color: {r: 0.7411765, g: 0.2784314, b: 0.98039216, a: 1}
+  - key_string: Image_Seasonal_Bg
+    color: {r: 0.08627451, g: 0.39607844, b: 0.38039216, a: 1}
+  - key_string: Image_Seasonal_Glow
+    color: {r: 0.6392157, g: 1, b: 0.96862745, a: 1}
+  - key_string: Image_ItemCard_Normal
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - key_string: Image_Itemcard_Alpha
+    color: {r: 1, g: 1, b: 1, a: 0}
+  - key_string: Image_ItemCard_Default
+    color: {r: 1, g: 0.8862746, b: 0.91372555, a: 1}
+  - key_string: DynamicShop_Btn_Starter
+    color: {r: 0, g: 0.56078434, b: 0.62352943, a: 1}
+  - key_string: DynamicShop_Btn_Event_Play1
+    color: {r: 0, g: 0.3137255, b: 0.6117647, a: 1}
+  - key_string: DynamicShop_Btn_Event_Play2
+    color: {r: 0, g: 0.14509805, b: 0.6509804, a: 1}
+  - key_string: DynamicShop_Btn_Vvip
+    color: {r: 0.47058824, g: 0, b: 0.105882354, a: 1}
+  - key_string: DynamicShop_Btn_God
+    color: {r: 0, g: 0.6792453, b: 0.67183113, a: 1}
+  - key_string: EnergyEvent_BtnIcon_Normal
+    color: {r: 0.9019608, g: 0.6862745, b: 0.47058824, a: 0.72156864}
+  - key_string: EnergyEvent_BtnIcon_Reward
+    color: {r: 1, g: 0.8666667, b: 0, a: 1}
+  - key_string: GrowthProgress_Default
+    color: {r: 1, g: 0.7607843, b: 0.7607843, a: 1}
+  - key_string: ExpeditionProgress_Normal
+    color: {r: 0.12156863, g: 1, b: 0, a: 1}
+  - key_string: ExpeditionProgress_Rare
+    color: {r: 0, g: 0.4392157, b: 1, a: 1}
+  - key_string: ExpeditionProgress_Unique
+    color: {r: 0.79607844, g: 0, b: 1, a: 1}
+  - key_string: HUDCircleGauge_Complete
+    color: {r: 0.20799215, g: 0.7735849, b: 0.48217958, a: 1}
+  - key_string: HUDCircleGauge_Play
+    color: {r: 1, g: 0.79263175, b: 0, a: 1}
+  - key_string: HUDCircleGauge_Next
+    color: {r: 1, g: 0.8998113, b: 0.7216981, a: 1}
+  - key_string: dragon_hp_purple
+    color: {r: 0.48474014, g: 0.04223035, b: 0.6886792, a: 1}
+  - key_string: dragon_hp_navy
+    color: {r: 0.074509814, g: 0.12973855, b: 0.5568628, a: 1}
+  - key_string: dragon_hp_blue
+    color: {r: 0.1745283, g: 0.68228686, b: 1, a: 1}
+  - key_string: dragon_hp_green
+    color: {r: 0.32327378, g: 0.8113208, b: 0, a: 1}
+  - key_string: dragon_hp_yellow
+    color: {r: 0.9433962, g: 0.8536684, b: 0, a: 1}
+  - key_string: dragon_hp_orange
+    color: {r: 0.9150943, g: 0.41828457, b: 0, a: 1}
+  - key_string: dragon_hp_red
+    color: {r: 0.8207547, g: 0, b: 0.048279736, a: 1}
+  - key_string: Property_Fire
+    color: {r: 0.8196079, g: 0.08627451, b: 0.15686275, a: 1}
+  - key_string: Property_Forest
+    color: {r: 0.29803923, g: 1, b: 0, a: 1}
+  - key_string: Property_Water
+    color: {r: 0, g: 0.49411768, b: 1, a: 1}
+  - key_string: Property_Darkness
+    color: {r: 0.6392157, g: 0, b: 0.9803922, a: 1}
+  - key_string: Property_Light
+    color: {r: 1, g: 0.93725497, b: 0.41176474, a: 1}
+  - key_string: Property_Dragon
+    color: {r: 0, g: 1, b: 0.8078432, a: 1}
+  _eventImgaeColorDefines:
+  - key_string: EventSeasonal_PackageBg_01
+    color: {r: 0.31132078, g: 0.10145447, b: 0.08076719, a: 0.5176471}
+  - key_string: EventSeasonal_Progress_01
+    color: {r: 0.85882354, g: 0.24705882, b: 0.31764707, a: 1}
+  - key_string: EventSeasonal_Frame01_01
+    color: {r: 0.9803922, g: 0.28235295, b: 0.30980393, a: 1}
+  - key_string: EventSeasonal_Tile_01
+    color: {r: 0.06666667, g: 0.36862746, b: 0.25882354, a: 1}
+  SkeletonGraphicMat: {fileID: 2100000, guid: b66cf7a186d13054989b33a5c90044e4, type: 2}
+  DisableSpriteMat: {fileID: 2100000, guid: 51d61b76f79d6914e9927c63443fdc07, type: 2}
+  EnableSpriteMat: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  ImgAddtiveMat: {fileID: 2100000, guid: e1506341469dd4c1aab0d255a4e8b854, type: 2}
+  managerAtlas: {fileID: 4343727234628468602, guid: 9cd0f8397b25c3043b885a4aecb3ed09, type: 2}
+  slotAtlas: {fileID: 4343727234628468602, guid: 68bb33da8c9a77a43b3cc3054693ca27, type: 2}
+  DynamicAtlas: {fileID: 4343727234628468602, guid: f61c10af318cf9c4b9b00076d17f5e43, type: 2}
+  DynamicShopAtlas: {fileID: 4343727234628468602, guid: 1416f6f2bcab2d64182f0a227cf88b20, type: 2}
+  ItemCardAtlas: {fileID: 4343727234628468602, guid: 7e17f1b862a2d8e49af139daf2abb149, type: 2}
+  CommonAtlas: {fileID: 4343727234628468602, guid: 3b4b5bce2a9298e4abf4cc657ab8d55a, type: 2}
+  facilityAtlas: {fileID: 0}
+  furnitureIconAtlas: {fileID: 0}
+  wardrobeIconAtlas: {fileID: 0}
+  costumeAtlas: {fileID: 0}
+  PentHousePreviewAtlas: {fileID: 0}
+  CabinetBoxAtlas: {fileID: 4343727234628468602, guid: 51c0f39c601354d4ca1db0133edee296, type: 2}
+  competitionAtlas: {fileID: 0}
+  SpecialCatAtlas: {fileID: 0}
+  UiIconAtlas: {fileID: 4343727234628468602, guid: 3bfdd864c66c37944ab81278bef3157b, type: 2}
+  UiBgAtlas: {fileID: 4343727234628468602, guid: 8b744a8bc85dc464eac550d9927a9d52, type: 2}
+  Seasonal_10001_ImgAtlas: {fileID: 4343727234628468602, guid: 036223c48a12841ba80df08c900ad441, type: 2}
+  SeasonalCommonImgAtlas: {fileID: 0}
+  SeasonalFacilityImgAtlas: {fileID: 0}
+  ExpeditionAreaAtlas: {fileID: 4343727234628468602, guid: 0207c4b91fb9c4b73a4fa5058a3fa087, type: 2}
+  OneLinkAtlas: {fileID: 4343727234628468602, guid: fbf9d683141921b40a228a76c97a736a, type: 2}
+  DragonHuntAtlas: {fileID: 4343727234628468602, guid: b741ce78112884e6889fecf8f965587f, type: 2}
+  DragonEggAtlas: {fileID: 4343727234628468602, guid: d250039dbe1424110acc7bdf24ecae71, type: 2}
