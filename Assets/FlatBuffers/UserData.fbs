@@ -1,0 +1,13 @@
+namespace BanpoFri.Data;
+
+
+
+table UserData {
+  money:string;
+  storemoney:string;
+  cash:int = 0;
+  material:int = 0;
+}
+
+
+root_type UserData;
