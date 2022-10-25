@@ -16,8 +16,13 @@ public class CircleOutline : ModifiedShadow
     [SerializeField]
     private string keyColor = string.Empty;
 
+        [ExecuteInEditMode]
+        public void SetTextColor(Color color)
+        {
+            effectColor = color;
+        }
 #if UNITY_EDITOR
-    protected override void OnValidate()
+        protected override void OnValidate()
     {
         base.OnValidate();
         circleCount = m_circleCount;
@@ -77,6 +82,8 @@ public class CircleOutline : ModifiedShadow
         if(!string.IsNullOrEmpty(keyColor))
             SetConfigColor();
     }
+
+  
 
     public void SetConfigColor()
     {
