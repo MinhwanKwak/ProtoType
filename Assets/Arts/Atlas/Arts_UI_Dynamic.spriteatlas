@@ -51,22 +51,32 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 21246620171d56c4a85e2ad65127cfe1, type: 3}
+  - {fileID: 21300000, guid: 27aa7f11e932e6247ad5b3265fccc8dd, type: 3}
   - {fileID: 21300000, guid: 70f93f818477a9a499010c666e583bb7, type: 3}
+  - {fileID: 21300000, guid: 5a3ab76255744d14fb5e8c6addcb3c90, type: 3}
+  - {fileID: 21300000, guid: cb194ec29efeb544593239adcd69f17f, type: 3}
   - {fileID: 21300000, guid: d878104498db58f4e838ec15784f14e5, type: 3}
   - {fileID: 21300000, guid: f8668744ff2648b43810ac318dbd4c10, type: 3}
   - {fileID: 21300000, guid: 1a85d88512b7fb34fb2d4718b79e072e, type: 3}
   - {fileID: 21300000, guid: 7a1900390f797e94b83b638de28675bd, type: 3}
+  - {fileID: 21300000, guid: 165f1f3aac2d8d44e975d8f6b324d928, type: 3}
   - {fileID: 21300000, guid: cc7ef58a52eec1645933c0236342e885, type: 3}
+  - {fileID: 21300000, guid: 2a65efea29e5a944a97d6ed89bca1d99, type: 3}
   - {fileID: 21300000, guid: a7c50cabbd1798a4fb37b49337e43f21, type: 3}
   m_PackedSpriteNamesToIndex:
-  - Dynamic_Icon_Gold_Stone
+  - Dynamic_Ore_Gold
+  - Dynamic_Smelting_Gold
   - Dynamic_State_Icon_Good
-  - Dynamic_Icon_Silver_Stone
+  - Dynamic_Currency_Icon_Gem
+  - Dynamic_Smelting_Silver
+  - Dynamic_Ore_Silver
   - Dynamic_State_Icon_Average
   - Dynamic_State_Icon_Sad
   - Dynamic_Currency_Icon_Money
+  - Dynamic_Smelting_Diamond
   - Dynamic_Icon_Basic_Stone
-  - Dynamic_Icon_Diamond_Stone
+  - Dynamic_Currency_Icon_Seed
+  - Dynamic_Ore_Diamond
   m_RenderDataMap: {}
   m_Tag: Arts_UI_Dynamic
   m_IsVariant: 0
