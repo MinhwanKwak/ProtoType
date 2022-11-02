@@ -101,11 +101,27 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 94785dd02abd4dd49850b1acbf600539, type: 3}
     - target: {fileID: 868798073123577723, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_Name
-      value: Btn_Ads
+      value: Btn_Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886699361323060050, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
+      propertyPath: m_EffectColor.b
+      value: 0.007843138
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886699361323060050, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
+      propertyPath: m_EffectColor.g
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886699361323060050, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
+      propertyPath: m_EffectColor.r
+      value: 0.75294125
       objectReference: {fileID: 0}
     - target: {fileID: 3475731716948630290, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_Text
       value: Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 7022728015750263943, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
+      propertyPath: keyColor
+      value: Btn_Point_Orange
       objectReference: {fileID: 0}
     - target: {fileID: 7022728015750263943, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_EffectColor.a
@@ -113,15 +129,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7022728015750263943, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_EffectColor.b
-      value: 0.5754717
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7022728015750263943, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_EffectColor.g
-      value: 0.39356968
+      value: 0.27058825
       objectReference: {fileID: 0}
     - target: {fileID: 7022728015750263943, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_EffectColor.r
-      value: 0
+      value: 0.7490196
       objectReference: {fileID: 0}
     - target: {fileID: 8853070612787996467, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_Sprite

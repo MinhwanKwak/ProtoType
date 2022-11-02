@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7960990192504829204}
   - component: {fileID: 4553952992523197057}
   - component: {fileID: 4168438456415746953}
+  - component: {fileID: 4929681140077847892}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -68,7 +69,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 6a3cefe3640ac5c4a9e048a728fad01a, type: 3}
+    m_Font: {fileID: 12800000, guid: 83d4c09e7b4bc2441bfb167d69328d3a, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 1
@@ -113,3 +114,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyColor: Default_White
+--- !u!114 &4929681140077847892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4750970797547844523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0.31661943, b: 0.46226418, a: 1}
+  m_EffectDistance: {x: 0, y: -2}
+  m_UseGraphicAlpha: 1

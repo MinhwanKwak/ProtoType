@@ -99,6 +99,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Btn_No
       objectReference: {fileID: 0}
+    - target: {fileID: 1886699361323060050, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
+      propertyPath: m_EffectColor.b
+      value: 0.16470589
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886699361323060050, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
+      propertyPath: m_EffectColor.g
+      value: 0.16470589
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886699361323060050, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
+      propertyPath: m_EffectColor.r
+      value: 0.7686275
+      objectReference: {fileID: 0}
     - target: {fileID: 3475731716948630290, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_Text
       value: No
