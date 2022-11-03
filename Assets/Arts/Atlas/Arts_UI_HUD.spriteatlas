@@ -23,7 +23,7 @@ SpriteAtlas:
     platformSettings:
     - serializedVersion: 3
       m_BuildTarget: DefaultTexturePlatform
-      m_MaxTextureSize: 1024
+      m_MaxTextureSize: 512
       m_ResizeAlgorithm: 0
       m_TextureFormat: -1
       m_TextureCompression: 1
@@ -55,6 +55,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 7e6ba6da9ac704e44b550df6bbe84fe3, type: 3}
   - {fileID: 21300000, guid: 2ddbcddbec1d9174d96b23657f0005f1, type: 3}
   - {fileID: 21300000, guid: 519e03ec0289af145a68d13838eb68da, type: 3}
+  - {fileID: 21300000, guid: 2c6e88ec32b8e5749a8679b6a3a093bc, type: 3}
   - {fileID: 21300000, guid: fbcbb84dadd695c4eab1b7cde3897531, type: 3}
   - {fileID: 21300000, guid: c952e92ed211b4441bb4e7400b3a4d9b, type: 3}
   m_PackedSpriteNamesToIndex:
@@ -63,6 +64,7 @@ SpriteAtlas:
   - HUD_Frame2
   - HUD_Icon_Quote
   - HUD_Frame
+  - HUD_Icon_Home
   - HUD_Icon_Exit
   - HUD_Icon_Mine
   m_RenderDataMap: {}
