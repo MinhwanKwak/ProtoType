@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4255420602348933085}
   - component: {fileID: 6932076826863346044}
   m_Layer: 5
-  m_Name: Img_Header
+  m_Name: TimeCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1108,7 +1108,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4750970797547844523, guid: 26323d49d1e9e074489de424b9ea0e23, type: 3}
       propertyPath: m_Name
-      value: Txt_Header
+      value: Txt_Time
       objectReference: {fileID: 0}
     - target: {fileID: 4929681140077847892, guid: 26323d49d1e9e074489de424b9ea0e23, type: 3}
       propertyPath: m_EffectColor.b
