@@ -60,6 +60,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 8bdcce76d9e87734ab9b52eba3abaa13, type: 3}
   - {fileID: 21300000, guid: d82a14671e26a4d418dd849823fca6ed, type: 3}
   - {fileID: 21300000, guid: df4c30b755a01f341b63adc6d2367594, type: 3}
+  - {fileID: 21300000, guid: 18156f38b16d5d84eb749d7b1d8ef134, type: 3}
   - {fileID: 21300000, guid: c314ec9bb6734c442adcf5e1b462bf70, type: 3}
   - {fileID: 21300000, guid: dce626dca2187ae4a9fd1a297f73856f, type: 3}
   - {fileID: 21300000, guid: 00c6909df78c59a45b6fcd89a2a1463a, type: 3}
@@ -77,6 +78,7 @@ SpriteAtlas:
   - Common_Header
   - Common_Btn_Cash
   - Common_Btn_Exit
+  - Common_Inner_Frame_R
   - Common_Frame
   - Common_Popup_Frame
   - Common_Btn_Close
