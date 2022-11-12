@@ -1,0 +1,22 @@
+{
+    "name": "BanpoFri-editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6b086a60a5cc7469e837feddb4f012fc",
+        "GUID:6546d7765b4165b40850b3667f981c26",
+        "GUID:69448af7b92c7f342b298e06a37122aa",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:b7f706f7e52a746f2b16ea5b60df3592"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
