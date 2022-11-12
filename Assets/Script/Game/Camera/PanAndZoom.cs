@@ -1,4 +1,4 @@
-using UnityEngine;
+    using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -102,8 +102,8 @@ public class PanAndZoom : MonoBehaviour {
         }
         else
         {
-            boundMinX = -3.6f;
-            boundMaxX = 3.6f;
+            boundMinX = -1f;
+            boundMaxX = 7f;
         }
 
         canUseMouse = Application.platform != RuntimePlatform.Android && Application.platform != RuntimePlatform.IPhonePlayer && Input.mousePresent;
