@@ -29,16 +29,20 @@ public class InGameTycoon : InGameMode
     {
         base.Load();
 
-        //Addressables.InstantiateAsync(load_path).Completed += (handle) => {
-        //    curInGameStage = handle.Result.GetComponent<InGameStage>();
-        //    if (curInGameStage != null)
-        //    {
-        //        curInGameStage.Init();
-        //    }
-        //};
+
+
+
+        Addressables.InstantiateAsync("InGame1_1").Completed += (handle) =>
+        {
+            curInGameStage = handle.Result.GetComponent<InGameStage>();
+            if (curInGameStage != null)
+            {
+                curInGameStage.Init();
+            }
+        };
 
         //CalculateGameSpeed();
-  
+
     }
 
     //public void CalculateGameSpeed()
