@@ -25,12 +25,6 @@ namespace BanpoFri
                     return data.ko;
                 case Config.Language.ja:
                     return data.ja;
-                case Config.Language.th:
-                    return data.th;
-                case Config.Language.de:
-                    return data.de;
-                case Config.Language.fr:
-                    return data.fr;
                 default:
                     return data.en;
             }

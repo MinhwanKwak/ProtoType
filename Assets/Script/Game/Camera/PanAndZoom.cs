@@ -102,8 +102,8 @@ public class PanAndZoom : MonoBehaviour {
         }
         else
         {
-            boundMinX = -1f;
-            boundMaxX = 7f;
+            boundMinX = -4.0f;
+            boundMaxX = 4.0f;
         }
 
         canUseMouse = Application.platform != RuntimePlatform.Android && Application.platform != RuntimePlatform.IPhonePlayer && Input.mousePresent;

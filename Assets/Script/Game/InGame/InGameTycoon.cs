@@ -54,12 +54,14 @@ public class InGameTycoon : InGameMode
     protected override void LoadUI()
     {
         base.LoadUI();
+
+        GameRoot.Instance.UISystem.OpenUI<HUD>();
+        GameRoot.Instance.UISystem.OpenUI<HUDBottom>();
+
         //GameRoot.Instance.UISystem.OpenUI<HUD>();
         //GameRoot.Instance.UISystem.OpenUI<HUDQuest>(quest => { quest.Init(); });
         ////GameRoot.Instance.UISystem.OpenUI<HudRight>(right => right.Init());
         //GameRoot.Instance.UISystem.OpenUI<PageNavigator>();
-        //GameRoot.Instance.UISystem.OpenUI<HUDBottom>();
-        
         /*if (GameRoot.Instance.UserData.CurMode.StageData.StageIdx > 1)
         {
             GameRoot.Instance.UISystem.OpenUI<HUDBottom>();

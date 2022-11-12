@@ -5,30 +5,24 @@ using RotaryHeart.Lib.AutoComplete;
 using UnityEditor;
 using TextOutline;
 
-
 [CustomEditor(typeof(CircleOutline)), CanEditMultipleObjects]
-public class CircleOutLineColorSettingInspector : Editor
+public class CircleOutlineInspector : Editor
 {
-    private SerializedProperty stringPorperty; 
+    private SerializedProperty stringPorperty;
     private List<string> keyList = new List<string>();
     private Config loadData = null;
-    private CircleOutline circleoutlinecolorsetting;
 
     private void OnEnable()
     {
         keyList.Clear();
         loadData = AssetDatabase.LoadAssetAtPath<Config>("Assets/Arts/Config/Config.asset");
-        if(loadData != null)
+        if (loadData != null)
         {
             loadData.Load();
-            foreach(var color in loadData.TextColorDefines)
+            foreach (var color in loadData.TextColorDefines)
                 keyList.Add(color.key_string);
-            foreach(var color in loadData.EventTextColorDefines) {
-                keyList.Add(color.key_string);
-            }
         }
         stringPorperty = serializedObject.FindProperty("keyColor");
-        circleoutlinecolorsetting = (CircleOutline)target;
     }
 
     public override void OnInspectorGUI()
@@ -36,9 +30,13 @@ public class CircleOutLineColorSettingInspector : Editor
         base.OnInspectorGUI();
         serializedObject.Update();
         stringPorperty.stringValue = AutoCompleteTextField.EditorGUILayout.AutoCompleteTextField("String Key", stringPorperty.stringValue, keyList.ToArray(), "Type something");
-        if(GUILayout.Button("적용 확인")){
-            circleoutlinecolorsetting.SetTextColor(loadData.GetTextColor(stringPorperty.stringValue));
-            EditorUtility.SetDirty(target);
+        if (GUILayout.Button("컬러 적용"))
+        {
+            foreach (var target in Selection.gameObjects)
+            {
+                target.GetComponent<CircleOutline>().effectColor = loadData.GetTextColor(stringPorperty.stringValue);
+                EditorUtility.SetDirty(target);
+            }
         }
         serializedObject.ApplyModifiedProperties();
     }

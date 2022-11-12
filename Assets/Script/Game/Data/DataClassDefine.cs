@@ -133,21 +133,6 @@ public class EventData : IClientData
 		//RouletteData.Init(-1);
 	}
 
-	public void ClearEventQuest()
-    {
-		
-		var StageIdx = GameRoot.Instance.UserData.CurMode.StageData.StageIdx;
-		var MissionInfo = Tables.Instance.GetTable<SeasonalMission>().DataList.Where(x => x.mission_order == QuestLevel.Value + 1).FirstOrDefault();
-		if (QuestValue.Value >= MissionInfo.mission_value)
-		{
-			QuestLevel.Value += 1;
-			//QuestValue.Value -= MissionInfo.mission_value;
-
-		}
-
-		//GameRoot.Instance.UserData.Save();
-    }
-
 	public void ReceiveEventReward()
     {
 		ReceiveLevel = QuestLevel.Value;
@@ -490,15 +475,7 @@ public class ManagerData : IReadOnlyData
 		Create();
 	}
 
-	public void ManagerLevelUp()
-	{
-		var basicTd = Tables.Instance.GetTable<ManagerBasic>().GetData(ManagerIdx);
-		if(basicTd != null)
-		{
-			if(basicTd.max_level > ManagerLvProperty.Value)
-				++ManagerLvProperty.Value;
-		}
-	}
+	
 	public void EarnManagerCard(int cnt)
 	{
 		ManagerCntProperty.Value += cnt;
@@ -1281,86 +1258,32 @@ public class StageData : IClientData
 		return null;
 	}	
 
-	public void Init(int idx)
-	{
-		StageIdx = idx;
-		var tb = Tables.Instance.GetTable<FacilityStage>().DataList.FindAll(x => x.stage == StageIdx);
-		if(tb != null)
-		{
-			MaxOpenFloor = tb.Count - 1;
-			for(var i = 0; i < tb.Count; ++i)
-			{
-				if(i == 0)
-					continue;
+	//public void Init(int idx)
+	//{
+	//	StageIdx = idx;
+	//	var tb = Tables.Instance.GetTable<FacilityStage>().DataList.FindAll(x => x.stage == StageIdx);
+	//	if(tb != null)
+	//	{
+	//		MaxOpenFloor = tb.Count - 1;
+	//		for(var i = 0; i < tb.Count; ++i)
+	//		{
+	//			if(i == 0)
+	//				continue;
 
-				var findIdx = tb[i].facility_idx;
-				if(FacilityState.ContainsKey(findIdx))
-				{
-					if(!FacilityState[findIdx].IsOpend)
-					{
-						NextOpenFloor = tb[i].facility_floor;
-						return;
-					}
-				}				
-			}
-			NextOpenFloor = MaxOpenFloor;
-		}		
-	}
-
-	public void OpenFacility()
-	{
-		if(MaxOpenFloor <= NextOpenFloor)
-			return;
-
-		var tb = Tables.Instance.GetTable<FacilityStage>().GetData(new KeyValuePair<int, int>(StageIdx, NextOpenFloor));
-		if(tb != null)
-		{
-			if(FacilityState.ContainsKey(tb.facility_idx))
-			{
-				FacilityState[tb.facility_idx].SetOpend( true );
-				var openFloor = NextOpenFloor - 1;
-				++NextOpenFloor;
-				GameRoot.Instance.InGameSystem.GetInGame<InGameTycoon>().curInGameStage.OpenFacility(openFloor);
-				//GameRoot.Instance.GameNotification.ChangeOnceNotification(GameNotificationSystem.NotificationCategory.FacilityAddOnce, true);
-				//GameRoot.Instance.GameNotification.ChangeOnceNotification(GameNotificationSystem.NotificationCategory.SlotAddOnce, true, tb.facility_idx);
-				//GameRoot.Instance.GameNotification.UpdateNotification(GameNotificationSystem.NotificationCategory.FacilityAdd);
-				//// if(StageIdx == 1 && NextOpenFloor == 3)				
-				// 	GameRoot.Instance.TutorialSystem.StartTutorial("3");
-				// if(StageIdx == 3 && NextOpenFloor == 3)
-				// {
-				// 	GameRoot.Instance.TutorialSystem.OnActiveTutoEnd = () => { GameRoot.Instance.FeverSystem.RefreshDustGenerate(); };
-				// 	GameRoot.Instance.TutorialSystem.StartTutorial("6");
-				// 	GameRoot.Instance.InGameSystem.GetInGame<InGameTycoon>().curInGameStage.FacilityEnd.RefreshContentEnable();
-				// }
-
-				/*if(GameRoot.Instance.CurInGameType == InGameType.Main && !GameRoot.Instance.TutorialSystem.IsActive("1"))
-                {
-					var reward = Tables.Instance.GetTable<Define>().GetData("build_floor_facility_coupon").value;
-					GameRoot.Instance.InGameSystem.GetInGame<InGameTycoon>().CreateBubble(NextOpenFloor - 1, (int)Config.RewardType.Currency,
-													(int)Config.CurrencyID.PentHouseTicket,
-													reward);
-				}*/
-
-			}
-		}	
-	}
-
-	public void OpenFacilitySlot(int facilityIdx)
-	{
-		var facility = GetFacility(facilityIdx);
-		if(facility != null)
-			facility.AddSlotCount();
-
-		var fd = Tables.Instance.GetTable<FacilityBasic>().GetData(facilityIdx);
-		if(fd != null)
-		{
-			var ftype = (Config.FacilityType)fd.facility_type;
-			if(Config.FacilityType.Manufacture != ftype)
-				return;
-		}
-		//GameRoot.Instance.GameNotification.ChangeOnceNotification(GameNotificationSystem.NotificationCategory.SlotAddOnce, true, facilityIdx);
-	}
-
+	//			var findIdx = tb[i].facility_idx;
+	//			if(FacilityState.ContainsKey(findIdx))
+	//			{
+	//				if(!FacilityState[findIdx].IsOpend)
+	//				{
+	//					NextOpenFloor = tb[i].facility_floor;
+	//					return;
+	//				}
+	//			}				
+	//		}
+	//		NextOpenFloor = MaxOpenFloor;
+	//	}		
+	//}
+	
 	public void UpgradeStageIdx()
 	{
 		++StageIdx;
@@ -1683,7 +1606,7 @@ public class PentHouseData : IReadOnlyData {
 	public List<int> EquipWardrobe = new List<int>();
 
 	public IReactiveCollection<int> OwnedFurnitureList = new ReactiveCollection<int>();
-	public IReactiveCollection<WardrobeData> OwnedWardrobeList = new ReactiveCollection<WardrobeData>();
+//	public IReactiveCollection<WardrobeData> OwnedWardrobeList = new ReactiveCollection<WardrobeData>();
 
 	public IReactiveCollection<int> NewItemList = new ReactiveCollection<int>();
 
@@ -1707,58 +1630,51 @@ public class PentHouseData : IReadOnlyData {
 	}
 }
 
-public class WardrobeData
-{
-	public int WardrobeIdx { get; protected set; } = 0;
-	public int WardrobeCount { get; protected set; } = 0;
-	public int WardrobeLv { get; protected set; } = 0;
+//public class WardrobeData
+//{
+//	public int WardrobeIdx { get; protected set; } = 0;
+//	public int WardrobeCount { get; protected set; } = 0;
+//	public int WardrobeLv { get; protected set; } = 0;
 
-	public IReactiveProperty<int> WardrobeLvProperty = new ReactiveProperty<int>();
-	public IReactiveProperty<int> WardrobeCntProperty = new ReactiveProperty<int>();
+//	public IReactiveProperty<int> WardrobeLvProperty = new ReactiveProperty<int>();
+//	public IReactiveProperty<int> WardrobeCntProperty = new ReactiveProperty<int>();
 
-	public WardrobeData(int idx, int cnt, int lv)
-	{
-		WardrobeIdx = idx;
-		WardrobeCount = cnt;
-		WardrobeLv = lv;
-		Create();
-	}
+//	public WardrobeData(int idx, int cnt, int lv)
+//	{
+//		WardrobeIdx = idx;
+//		WardrobeCount = cnt;
+//		WardrobeLv = lv;
+//		Create();
+//	}
 
-	public void WardrobeLevelUp()
-	{
-		var basicTd = Tables.Instance.GetTable<PentHouse>().GetData(WardrobeIdx);
-		if (basicTd != null)
-		{
-			if (basicTd.max_level > WardrobeLvProperty.Value)
-				++WardrobeLvProperty.Value;
-		}
-	}
+//	public void WardrobeLevelUp()
+//	{
+//		var basicTd = Tables.Instance.GetTable<PentHouse>().GetData(WardrobeIdx);
+//		if (basicTd != null)
+//		{
+//			if (basicTd.max_level > WardrobeLvProperty.Value)
+//				++WardrobeLvProperty.Value;
+//		}
+//	}
 
-	public void AddWardobeCard(int count)
-    {
-		WardrobeCount += count;
+//	public void AddWardobeCard(int count)
+//    {
+//		WardrobeCount += count;
 
-	}
+//	}
 
-	public void EarnWardrobeCard(int cnt)
-	{
-		WardrobeCntProperty.Value += cnt;
-	}
-	public virtual void Create()
-	{
-		WardrobeLvProperty.Value = WardrobeLv;
-		WardrobeLvProperty.Subscribe(x => { WardrobeLv = x;});
+//	public void EarnWardrobeCard(int cnt)
+//	{
+//		WardrobeCntProperty.Value += cnt;
+//	}
 
-		WardrobeCntProperty.Value = WardrobeCount;
-		WardrobeCntProperty.Subscribe(x => WardrobeCount = x);
-	}
 
-	public virtual object Clone()
-	{
-		var clone = new WardrobeData(WardrobeIdx, WardrobeCount, WardrobeLv);
-		return clone;
-	}
-}
+//	public virtual object Clone()
+//	{
+//		var clone = new WardrobeData(WardrobeIdx, WardrobeCount, WardrobeLv);
+//		return clone;
+//	}
+//}
 
 public class TicketShopData : IReadOnlyData
 {

@@ -1,0 +1,467 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef1efbd8d0fe74dcdb2bf5806ca18b55, type: 3}
+  m_Name: Localize
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - str_currency_name_1
+  - str_currency_name_2
+  - str_currency_name_3
+  - str_land_purchase
+  - str_open_land_desc
+  - str_state
+  - str_month_profit
+  - str_land_name_1
+  - str_land_name_2
+  - str_land_name_3
+  - str_land_name_4
+  - str_land_name_5
+  - str_land_name_6
+  - str_land_name_7
+  - str_land_name_8
+  - str_land_name_9
+  - str_land_name_10
+  - str_land_name_11
+  - str_land_name_12
+  - str_land_name_13
+  - str_land_name_14
+  - str_land_name_15
+  - str_land_name_16
+  - str_land_name_17
+  - str_land_name_18
+  - str_land_condition_1
+  - str_land_condition_2
+  - str_land_condition_3
+  - str_land_condition_profit_1
+  - str_land_condition_profit_2
+  - str_land_condition_profit_3
+  - str_land_info_desc
+  - str_grade
+  - str_upgrade
+  - str_max
+  - str_stage_time
+  - str_land_grade_end
+  - str_point_item_have
+  - str_get_point_notice
+  - str_land_event_101
+  - str_land_event_102
+  - str_land_event_103
+  - str_land_event_104
+  - str_land_event_105
+  - str_land_event_106
+  - str_land_event_107
+  - str_land_event_108
+  - str_land_event_109
+  - str_land_event_110
+  - str_land_event_201
+  - str_land_event_202
+  - str_land_event_203
+  - str_land_event_204
+  - str_land_event_205
+  - str_land_event_206
+  - str_land_event_207
+  - str_land_event_208
+  - str_land_event_209
+  - str_land_event_210
+  - str_land_event_301
+  - str_land_event_302
+  - str_land_event_303
+  - str_land_event_304
+  - str_land_event_305
+  - str_land_event_306
+  - str_land_event_307
+  - str_land_event_308
+  - str_land_event_309
+  - str_land_event_310
+  - str_land_event_401
+  - str_land_event_402
+  - str_land_event_403
+  - str_land_event_404
+  - str_land_event_405
+  - str_land_event_406
+  - str_land_event_407
+  - str_land_event_408
+  - str_land_event_409
+  - str_land_event_410
+  - str_land_event_501
+  - str_land_event_502
+  - str_land_event_503
+  - str_land_event_504
+  - str_land_event_505
+  - str_land_event_506
+  - str_land_event_507
+  - str_land_event_508
+  - str_land_event_509
+  - str_land_event_510
+  - str_month_profit_info
+  mSecondKey: []
+  mDataList:
+  - _idx: str_currency_name_1
+    _ko: "\uB3C8"
+    _en: 
+    _ja: 
+  - _idx: str_currency_name_2
+    _ko: "\uC82C"
+    _en: 
+    _ja: 
+  - _idx: str_currency_name_3
+    _ko: "\uD574\uBC14\uB77C\uAE30\uC528"
+    _en: 
+    _ja: 
+  - _idx: str_land_purchase
+    _ko: "\uB545 \uAD6C\uB9E4"
+    _en: 
+    _ja: 
+  - _idx: str_open_land_desc
+    _ko: "\uB545\uC744 \uAD6C\uB9E4\uD558\uC5EC, \uB17C\uC73C\uB85C \uAC1C\uAC04\uD569\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+  - _idx: str_state
+    _ko: "\uC0C1\uD0DC"
+    _en: 
+    _ja: 
+  - _idx: str_month_profit
+    _ko: "\uC6D4\uC218\uC775"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_1
+    _ko: A1
+    _en: 
+    _ja: 
+  - _idx: str_land_name_2
+    _ko: A2
+    _en: 
+    _ja: 
+  - _idx: str_land_name_3
+    _ko: A3
+    _en: 
+    _ja: 
+  - _idx: str_land_name_4
+    _ko: A4
+    _en: 
+    _ja: 
+  - _idx: str_land_name_5
+    _ko: A5
+    _en: 
+    _ja: 
+  - _idx: str_land_name_6
+    _ko: A6
+    _en: 
+    _ja: 
+  - _idx: str_land_name_7
+    _ko: B1
+    _en: 
+    _ja: 
+  - _idx: str_land_name_8
+    _ko: B2
+    _en: 
+    _ja: 
+  - _idx: str_land_name_9
+    _ko: B3
+    _en: 
+    _ja: 
+  - _idx: str_land_name_10
+    _ko: B4
+    _en: 
+    _ja: 
+  - _idx: str_land_name_11
+    _ko: B5
+    _en: 
+    _ja: 
+  - _idx: str_land_name_12
+    _ko: B6
+    _en: 
+    _ja: 
+  - _idx: str_land_name_13
+    _ko: C1
+    _en: 
+    _ja: 
+  - _idx: str_land_name_14
+    _ko: C2
+    _en: 
+    _ja: 
+  - _idx: str_land_name_15
+    _ko: C3
+    _en: 
+    _ja: 
+  - _idx: str_land_name_16
+    _ko: C4
+    _en: 
+    _ja: 
+  - _idx: str_land_name_17
+    _ko: C5
+    _en: 
+    _ja: 
+  - _idx: str_land_name_18
+    _ko: C6
+    _en: 
+    _ja: 
+  - _idx: str_land_condition_1
+    _ko: "\uC88B\uC74C"
+    _en: 
+    _ja: 
+  - _idx: str_land_condition_2
+    _ko: "\uBCF4\uD1B5"
+    _en: 
+    _ja: 
+  - _idx: str_land_condition_3
+    _ko: "\uB098\uC068"
+    _en: 
+    _ja: 
+  - _idx: str_land_condition_profit_1
+    _ko: "({0}\uBC30\u25B2)"
+    _en: 
+    _ja: 
+  - _idx: str_land_condition_profit_2
+    _ko: 
+    _en: 
+    _ja: 
+  - _idx: str_land_condition_profit_3
+    _ko: "({0}\uBC30\u25BC)"
+    _en: 
+    _ja: 
+  - _idx: str_land_info_desc
+    _ko: "\uC0C1\uD0DC\uAC00 \uC88B\uC73C\uBA74 \uCD94\uAC00 \uC218\uC775\uC744 \uC5BB\uC2B5\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+  - _idx: str_grade
+    _ko: "{0}\uB2E8\uACC4"
+    _en: 
+    _ja: 
+  - _idx: str_upgrade
+    _ko: "\uC5C5\uADF8\uB808\uC774\uB4DC"
+    _en: 
+    _ja: 
+  - _idx: str_max
+    _ko: MAX
+    _en: 
+    _ja: 
+  - _idx: str_stage_time
+    _ko: "{0}\uB144 {1}\uC6D4 {2}\uC77C"
+    _en: 
+    _ja: 
+  - _idx: str_land_grade_end
+    _ko: "\uAC74\uBB3C\uC774 \uCD5C\uC885 \uB2E8\uACC4\uC785\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+  - _idx: str_point_item_have
+    _ko: "\uBCF4\uC720: {0}"
+    _en: 
+    _ja: 
+  - _idx: str_get_point_notice
+    _ko: "\uC0C1\uD0DC \uD3EC\uC778\uD2B8 +{0} \uD68D\uB4DD!"
+    _en: 
+    _ja: 
+  - _idx: str_land_event_101
+    _ko: 1
+    _en: 
+    _ja: 
+  - _idx: str_land_event_102
+    _ko: 2
+    _en: 
+    _ja: 
+  - _idx: str_land_event_103
+    _ko: 3
+    _en: 
+    _ja: 
+  - _idx: str_land_event_104
+    _ko: 4
+    _en: 
+    _ja: 
+  - _idx: str_land_event_105
+    _ko: 5
+    _en: 
+    _ja: 
+  - _idx: str_land_event_106
+    _ko: 6
+    _en: 
+    _ja: 
+  - _idx: str_land_event_107
+    _ko: 7
+    _en: 
+    _ja: 
+  - _idx: str_land_event_108
+    _ko: 8
+    _en: 
+    _ja: 
+  - _idx: str_land_event_109
+    _ko: 9
+    _en: 
+    _ja: 
+  - _idx: str_land_event_110
+    _ko: 10
+    _en: 
+    _ja: 
+  - _idx: str_land_event_201
+    _ko: 11
+    _en: 
+    _ja: 
+  - _idx: str_land_event_202
+    _ko: 12
+    _en: 
+    _ja: 
+  - _idx: str_land_event_203
+    _ko: 13
+    _en: 
+    _ja: 
+  - _idx: str_land_event_204
+    _ko: 14
+    _en: 
+    _ja: 
+  - _idx: str_land_event_205
+    _ko: 15
+    _en: 
+    _ja: 
+  - _idx: str_land_event_206
+    _ko: 16
+    _en: 
+    _ja: 
+  - _idx: str_land_event_207
+    _ko: 17
+    _en: 
+    _ja: 
+  - _idx: str_land_event_208
+    _ko: 18
+    _en: 
+    _ja: 
+  - _idx: str_land_event_209
+    _ko: 19
+    _en: 
+    _ja: 
+  - _idx: str_land_event_210
+    _ko: 20
+    _en: 
+    _ja: 
+  - _idx: str_land_event_301
+    _ko: 21
+    _en: 
+    _ja: 
+  - _idx: str_land_event_302
+    _ko: 22
+    _en: 
+    _ja: 
+  - _idx: str_land_event_303
+    _ko: 23
+    _en: 
+    _ja: 
+  - _idx: str_land_event_304
+    _ko: 24
+    _en: 
+    _ja: 
+  - _idx: str_land_event_305
+    _ko: 25
+    _en: 
+    _ja: 
+  - _idx: str_land_event_306
+    _ko: 26
+    _en: 
+    _ja: 
+  - _idx: str_land_event_307
+    _ko: 27
+    _en: 
+    _ja: 
+  - _idx: str_land_event_308
+    _ko: 28
+    _en: 
+    _ja: 
+  - _idx: str_land_event_309
+    _ko: 29
+    _en: 
+    _ja: 
+  - _idx: str_land_event_310
+    _ko: 30
+    _en: 
+    _ja: 
+  - _idx: str_land_event_401
+    _ko: 31
+    _en: 
+    _ja: 
+  - _idx: str_land_event_402
+    _ko: 32
+    _en: 
+    _ja: 
+  - _idx: str_land_event_403
+    _ko: 33
+    _en: 
+    _ja: 
+  - _idx: str_land_event_404
+    _ko: 34
+    _en: 
+    _ja: 
+  - _idx: str_land_event_405
+    _ko: 35
+    _en: 
+    _ja: 
+  - _idx: str_land_event_406
+    _ko: 36
+    _en: 
+    _ja: 
+  - _idx: str_land_event_407
+    _ko: 37
+    _en: 
+    _ja: 
+  - _idx: str_land_event_408
+    _ko: 38
+    _en: 
+    _ja: 
+  - _idx: str_land_event_409
+    _ko: 39
+    _en: 
+    _ja: 
+  - _idx: str_land_event_410
+    _ko: 40
+    _en: 
+    _ja: 
+  - _idx: str_land_event_501
+    _ko: 41
+    _en: 
+    _ja: 
+  - _idx: str_land_event_502
+    _ko: 42
+    _en: 
+    _ja: 
+  - _idx: str_land_event_503
+    _ko: 43
+    _en: 
+    _ja: 
+  - _idx: str_land_event_504
+    _ko: 44
+    _en: 
+    _ja: 
+  - _idx: str_land_event_505
+    _ko: 45
+    _en: 
+    _ja: 
+  - _idx: str_land_event_506
+    _ko: 46
+    _en: 
+    _ja: 
+  - _idx: str_land_event_507
+    _ko: 47
+    _en: 
+    _ja: 
+  - _idx: str_land_event_508
+    _ko: 48
+    _en: 
+    _ja: 
+  - _idx: str_land_event_509
+    _ko: 49
+    _en: 
+    _ja: 
+  - _idx: str_land_event_510
+    _ko: 50
+    _en: 
+    _ja: 
+  - _idx: str_month_profit_info
+    _ko: "30\uC77C\uB9C8\uB2E4 \uC218\uC775"
+    _en: 
+    _ja: 

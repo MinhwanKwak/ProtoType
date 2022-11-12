@@ -208,7 +208,7 @@ public class GameRoot : Singleton<GameRoot>
 		//yield return Materials.Create();
 		//yield return SoundPlayer.Create();
 		//SoundPlayer.Instance.SetRoot(transform);
-		//yield return Config.Create();
+		yield return Config.Create();
 		yield return Tables.Create();
 		//yield return TpRemoteProp.FetchRemote();
 
@@ -495,32 +495,8 @@ public class GameRoot : Singleton<GameRoot>
 
 			GameRoot.instance.UserData.CurMode.ExpeditionData.offlineattacktime = GameRoot.instance.UserData.CurMode.ExpeditionData.AttackTimeProperty.Value;
 
-			var skilldatalist = GameRoot.instance.UserData.CurMode.HeroSkillData.FindAll(x => !x.SkillMaintainTime.Equals(default(System.DateTime)));
-
-			foreach (var skilldata in skilldatalist)
-			{
-
-				var td = Tables.Instance.GetTable<HeroSkill>().GetData(skilldata.SkillIdx);
-
-				if (td != null)
-				{
-					//var curTime = TimeSystem.GetCurTime();
-					//var diff = curTime.Subtract(skilldata.SkillMaintainTime);
-					//var remaintime = td.holding_time - (int)diff.TotalSeconds;
-
-
-					//if (remaintime < 0f)
-					//{
-
-					//	GameRoot.Instance.HeroSkillSystem.StartHeroSkillCooTime(skilldata.SkillIdx, true);
-
-					//	if (td != null)
-					//		GameRoot.Instance.BuffSystem.RemoveBuff(td.buff_idx);
-					//}
-				}
-			}
-
-			//GameRoot.Instance.MonsterBuffSystem.bUpdate = false;
+			
+				
 		}
 		else
 		{
@@ -545,8 +521,6 @@ public class GameRoot : Singleton<GameRoot>
 			//TicketSystem.CheckOfflineTicketCount();
 
 			//var diff = TimeSystem.GetCurTime().Subtract(time);
-			var minRewardTime = Tables.Instance.GetTable<Define>().GetData("offline_bonus_min_time").value;
-			var maxRewardTime = Tables.Instance.GetTable<Define>().GetData("offline_bonus_max_time").value;
 
 
 			//	if (diff.TotalSeconds > 0f && GameRoot.instance.expeditionsystem.IsAttack)
@@ -649,16 +623,16 @@ public class GameRoot : Singleton<GameRoot>
 		}
 #endif
 
-		private bool ForceUpdateByAppVersion()
-		{
-			var appversion = 0;
-			if (int.TryParse(Application.version.Split('.').LastOrDefault(), out appversion))
-			{
-				var force_update_version = Tables.Instance.GetTable<Define>().GetData("force_update_version").value;
-				if (appversion < force_update_version)
-					return true;
-			}
+		//private bool ForceUpdateByAppVersion()
+		//{
+		//	//var appversion = 0;
+		//	//if (int.TryParse(Application.version.Split('.').LastOrDefault(), out appversion))
+		//	//{
+		//	//	var force_update_version = Tables.Instance.GetTable<Define>().GetData("force_update_version").value;
+		//	//	if (appversion < force_update_version)
+		//	//		return true;
+		//	//}
 
-			return false;
-		}
+		//	//return false;
+		//}
 	}
