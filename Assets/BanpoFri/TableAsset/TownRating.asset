@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c55733e00bcf748b6f564a52417486, type: 3}
+  m_Name: TownRating
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  mSecondKey: []
+  mDataList:
+  - _grade: 1
+    _name: str_town_rating_name_1
+    _rating_point_min: 1
+  - _grade: 2
+    _name: str_town_rating_name_2
+    _rating_point_min: 20
+  - _grade: 3
+    _name: str_town_rating_name_3
+    _rating_point_min: 50
+  - _grade: 4
+    _name: str_town_rating_name_4
+    _rating_point_min: 80
+  - _grade: 5
+    _name: str_town_rating_name_5
+    _rating_point_min: 100

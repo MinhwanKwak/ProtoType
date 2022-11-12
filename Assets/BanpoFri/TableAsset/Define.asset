@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae061b15c1474e4481773da0cbb384c, type: 3}
+  m_Name: Define
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - land_condition_point_evet_period
+  - month_get_profit_period
+  - month_get_profit_jackpot_rate
+  - month_get_profit_jackpot_incre
+  - town_rating_event_period
+  mSecondKey: []
+  mDataList:
+  - _idx: land_condition_point_evet_period
+    _value: 180
+  - _idx: month_get_profit_period
+    _value: 30
+  - _idx: month_get_profit_jackpot_rate
+    _value: 10
+  - _idx: month_get_profit_jackpot_incre
+    _value: 200
+  - _idx: town_rating_event_period
+    _value: 360

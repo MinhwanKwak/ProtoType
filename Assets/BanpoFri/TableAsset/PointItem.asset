@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 668eec7783a6c5149aee0b5c20d0037f, type: 3}
+  m_Name: PointItem
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 101
+  - 102
+  - 103
+  - 201
+  - 202
+  - 203
+  - 204
+  - 205
+  - 206
+  - 207
+  - 208
+  - 209
+  mSecondKey: []
+  mDataList:
+  - _idx: 101
+    _name: str_point_item_101
+    _point: 10
+    _icon: 
+  - _idx: 102
+    _name: str_point_item_102
+    _point: 20
+    _icon: 
+  - _idx: 103
+    _name: str_point_item_103
+    _point: 50
+    _icon: 
+  - _idx: 201
+    _name: str_point_item_201
+    _point: 10
+    _icon: 
+  - _idx: 202
+    _name: str_point_item_202
+    _point: 20
+    _icon: 
+  - _idx: 203
+    _name: str_point_item_203
+    _point: 50
+    _icon: 
+  - _idx: 204
+    _name: str_point_item_204
+    _point: 10
+    _icon: 
+  - _idx: 205
+    _name: str_point_item_205
+    _point: 20
+    _icon: 
+  - _idx: 206
+    _name: str_point_item_206
+    _point: 50
+    _icon: 
+  - _idx: 207
+    _name: str_point_item_207
+    _point: 10
+    _icon: 
+  - _idx: 208
+    _name: str_point_item_208
+    _point: 20
+    _icon: 
+  - _idx: 209
+    _name: str_point_item_209
+    _point: 50
+    _icon: 

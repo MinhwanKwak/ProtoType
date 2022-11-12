@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7ac57c4405cf3a46abb9ff2998790ec, type: 3}
+  m_Name: LandCondition
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 1
+  - 2
+  - 3
+  mSecondKey: []
+  mDataList:
+  - _condition: 1
+    _name: str_land_condition_1
+    _need_point: 4200000064000000
+    _bonus_profit: 150
+    _bonus_profit_desc: str_land_condition_profit_1
+    _icon: Dynamic_State_Icon_Good
+  - _condition: 2
+    _name: str_land_condition_2
+    _need_point: 1f00000041000000
+    _bonus_profit: 100
+    _bonus_profit_desc: str_land_condition_profit_2
+    _icon: Dynamic_State_Icon_Average
+  - _condition: 3
+    _name: str_land_condition_3
+    _need_point: 010000001f000000
+    _bonus_profit: 50
+    _bonus_profit_desc: str_land_condition_profit_3
+    _icon: Dynamic_State_Icon_Sad

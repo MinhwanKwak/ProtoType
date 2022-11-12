@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d6dc0cf707fab47a57f43628d2320d, type: 3}
+  m_Name: Currency
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 1
+  - 2
+  - 3
+  mSecondKey: []
+  mDataList:
+  - _idx: 1
+    _name: str_currency_name_1
+    _icon: Dynamic_Currency_Icon_Money
+  - _idx: 2
+    _name: str_currency_name_2
+    _icon: Dynamic_Currency_Icon_Gem
+  - _idx: 3
+    _name: str_currency_name_3
+    _icon: Dynamic_Currency_Icon_Seed

@@ -1,0 +1,317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa20fa738c2321c4cba048564be6deb0, type: 3}
+  m_Name: LandEvent
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 101
+  - 102
+  - 103
+  - 104
+  - 105
+  - 106
+  - 107
+  - 108
+  - 109
+  - 110
+  - 201
+  - 202
+  - 203
+  - 204
+  - 205
+  - 206
+  - 207
+  - 208
+  - 209
+  - 210
+  - 301
+  - 302
+  - 303
+  - 304
+  - 305
+  - 306
+  - 307
+  - 308
+  - 309
+  - 310
+  - 401
+  - 402
+  - 403
+  - 404
+  - 405
+  - 406
+  - 407
+  - 408
+  - 409
+  - 410
+  - 501
+  - 502
+  - 503
+  - 504
+  - 505
+  - 506
+  - 507
+  - 508
+  - 509
+  - 510
+  mSecondKey: []
+  mDataList:
+  - _idx: 101
+    _group: 1
+    _desc: str_land_event_101
+    _point_variance: 5000000078000000
+    _need_item: 101
+  - _idx: 102
+    _group: 1
+    _desc: str_land_event_102
+    _point_variance: 5000000078000000
+    _need_item: 102
+  - _idx: 103
+    _group: 1
+    _desc: str_land_event_103
+    _point_variance: 5000000078000000
+    _need_item: 103
+  - _idx: 104
+    _group: 1
+    _desc: str_land_event_104
+    _point_variance: 5000000078000000
+    _need_item: 101
+  - _idx: 105
+    _group: 1
+    _desc: str_land_event_105
+    _point_variance: 5000000078000000
+    _need_item: 102
+  - _idx: 106
+    _group: 1
+    _desc: str_land_event_106
+    _point_variance: 5000000078000000
+    _need_item: 103
+  - _idx: 107
+    _group: 1
+    _desc: str_land_event_107
+    _point_variance: 5000000078000000
+    _need_item: 101
+  - _idx: 108
+    _group: 1
+    _desc: str_land_event_108
+    _point_variance: 5000000078000000
+    _need_item: 102
+  - _idx: 109
+    _group: 1
+    _desc: str_land_event_109
+    _point_variance: 5000000078000000
+    _need_item: 103
+  - _idx: 110
+    _group: 1
+    _desc: str_land_event_110
+    _point_variance: 5000000078000000
+    _need_item: 101
+  - _idx: 201
+    _group: 2
+    _desc: str_land_event_201
+    _point_variance: 5000000078000000
+    _need_item: 201
+  - _idx: 202
+    _group: 2
+    _desc: str_land_event_202
+    _point_variance: 5000000078000000
+    _need_item: 202
+  - _idx: 203
+    _group: 2
+    _desc: str_land_event_203
+    _point_variance: 5000000078000000
+    _need_item: 203
+  - _idx: 204
+    _group: 2
+    _desc: str_land_event_204
+    _point_variance: 5000000078000000
+    _need_item: 204
+  - _idx: 205
+    _group: 2
+    _desc: str_land_event_205
+    _point_variance: 5000000078000000
+    _need_item: 205
+  - _idx: 206
+    _group: 2
+    _desc: str_land_event_206
+    _point_variance: 5000000078000000
+    _need_item: 206
+  - _idx: 207
+    _group: 2
+    _desc: str_land_event_207
+    _point_variance: 5000000078000000
+    _need_item: 207
+  - _idx: 208
+    _group: 2
+    _desc: str_land_event_208
+    _point_variance: 5000000078000000
+    _need_item: 208
+  - _idx: 209
+    _group: 2
+    _desc: str_land_event_209
+    _point_variance: 5000000078000000
+    _need_item: 209
+  - _idx: 210
+    _group: 2
+    _desc: str_land_event_210
+    _point_variance: 5000000078000000
+    _need_item: 201
+  - _idx: 301
+    _group: 3
+    _desc: str_land_event_301
+    _point_variance: 5000000078000000
+    _need_item: 201
+  - _idx: 302
+    _group: 3
+    _desc: str_land_event_302
+    _point_variance: 5000000078000000
+    _need_item: 202
+  - _idx: 303
+    _group: 3
+    _desc: str_land_event_303
+    _point_variance: 5000000078000000
+    _need_item: 203
+  - _idx: 304
+    _group: 3
+    _desc: str_land_event_304
+    _point_variance: 5000000078000000
+    _need_item: 204
+  - _idx: 305
+    _group: 3
+    _desc: str_land_event_305
+    _point_variance: 5000000078000000
+    _need_item: 205
+  - _idx: 306
+    _group: 3
+    _desc: str_land_event_306
+    _point_variance: 5000000078000000
+    _need_item: 206
+  - _idx: 307
+    _group: 3
+    _desc: str_land_event_307
+    _point_variance: 5000000078000000
+    _need_item: 207
+  - _idx: 308
+    _group: 3
+    _desc: str_land_event_308
+    _point_variance: 5000000078000000
+    _need_item: 208
+  - _idx: 309
+    _group: 3
+    _desc: str_land_event_309
+    _point_variance: 5000000078000000
+    _need_item: 209
+  - _idx: 310
+    _group: 3
+    _desc: str_land_event_310
+    _point_variance: 5000000078000000
+    _need_item: 201
+  - _idx: 401
+    _group: 4
+    _desc: str_land_event_401
+    _point_variance: 5000000078000000
+    _need_item: 201
+  - _idx: 402
+    _group: 4
+    _desc: str_land_event_402
+    _point_variance: 5000000078000000
+    _need_item: 202
+  - _idx: 403
+    _group: 4
+    _desc: str_land_event_403
+    _point_variance: 5000000078000000
+    _need_item: 203
+  - _idx: 404
+    _group: 4
+    _desc: str_land_event_404
+    _point_variance: 5000000078000000
+    _need_item: 204
+  - _idx: 405
+    _group: 4
+    _desc: str_land_event_405
+    _point_variance: 5000000078000000
+    _need_item: 205
+  - _idx: 406
+    _group: 4
+    _desc: str_land_event_406
+    _point_variance: 5000000078000000
+    _need_item: 206
+  - _idx: 407
+    _group: 4
+    _desc: str_land_event_407
+    _point_variance: 5000000078000000
+    _need_item: 207
+  - _idx: 408
+    _group: 4
+    _desc: str_land_event_408
+    _point_variance: 5000000078000000
+    _need_item: 208
+  - _idx: 409
+    _group: 4
+    _desc: str_land_event_409
+    _point_variance: 5000000078000000
+    _need_item: 209
+  - _idx: 410
+    _group: 4
+    _desc: str_land_event_410
+    _point_variance: 5000000078000000
+    _need_item: 201
+  - _idx: 501
+    _group: 5
+    _desc: str_land_event_501
+    _point_variance: 5000000078000000
+    _need_item: 201
+  - _idx: 502
+    _group: 5
+    _desc: str_land_event_502
+    _point_variance: 5000000078000000
+    _need_item: 202
+  - _idx: 503
+    _group: 5
+    _desc: str_land_event_503
+    _point_variance: 5000000078000000
+    _need_item: 203
+  - _idx: 504
+    _group: 5
+    _desc: str_land_event_504
+    _point_variance: 5000000078000000
+    _need_item: 204
+  - _idx: 505
+    _group: 5
+    _desc: str_land_event_505
+    _point_variance: 5000000078000000
+    _need_item: 205
+  - _idx: 506
+    _group: 5
+    _desc: str_land_event_506
+    _point_variance: 5000000078000000
+    _need_item: 206
+  - _idx: 507
+    _group: 5
+    _desc: str_land_event_507
+    _point_variance: 5000000078000000
+    _need_item: 207
+  - _idx: 508
+    _group: 5
+    _desc: str_land_event_508
+    _point_variance: 5000000078000000
+    _need_item: 208
+  - _idx: 509
+    _group: 5
+    _desc: str_land_event_509
+    _point_variance: 5000000078000000
+    _need_item: 209
+  - _idx: 510
+    _group: 5
+    _desc: str_land_event_510
+    _point_variance: 5000000078000000
+    _need_item: 201
