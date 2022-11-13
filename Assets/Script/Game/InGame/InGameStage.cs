@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine.AddressableAssets;
 using UnityEngine;
 using UniRx;
-using Treeplla;
 using DG.Tweening;
 using System.Linq;
+using BanpoFri;
 
 public class InGameStage : MonoBehaviour
 {
@@ -17,15 +17,42 @@ public class InGameStage : MonoBehaviour
     private float cameraYInterval = 8.77f;
     [SerializeField]
     private float defaultCameraMinY = 17f;
+    [SerializeField]
+    private List<Transform> LandTrList = new List<Transform>();
 
 
     public bool IsLoadComplete { get; private set; }
+
+
+    private int FacilityIdx = 0;
 
     public void Init()
     {
         IsLoadComplete = false;
 
-      
+
+        //tempdata
+        var stageidx = 1;
+        FacilityIdx = 0;
+
+        var tdlist = Tables.Instance.GetTable<LandBasic>().DataList.Where(x => stageidx == x.stage).ToList();
+
+        for(int i = 0; i  < tdlist.Count; ++i)
+        {
+            Addressables.InstantiateAsync(tdlist[i].prefab.First(), LandTrList.First()).Completed += (handle) =>
+            {
+                var facility = handle.Result.GetComponent<InGameFacility>();
+                if(facility != null)
+                {
+                    facility.Init();
+                    facility.transform.position = LandTrList[FacilityIdx].position;
+                    ++FacilityIdx;
+                }
+            };
+
+        }
+
+
 
         //GameRoot.Instance.InGameSystem.CurInGame.SetCameraBoundMinY(-(defaultCameraMinY + cameraYInterval * (nextOpenFloor)));
 

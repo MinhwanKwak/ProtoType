@@ -48,6 +48,13 @@ namespace BanpoFri
 			get { return _icon;}
 			set { _icon = value;}
 		}
+		[SerializeField]
+		private List<string> _prefab;
+		public List<string> prefab
+		{
+			get { return _prefab;}
+			set { _prefab = value;}
+		}
 
     }
 

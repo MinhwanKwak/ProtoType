@@ -24,7 +24,7 @@ namespace BanpoFri
     }
 
     [System.Serializable]
-    public class Define : Table<DefineData, int>
+    public class Define : Table<DefineData, string>
     {
     }
 }

@@ -74,12 +74,24 @@ MonoBehaviour:
     - Grade_3_1_Normal_1
     - Grade_4_1_Normal_1
     - Grade_5_1_Normal_1
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal
+    - Grade_4_1_Normal
+    - Grade_5_1_Normal
   - _stage: 1
     _idx: 2
     _name: str_land_name_2
     _open_cost: d007
     _default_point: 31
     _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_2
+    - Grade_4_1_Normal_2
+    - Grade_5_1_Normal_2
+    _prefab:
     - Grade_1_1_Normal
     - Grade_2_1_Normal
     - Grade_3_1_Normal_2
@@ -96,12 +108,24 @@ MonoBehaviour:
     - Grade_3_1_Normal_3
     - Grade_4_1_Normal_3
     - Grade_5_1_Normal_3
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_3
+    - Grade_4_1_Normal_3
+    - Grade_5_1_Normal_3
   - _stage: 1
     _idx: 4
     _name: str_land_name_4
     _open_cost: 401f
     _default_point: 31
     _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_4
+    - Grade_4_1_Normal_4
+    - Grade_5_1_Normal_4
+    _prefab:
     - Grade_1_1_Normal
     - Grade_2_1_Normal
     - Grade_3_1_Normal_4
@@ -118,12 +142,24 @@ MonoBehaviour:
     - Grade_3_1_Normal_5
     - Grade_4_1_Normal_5
     - Grade_5_1_Normal_5
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_5
+    - Grade_4_1_Normal_5
+    - Grade_5_1_Normal_5
   - _stage: 1
     _idx: 6
     _name: str_land_name_6
     _open_cost: 007d
     _default_point: 31
     _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_6
+    - Grade_4_1_Normal_6
+    - Grade_5_1_Normal_6
+    _prefab:
     - Grade_1_1_Normal
     - Grade_2_1_Normal
     - Grade_3_1_Normal_6
@@ -140,6 +176,12 @@ MonoBehaviour:
     - Grade_3_1_Normal_7
     - Grade_4_1_Normal_7
     - Grade_5_1_Normal_7
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_7
+    - Grade_4_1_Normal_7
+    - Grade_5_1_Normal_7
   - _stage: 1
     _idx: 8
     _name: str_land_name_8
@@ -147,6 +189,12 @@ MonoBehaviour:
     _default_point: 31
     _icon:
     - Grade_1_1_Special
+    - Grade_2_1_Special
+    - Grade_3_1_Special
+    - Grade_4_1_Special
+    - Grade_5_1_Special
+    _prefab:
+    - Grade_1_1_Normal
     - Grade_2_1_Special
     - Grade_3_1_Special
     - Grade_4_1_Special
@@ -162,6 +210,12 @@ MonoBehaviour:
     - Grade_3_2_Normal_1
     - Grade_4_2_Normal_1
     - Grade_5_2_Normal_1
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal
+    - Grade_4_1_Normal
+    - Grade_5_1_Normal
   - _stage: 1
     _idx: 10
     _name: str_land_name_10
@@ -173,6 +227,12 @@ MonoBehaviour:
     - Grade_3_2_Normal_2
     - Grade_4_2_Normal_2
     - Grade_5_2_Normal_2
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_2
+    - Grade_4_1_Normal_2
+    - Grade_5_1_Normal_2
   - _stage: 1
     _idx: 11
     _name: str_land_name_11
@@ -184,6 +244,12 @@ MonoBehaviour:
     - Grade_3_2_Normal_3
     - Grade_4_2_Normal_3
     - Grade_5_2_Normal_3
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_3
+    - Grade_4_1_Normal_3
+    - Grade_5_1_Normal_3
   - _stage: 1
     _idx: 12
     _name: str_land_name_12
@@ -195,6 +261,12 @@ MonoBehaviour:
     - Grade_3_2_Normal_4
     - Grade_4_2_Normal_4
     - Grade_5_2_Normal_4
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_4
+    - Grade_4_1_Normal_4
+    - Grade_5_1_Normal_4
   - _stage: 1
     _idx: 13
     _name: str_land_name_13
@@ -206,6 +278,12 @@ MonoBehaviour:
     - Grade_3_2_Normal_5
     - Grade_4_2_Normal_5
     - Grade_5_2_Normal_5
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_5
+    - Grade_4_1_Normal_5
+    - Grade_5_1_Normal_5
   - _stage: 1
     _idx: 14
     _name: str_land_name_14
@@ -217,6 +295,12 @@ MonoBehaviour:
     - Grade_3_2_Normal_6
     - Grade_4_2_Normal_6
     - Grade_5_2_Normal_6
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_6
+    - Grade_4_1_Normal_6
+    - Grade_5_1_Normal_6
   - _stage: 1
     _idx: 15
     _name: str_land_name_15
@@ -228,6 +312,12 @@ MonoBehaviour:
     - Grade_3_2_Normal_7
     - Grade_4_2_Normal_7
     - Grade_5_2_Normal_7
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_7
+    - Grade_4_1_Normal_7
+    - Grade_5_1_Normal_7
   - _stage: 1
     _idx: 16
     _name: str_land_name_16
@@ -239,6 +329,8 @@ MonoBehaviour:
     - Grade_3_2_Special
     - Grade_4_2_Special
     - Grade_5_2_Special
+    _prefab:
+    - Grade_1_1_Normal
   - _stage: 1
     _idx: 17
     _name: str_land_name_17
@@ -250,6 +342,12 @@ MonoBehaviour:
     - Grade_3_3_Normal_1
     - Grade_4_3_Normal_1
     - Grade_5_3_Normal_1
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal
+    - Grade_4_1_Normal
+    - Grade_5_1_Normal
   - _stage: 1
     _idx: 18
     _name: str_land_name_18
@@ -261,6 +359,12 @@ MonoBehaviour:
     - Grade_3_3_Normal_2
     - Grade_4_3_Normal_2
     - Grade_5_3_Normal_2
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_2
+    - Grade_4_1_Normal_2
+    - Grade_5_1_Normal_2
   - _stage: 1
     _idx: 19
     _name: str_land_name_19
@@ -272,6 +376,12 @@ MonoBehaviour:
     - Grade_3_3_Normal_3
     - Grade_4_3_Normal_3
     - Grade_5_3_Normal_3
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_3
+    - Grade_4_1_Normal_3
+    - Grade_5_1_Normal_3
   - _stage: 1
     _idx: 20
     _name: str_land_name_20
@@ -283,6 +393,12 @@ MonoBehaviour:
     - Grade_3_3_Normal_4
     - Grade_4_3_Normal_4
     - Grade_5_3_Normal_4
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_4
+    - Grade_4_1_Normal_4
+    - Grade_5_1_Normal_4
   - _stage: 1
     _idx: 21
     _name: str_land_name_21
@@ -294,6 +410,12 @@ MonoBehaviour:
     - Grade_3_3_Normal_5
     - Grade_4_3_Normal_5
     - Grade_5_3_Normal_5
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_5
+    - Grade_4_1_Normal_5
+    - Grade_5_1_Normal_5
   - _stage: 1
     _idx: 22
     _name: str_land_name_22
@@ -305,6 +427,12 @@ MonoBehaviour:
     - Grade_3_3_Normal_6
     - Grade_4_3_Normal_6
     - Grade_5_3_Normal_6
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_6
+    - Grade_4_1_Normal_6
+    - Grade_5_1_Normal_6
   - _stage: 1
     _idx: 23
     _name: str_land_name_23
@@ -316,6 +444,12 @@ MonoBehaviour:
     - Grade_3_3_Normal_7
     - Grade_4_3_Normal_7
     - Grade_5_3_Normal_7
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_7
+    - Grade_4_1_Normal_7
+    - Grade_5_1_Normal_7
   - _stage: 1
     _idx: 24
     _name: str_land_name_24
@@ -327,3 +461,9 @@ MonoBehaviour:
     - Grade_3_3_Special
     - Grade_4_3_Special
     - Grade_5_3_Special
+    _prefab:
+    - Grade_1_1_Normal
+    - Grade_2_1_Special
+    - Grade_3_1_Special
+    - Grade_4_1_Special
+    - Grade_5_1_Special
