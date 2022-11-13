@@ -38,6 +38,60 @@ MonoBehaviour:
   - str_land_name_16
   - str_land_name_17
   - str_land_name_18
+  - str_land_name_19
+  - str_land_name_20
+  - str_land_name_21
+  - str_land_name_22
+  - str_land_name_23
+  - str_land_name_24
+  - str_land_name_25
+  - str_land_name_26
+  - str_land_name_27
+  - str_land_name_28
+  - str_land_name_29
+  - str_land_name_30
+  - str_land_name_31
+  - str_land_name_32
+  - str_land_name_33
+  - str_land_name_34
+  - str_land_name_35
+  - str_land_name_36
+  - str_land_name_37
+  - str_land_name_38
+  - str_land_name_39
+  - str_land_name_40
+  - str_land_name_41
+  - str_land_name_42
+  - str_land_name_43
+  - str_land_name_44
+  - str_land_name_45
+  - str_land_name_46
+  - str_land_name_47
+  - str_land_name_48
+  - str_land_name_49
+  - str_land_name_50
+  - str_land_name_51
+  - str_land_name_52
+  - str_land_name_53
+  - str_land_name_54
+  - str_land_name_55
+  - str_land_name_56
+  - str_land_name_57
+  - str_land_name_58
+  - str_land_name_59
+  - str_land_name_60
+  - str_land_name_61
+  - str_land_name_62
+  - str_land_name_63
+  - str_land_name_64
+  - str_land_name_65
+  - str_land_name_66
+  - str_land_name_67
+  - str_land_name_68
+  - str_land_name_69
+  - str_land_name_70
+  - str_land_name_71
+  - str_land_name_72
   - str_land_condition_1
   - str_land_condition_2
   - str_land_condition_3
@@ -103,6 +157,18 @@ MonoBehaviour:
   - str_land_event_509
   - str_land_event_510
   - str_month_profit_info
+  - str_stage_clear_title
+  - str_stage_clear_desc
+  - str_stage_clear_btn
+  - str_get_bedge_title
+  - str_start
+  - str_new_stage_start
+  - str_stage_mission_desc_1
+  - str_stage_mission_desc_2
+  - str_stage_name_1
+  - str_stage_name_2
+  - str_stage_name_3
+  - str_stage_comingsoon
   mSecondKey: []
   mDataList:
   - _idx: str_currency_name_1
@@ -203,6 +269,222 @@ MonoBehaviour:
     _ja: 
   - _idx: str_land_name_18
     _ko: C6
+    _en: 
+    _ja: 
+  - _idx: str_land_name_19
+    _ko: "\uB354\uBBF81"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_20
+    _ko: "\uB354\uBBF82"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_21
+    _ko: "\uB354\uBBF83"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_22
+    _ko: "\uB354\uBBF84"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_23
+    _ko: "\uB354\uBBF85"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_24
+    _ko: "\uB354\uBBF86"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_25
+    _ko: "\uB354\uBBF87"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_26
+    _ko: "\uB354\uBBF88"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_27
+    _ko: "\uB354\uBBF89"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_28
+    _ko: "\uB354\uBBF810"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_29
+    _ko: "\uB354\uBBF811"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_30
+    _ko: "\uB354\uBBF812"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_31
+    _ko: "\uB354\uBBF813"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_32
+    _ko: "\uB354\uBBF814"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_33
+    _ko: "\uB354\uBBF815"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_34
+    _ko: "\uB354\uBBF816"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_35
+    _ko: "\uB354\uBBF817"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_36
+    _ko: "\uB354\uBBF818"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_37
+    _ko: "\uB354\uBBF819"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_38
+    _ko: "\uB354\uBBF820"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_39
+    _ko: "\uB354\uBBF821"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_40
+    _ko: "\uB354\uBBF822"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_41
+    _ko: "\uB354\uBBF823"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_42
+    _ko: "\uB354\uBBF824"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_43
+    _ko: "\uB354\uBBF825"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_44
+    _ko: "\uB354\uBBF826"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_45
+    _ko: "\uB354\uBBF827"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_46
+    _ko: "\uB354\uBBF828"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_47
+    _ko: "\uB354\uBBF829"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_48
+    _ko: "\uB354\uBBF830"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_49
+    _ko: "\uB354\uBBF831"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_50
+    _ko: "\uB354\uBBF832"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_51
+    _ko: "\uB354\uBBF833"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_52
+    _ko: "\uB354\uBBF834"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_53
+    _ko: "\uB354\uBBF835"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_54
+    _ko: "\uB354\uBBF836"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_55
+    _ko: "\uB354\uBBF837"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_56
+    _ko: "\uB354\uBBF838"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_57
+    _ko: "\uB354\uBBF839"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_58
+    _ko: "\uB354\uBBF840"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_59
+    _ko: "\uB354\uBBF841"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_60
+    _ko: "\uB354\uBBF842"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_61
+    _ko: "\uB354\uBBF843"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_62
+    _ko: "\uB354\uBBF844"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_63
+    _ko: "\uB354\uBBF845"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_64
+    _ko: "\uB354\uBBF846"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_65
+    _ko: "\uB354\uBBF847"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_66
+    _ko: "\uB354\uBBF848"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_67
+    _ko: "\uB354\uBBF849"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_68
+    _ko: "\uB354\uBBF850"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_69
+    _ko: "\uB354\uBBF851"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_70
+    _ko: "\uB354\uBBF852"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_71
+    _ko: "\uB354\uBBF853"
+    _en: 
+    _ja: 
+  - _idx: str_land_name_72
+    _ko: "\uB354\uBBF854"
     _en: 
     _ja: 
   - _idx: str_land_condition_1
@@ -463,5 +745,53 @@ MonoBehaviour:
     _ja: 
   - _idx: str_month_profit_info
     _ko: "30\uC77C\uB9C8\uB2E4 \uC218\uC775"
+    _en: 
+    _ja: 
+  - _idx: str_stage_clear_title
+    _ko: "{0} \uD074\uB9AC\uC5B4 \uBBF8\uC158"
+    _en: 
+    _ja: 
+  - _idx: str_stage_clear_desc
+    _ko: "\uB5A1\uC78E \uB9C8\uC744 \uD074\uB9AC\uC5B4!"
+    _en: 
+    _ja: 
+  - _idx: str_stage_clear_btn
+    _ko: "\uB2E4\uC74C \uB9C8\uC744\uB85C.."
+    _en: 
+    _ja: 
+  - _idx: str_get_bedge_title
+    _ko: "{0} \uBC43\uC9C0 \uD68D\uB4DD!"
+    _en: 
+    _ja: 
+  - _idx: str_start
+    _ko: "\uC2DC\uC791"
+    _en: 
+    _ja: 
+  - _idx: str_new_stage_start
+    _ko: "\uC0C8\uB85C\uC6B4 \uB9C8\uC744\uC744 \uBC1C\uC804\uC2DC\uD0A4\uC138\uC694."
+    _en: 
+    _ja: 
+  - _idx: str_stage_mission_desc_1
+    _ko: "\uBCF4\uC720 \uD604\uAE08 ({0}/{1})"
+    _en: 
+    _ja: 
+  - _idx: str_stage_mission_desc_2
+    _ko: "\uB9C8\uC744 \uD3C9\uAC00 {0} ({1}/{2})"
+    _en: 
+    _ja: 
+  - _idx: str_stage_name_1
+    _ko: "\uB5A1\uC78E\uB9C8\uC744"
+    _en: 
+    _ja: 
+  - _idx: str_stage_name_2
+    _ko: "\uD480\uB9C8\uC744"
+    _en: 
+    _ja: 
+  - _idx: str_stage_name_3
+    _ko: "\uB098\uBB34\uB9C8\uC744"
+    _en: 
+    _ja: 
+  - _idx: str_stage_comingsoon
+    _ko: "\uCEE4\uBC0D\uC468.."
     _en: 
     _ja: 
