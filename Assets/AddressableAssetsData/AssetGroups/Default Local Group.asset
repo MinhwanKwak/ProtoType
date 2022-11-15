@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 08a828bfbd41f48f29c62c948b8cf964
+  m_SerializeEntries:
+  - m_GUID: a2932d68868ec44bd848b8e6e0cf492a
+    m_Address: GameRoot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88a92fea094b94404b3b225cf9556fa0
+    m_Address: Tables
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 451b6e6919f304450bb25b06219850f8
+    m_Address: InGame1_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b794bda7fb7f341479b0df30c7d87e49
+    m_Address: UI/Page/HUD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 287f1744c760905438a65b5a950bd6b2
+    m_Address: UI/Page/HudBottom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be7748ab022fd5740a65fc8ce32c02da
+    m_Address: Grade_1_1_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b48e14b0a03706d43b63a15d0ac90336
+    m_Address: Grade_2_1_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 631e36d7f7b17644b8af88d5be40eb9e
+    m_Address: Grade_3_1_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6f72d2512fd897b4c94f65ca4e30c1cb
+    m_Address: Grade_4_1_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd27d47becb0a854994ba37e8f89460d
+    m_Address: Grade_5_1_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 33d34b1065dcd4c0db03f94efd6e0ee1, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fff32d1af8a384d85ad81f460eaa9237, type: 2}
+    - {fileID: 11400000, guid: b3bd0c1025de94653bf6169efe3687eb, type: 2}
