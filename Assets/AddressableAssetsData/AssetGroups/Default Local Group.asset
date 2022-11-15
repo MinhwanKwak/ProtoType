@@ -37,6 +37,10 @@ MonoBehaviour:
     m_Address: UI/Page/HudBottom
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 4cb4c80f5ac67417c9bca2a81b0facf9
+    m_Address: Config
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   - m_GUID: be7748ab022fd5740a65fc8ce32c02da
     m_Address: Grade_1_1_Normal
     m_ReadOnly: 0
