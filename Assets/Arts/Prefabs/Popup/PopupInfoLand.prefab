@@ -490,6 +490,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1250398895060069927}
     m_Modifications:
+    - target: {fileID: 106523503724970634, guid: b1a43a744a162c04d9ad8dcdfc96b0db, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 106523503724970634, guid: b1a43a744a162c04d9ad8dcdfc96b0db, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7034241
+      objectReference: {fileID: 0}
+    - target: {fileID: 106523503724970634, guid: b1a43a744a162c04d9ad8dcdfc96b0db, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 323941910874355622, guid: b1a43a744a162c04d9ad8dcdfc96b0db, type: 3}
       propertyPath: m_SizeDelta.x
       value: -310
@@ -590,6 +602,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2249382003450782211, guid: b1a43a744a162c04d9ad8dcdfc96b0db, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1a85d88512b7fb34fb2d4718b79e072e, type: 3}
     - target: {fileID: 3195907528597788498, guid: b1a43a744a162c04d9ad8dcdfc96b0db, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
