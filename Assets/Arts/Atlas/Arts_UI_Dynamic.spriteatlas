@@ -66,7 +66,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: ada0ec053d8ba134fbf685ee5c252d1c, type: 3}
   - {fileID: 21300000, guid: 1a85d88512b7fb34fb2d4718b79e072e, type: 3}
   - {fileID: 21300000, guid: 0aa49048ffbf76a44958c0507b9ab775, type: 3}
-  - {fileID: 21300000, guid: 1cf27778ac0216e46b48184cbe8991af, type: 3}
   - {fileID: 21300000, guid: 7a1900390f797e94b83b638de28675bd, type: 3}
   - {fileID: 21300000, guid: 6619b8492de1bc94ea048ac43fe52a2e, type: 3}
   - {fileID: 21300000, guid: dae22789de39a2a42924257c81f2f308, type: 3}
@@ -78,7 +77,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 8c1255bdec560b94fab4da222c5f339a, type: 3}
   - {fileID: 21300000, guid: 78c955dd5483c1940b25598f2f088867, type: 3}
   - {fileID: 21300000, guid: 1f619bfd7b92a83438e83baaa8637391, type: 3}
-  - {fileID: 21300000, guid: 53026b1e3979ac249bee856c50c3d85a, type: 3}
   m_PackedSpriteNamesToIndex:
   - Dynamic_Point_Normal_8
   - Dynamic_Ore_Gold
@@ -96,7 +94,6 @@ SpriteAtlas:
   - Dynamic_Point_Normal_3
   - Dynamic_State_Icon_Sad
   - Dynamic_Point_Normal_1
-  - Dynamic_Info_Building
   - Dynamic_Currency_Icon_Money
   - Dynamic_Point_Normal_6
   - Dynamic_Point_Normal_4
@@ -108,7 +105,6 @@ SpriteAtlas:
   - Dynamic_Point_Special_1
   - Dynamic_Point_Normal_7
   - Dynamic_Point_Normal_10
-  - Dynamic_Info_Farm
   m_RenderDataMap: {}
   m_Tag: Arts_UI_Dynamic
   m_IsVariant: 0

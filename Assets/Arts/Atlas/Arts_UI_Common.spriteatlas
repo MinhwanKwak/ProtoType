@@ -67,6 +67,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 00c6909df78c59a45b6fcd89a2a1463a, type: 3}
   - {fileID: 21300000, guid: 70e5100e8b3c3134394d0d1adc208b0f, type: 3}
   - {fileID: 21300000, guid: a43de06f6bcdf8545b4ec3e66b2b1d75, type: 3}
+  - {fileID: 21300000, guid: a250ff7f39f0d2144b2c006e5e7ef558, type: 3}
   - {fileID: 21300000, guid: 2ad874bfa9b299a4cbc00619ca5e9627, type: 3}
   m_PackedSpriteNamesToIndex:
   - Common_Btn_Ads
@@ -74,7 +75,7 @@ SpriteAtlas:
   - Common_Btn_No
   - Common_Btn_Yes
   - Common_Arrow
-  - Common_Arrow_Deco
+  - Common_Deco_Arrow
   - Common_Frame_Popup
   - Common_BG_Round
   - Common_Header
@@ -86,6 +87,7 @@ SpriteAtlas:
   - Common_Btn_Close
   - Common_Rectangle
   - Common_BG_HalfRound
+  - Common_Deco_Star
   - Common_Inner_Frame
   m_RenderDataMap: {}
   m_Tag: Arts_UI_Common
