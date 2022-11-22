@@ -14,7 +14,7 @@ public class LocalizeStringInspector : Editor
     private void OnEnable()
     {
         keyList.Clear();
-        loadData = AssetDatabase.LoadAssetAtPath<BanpoFri.Localize>("Assets/Treeplla/TableAsset/Localize.asset");
+        loadData = AssetDatabase.LoadAssetAtPath<BanpoFri.Localize>("Assets/BanpoFri/TableAsset/Localize.asset");
         if(loadData != null)
         {
             foreach(var data in loadData.DataList)

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Treeplla
+namespace BanpoFri
 {
     public class Utility
     {
