@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Config
   m_EditorClassIdentifier: 
   _textColorDefines:
-  - key_string: Popup_Header_Yellow
-    color: {r: 0.9803922, g: 0.9450981, b: 0.53333336, a: 1}
+  - key_string: Popup_Header_Green
+    color: {r: 0.05490196, g: 0.4117647, b: 0.23137255, a: 1}
   - key_string: Popup_Desc_DarkGolden
     color: {r: 0.6117647, g: 0.42352945, b: 0.1254902, a: 1}
   - key_string: Btn_Yes_DarkBlue
