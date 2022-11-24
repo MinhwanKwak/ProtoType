@@ -54,7 +54,7 @@ public partial class UserDataSystem
 
 	public void Load()
     {
-
+			
 
 		var filePath = GetBackUpSaveFilePath();
 
@@ -71,7 +71,8 @@ public partial class UserDataSystem
 				return;
 			}
         
-		
+
+
 
 
 
@@ -113,29 +114,29 @@ public partial class UserDataSystem
 		TpLog.Log("save file");
 		var builder = new FlatBufferBuilder(1);
 		int dataIdx = 0;
-		var specialcount = mainData.PenthouseData.SpecialCount;
-		var adcount = mainData.ShopData.AdCount;
 		var money = builder.CreateString(mainData.Money.Value.ToString());
-		var storeMoney = builder.CreateString(mainData.StoreMoney.Value.ToString());
-		var buyInappIds = builder.CreateString(string.Join(";", BuyInappIds));
-		var tutorial = builder.CreateString(string.Join(";", Tutorial));
-		var gamenotifications = builder.CreateString(string.Join(";", GameNotifications));
-		var createtime = mainData.ShopData.AdCreateTime.Ticks;
 
+
+		//insert start
+		BanpoFri.Data.UserData.StartUserData(builder);
+
+		BanpoFri.Data.UserData.AddMoney(builder, money);
+		BanpoFri.Data.UserData.AddCash(builder, Cash.Value);
+		BanpoFri.Data.UserData.AddMaterial(builder, mainData.Material.Value);
+
+		var orc = BanpoFri.Data.UserData.EndUserData(builder);
+		builder.Finish(orc.Value);
+
+		var dataBuf = builder.DataBuffer;
+		flatBufferUserData = BanpoFri.Data.UserData.GetRootAsUserData(dataBuf);
+
+		var filePath = GetSaveFilePath();
+		using (var ms = new MemoryStream(flatBufferUserData.ByteBuffer.ToFullArray(), dataBuf.Position, builder.Offset))
+		{
+			File.WriteAllBytes(filePath, ms.ToArray());
+		}
 	}
 
-	void ConnectReadOnlyDatas()
-	{
-		ChangeDataMode(DataState.Main);
-
-		RecordCount.Clear();
-		Tutorial.Clear();
-		GameNotifications.Clear();
-		AchievementData.Clear();
-		BuyInappIds.Clear();
-
-		TutoDataCheck();
-	}
 
 	public void ChangeDataMode(DataState state)
 	{

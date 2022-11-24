@@ -10,4 +10,10 @@ public class HUDBottom : UIBase
     [SerializeField]
     private Button InfoBtn;
 
+
+
+    public void Init()
+    {
+
+    }
 }
