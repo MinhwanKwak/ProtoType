@@ -173,8 +173,8 @@ MonoBehaviour:
   DontCloseInteraction: 0
   touchLockTime: 0.5
   CashText: {fileID: 520067937525833715}
-  MaterialText: {fileID: 6088197985361739935}
-  MoneyText: {fileID: 7543422990659105305}
+  MaterialText: {fileID: 7543422990659105305}
+  MoneyText: {fileID: 6088197985361739935}
 --- !u!95 &7439215022324522934
 Animator:
   serializedVersion: 3

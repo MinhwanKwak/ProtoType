@@ -49,7 +49,7 @@ namespace BanpoFri
             return Math.Floor(diff.TotalSeconds);
         }
 
-
+      
         private static char[] NumberChar =
          {
             'k','m','b','t'
@@ -58,8 +58,18 @@ namespace BanpoFri
 
         public static string CalculateMoneyToString(System.Numerics.BigInteger _Long)
         {
+          
+
             var targetString = _Long.ToString();
             var targetLen = targetString.Length - 1;
+            if (targetLen > 14)
+            {
+                var showvalue = targetLen - 11;
+
+                string lastvalue = targetString.Substring(0, showvalue);
+                return $"{lastvalue}t";
+            }
+
             if (targetLen == 0)
                 targetLen = 1;
             var front = targetLen / 3;
@@ -72,34 +82,49 @@ namespace BanpoFri
             var top_back = targetString.Substring(back + 1, 1);
 
             var front_copy = front;
-            if (front > 1378) // 26 + 26 * 26 + 26 * 26 + 26 * 26
+            //4 + 4 * 4 + 4 * 4 + 4 * 4
+            if (front > 592) // 26 + 26 * 26 + 26 * 26 + 26 * 26
             {
-                front_copy = front_copy - 1378;
+                front_copy = front_copy - 592;
             }
-            else if (front > 702) // 26 + 26 * 26
+            else if (front > 32) // 4 + 4 * 4
             {
-                front_copy = front_copy - 702;
+                front_copy = front_copy - 32;
             }
-            else if (front > 26)
+            else if (front > 4)
             {
-                front_copy = front_copy - 26;
+                front_copy = front_copy - 4;
             }
 
-            var front_front = front_copy - 1;
+            var front_front = front_copy / 4;
+            var front_second = front_copy % 4;
 
             char frontChar;
-            if (front_front > NumberChar.Length)
+            if (front_front == 4)
                 frontChar = 't';
-            else if (front_front >= 0 && front_front <= 26)
+            else if (front_front >= 0 && front_front <= 4)
                 frontChar = NumberChar[front_front];
             else
                 frontChar = (char)0;
 
+            char secondChar;
+            if (front_second == 0)
+                secondChar = 't';
+            else if (front_second > 0 && front_second < 4)
+                secondChar = NumberChar[front_second - 1];
+            else
+                secondChar = (char)0;
 
             string final_numTostr = string.Empty;
 
-            final_numTostr = $"{char.ToUpper(frontChar)}";
-
+            if (front > 592) // 26 + 26 * 26 + 26 * 26 + 26 * 26
+                final_numTostr = $"{char.ToUpper(frontChar)}{char.ToUpper(secondChar)}";
+            else if (front > 32) // 26 + 26 * 26 + 26 * 26 + 26 * 26
+                final_numTostr = $"{char.ToUpper(frontChar)}{secondChar}";
+            else if (front > 4)
+                final_numTostr = $"{frontChar}";
+            else
+                final_numTostr = $"{secondChar}";
 
             return string.Format("{0}.{1}{2}", top, top_back, final_numTostr);
         }

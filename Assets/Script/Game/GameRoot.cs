@@ -193,9 +193,9 @@ public class GameRoot : Singleton<GameRoot>
 
 		// yield return handle;
 		// Addressables.Release(handle);
-#if !BANPOFRI_LOG
-		Destroy(CheatWindow);
-#endif
+//#if !BANPOFRI_LOG
+//		Destroy(CheatWindow);
+//#endif
 		//startGame
 		//if (GameRoot.Instance.UserData.CurMode.StageData.FacilityState.Count < 1 &&
 		//	GameRoot.Instance.UserData.CurMode.StageData.StageIdx == 1)
