@@ -12,29 +12,45 @@ public interface IReadOnlyData : ICloneable {
 public interface IClientData { }
 
 
-public class ItemData : IReadOnlyData
+public class FacilityData : IReadOnlyData
 {
-	public int ItemID { get; set; } = 0;
-	public int Count { get; set; } = 0;
+	public int GroundIndex { get; set; } = 0;
+	public int FacilityGradeIdx { get; protected set; } = 0;
+	public int LandStatusEventIdx { get; protected set; } = 0;
+	public bool IsEventGround { get; protected set; } = false;
 
-	public IReactiveProperty<int> CountProperty = new ReactiveProperty<int>();
-	public virtual void Create() {
-		CountProperty.Value = Count;
-		CountProperty.SkipLatestValueOnSubscribe().Subscribe(x => {
-			Count = x;
-			//GameRoot.Instance.UserData.Save();
-		});
+	public IReactiveProperty<int> FacilityGradeProperty = new ReactiveProperty<int>();
+	public IReactiveProperty<int> LandStatusProperty = new ReactiveProperty<int>();
+
+
+	public void Create()
+	{
+		FacilityGradeProperty.Value = FacilityGradeIdx;
+		FacilityGradeProperty.Subscribe(x => { FacilityGradeIdx = x; });
+
+		LandStatusProperty.Value = LandStatusEventIdx;
+		LandStatusProperty.Subscribe(x => { LandStatusEventIdx = x; });
 
 	}
+
+
+	public FacilityData(int groundidx, int facilitygradeidx, int landstatuseventidx, bool iseventground)
+	{
+		GroundIndex = groundidx;
+		FacilityGradeIdx = facilitygradeidx;
+		LandStatusEventIdx = landstatuseventidx;
+		IsEventGround = iseventground; 
+
+		Create();
+	}
+
 	public virtual object Clone()
 	{
-		var clone = new ItemData(){
-			ItemID = ItemID,
-			Count = Count
-		};
-		clone.Create();
+		var clone = new FacilityData(GroundIndex, FacilityGradeIdx, LandStatusEventIdx, IsEventGround);
 		return clone;
 	}
+
+
 }
 
 

@@ -7,7 +7,16 @@ table UserData {
   storemoney:string;
   cash:int = 0;
   material:int = 0;
+  facilitydatas:[FacilityData];
 }
+
+table FacilityData {
+  groundidx:int = 0;
+  facilitygrade:int = 0; 
+  Landstatuseventidx:int = 0
+  iseventground:bool = false;
+}
+
 
 
 root_type UserData;
