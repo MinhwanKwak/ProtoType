@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using BanpoFri;
 using UnityEngine.UI;
+using UniRx;
 [UIPath("UI/Page/HUD", true)]
 public class HUD : UIBase
 {
@@ -17,22 +18,37 @@ public class HUD : UIBase
 
     public void Init()
     {
+    }
 
-        var userdata = GameRoot.Instance.UserData;
-
-
-
-        userdata.CurMode.Money.Value += 10000000;
-        userdata.CurMode.Material.Value += 1000;
-
-        userdata.Cash.Value += 1000;
+    public override void OnShowBefore()
+    {
+        base.OnShowBefore();
+        SyncData();
+    }
 
 
-        CashText.text = userdata.Cash.Value.ToString();
-        MaterialText.text = userdata.CurMode.Material.Value.ToString();
-        MoneyText.text = userdata.CurMode.Money.Value.ToString();
+    public void SyncData()
+    {
 
-        GameRoot.Instance.UserData.Save();
+        GameRoot.Instance.UserData.SyncHUDCurrency();
 
+        MoneyText.text = Utility.CalculateMoneyToString(GameRoot.Instance.UserData.CurMode.Money.Value);
+        MaterialText.text = GameRoot.Instance.UserData.CurMode.Material.Value.ToString();
+        CashText.text = GameRoot.Instance.UserData.Cash.Value.ToString();
+
+
+        GameRoot.Instance.UserData.HUDCash.Subscribe(x =>
+        {
+            CashText.text = x.ToString();
+        }).AddTo(this);
+
+        GameRoot.Instance.UserData.HUDMoney.Subscribe(x =>
+        {
+            MoneyText.text = Utility.CalculateMoneyToString(x);
+        }).AddTo(this);
+        GameRoot.Instance.UserData.HUDMaterial.Subscribe(x =>
+        {
+            MaterialText.text = x.ToString();
+        }).AddTo(this);
     }
 }

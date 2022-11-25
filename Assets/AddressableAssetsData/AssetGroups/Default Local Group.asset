@@ -17,10 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 08a828bfbd41f48f29c62c948b8cf964
   m_SerializeEntries:
-  - m_GUID: a2932d68868ec44bd848b8e6e0cf492a
-    m_Address: GameRoot
-    m_ReadOnly: 0
-    m_SerializedLabels: []
   - m_GUID: 88a92fea094b94404b3b225cf9556fa0
     m_Address: Tables
     m_ReadOnly: 0
@@ -63,6 +59,10 @@ MonoBehaviour:
     m_SerializedLabels: []
   - m_GUID: 47dc18ae457c149b08514f7171bd585d
     m_Address: Grade_0_1_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a2932d68868ec44bd848b8e6e0cf492a
+    m_Address: GameRoot
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
