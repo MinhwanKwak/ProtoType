@@ -18,6 +18,7 @@ MonoBehaviour:
   - month_get_profit_jackpot_rate
   - month_get_profit_jackpot_incre
   - town_rating_event_period
+  - ingame_shop_restock_time
   mSecondKey: []
   mDataList:
   - _idx: land_condition_point_evet_period
@@ -30,3 +31,5 @@ MonoBehaviour:
     _value: 200
   - _idx: town_rating_event_period
     _value: 360
+  - _idx: ingame_shop_restock_time
+    _value: 10800

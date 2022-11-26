@@ -25,53 +25,140 @@ MonoBehaviour:
   - 207
   - 208
   - 209
-  mSecondKey: []
+  - 1001
+  - 1002
+  - 1003
+  - 1004
+  - 1005
+  - 1006
+  - 1007
+  - 1008
+  - 1009
+  mSecondKey:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
   mDataList:
   - _idx: 101
+    _type: 1
     _name: str_point_item_101
     _point: 10
     _icon: 
   - _idx: 102
+    _type: 1
     _name: str_point_item_102
     _point: 20
     _icon: 
   - _idx: 103
+    _type: 1
     _name: str_point_item_103
     _point: 50
     _icon: 
   - _idx: 201
+    _type: 1
     _name: str_point_item_201
     _point: 10
     _icon: 
   - _idx: 202
+    _type: 1
     _name: str_point_item_202
     _point: 20
     _icon: 
   - _idx: 203
+    _type: 1
     _name: str_point_item_203
     _point: 50
     _icon: 
   - _idx: 204
+    _type: 1
     _name: str_point_item_204
     _point: 10
     _icon: 
   - _idx: 205
+    _type: 1
     _name: str_point_item_205
     _point: 20
     _icon: 
   - _idx: 206
+    _type: 1
     _name: str_point_item_206
     _point: 50
     _icon: 
   - _idx: 207
+    _type: 1
     _name: str_point_item_207
     _point: 10
     _icon: 
   - _idx: 208
+    _type: 1
     _name: str_point_item_208
     _point: 20
     _icon: 
   - _idx: 209
+    _type: 1
     _name: str_point_item_209
+    _point: 50
+    _icon: 
+  - _idx: 1001
+    _type: 2
+    _name: str_point_item_1001
+    _point: 10
+    _icon: 
+  - _idx: 1002
+    _type: 2
+    _name: str_point_item_1002
+    _point: 20
+    _icon: 
+  - _idx: 1003
+    _type: 2
+    _name: str_point_item_1003
+    _point: 50
+    _icon: 
+  - _idx: 1004
+    _type: 2
+    _name: str_point_item_1004
+    _point: 10
+    _icon: 
+  - _idx: 1005
+    _type: 2
+    _name: str_point_item_1005
+    _point: 20
+    _icon: 
+  - _idx: 1006
+    _type: 2
+    _name: str_point_item_1006
+    _point: 50
+    _icon: 
+  - _idx: 1007
+    _type: 2
+    _name: str_point_item_1007
+    _point: 10
+    _icon: 
+  - _idx: 1008
+    _type: 2
+    _name: str_point_item_1008
+    _point: 20
+    _icon: 
+  - _idx: 1009
+    _type: 2
+    _name: str_point_item_1009
     _point: 50
     _icon: 

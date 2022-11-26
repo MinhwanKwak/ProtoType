@@ -106,6 +106,7 @@ MonoBehaviour:
   - str_land_grade_end
   - str_point_item_have
   - str_get_point_notice
+  - str_month_profit_info
   - str_land_event_101
   - str_land_event_102
   - str_land_event_103
@@ -156,7 +157,6 @@ MonoBehaviour:
   - str_land_event_508
   - str_land_event_509
   - str_land_event_510
-  - str_month_profit_info
   - str_stage_clear_title
   - str_stage_clear_desc
   - str_stage_clear_btn
@@ -169,6 +169,36 @@ MonoBehaviour:
   - str_stage_name_2
   - str_stage_name_3
   - str_stage_comingsoon
+  - str_ingame_shop_desc_1
+  - str_ingame_shop_building_group_1
+  - str_ingame_shop_building_group_2
+  - str_ingame_shop_reset_time
+  - str_ingame_shop_category_1
+  - str_ingame_shop_category_2
+  - str_sold_out
+  - str_ingame_shop_desc_2
+  - str_ingame_shop_luxury
+  - str_point_item_101
+  - str_point_item_102
+  - str_point_item_103
+  - str_point_item_201
+  - str_point_item_202
+  - str_point_item_203
+  - str_point_item_204
+  - str_point_item_205
+  - str_point_item_206
+  - str_point_item_207
+  - str_point_item_208
+  - str_point_item_209
+  - str_point_item_1001
+  - str_point_item_1002
+  - str_point_item_1003
+  - str_point_item_1004
+  - str_point_item_1005
+  - str_point_item_1006
+  - str_point_item_1007
+  - str_point_item_1008
+  - str_point_item_1009
   mSecondKey: []
   mDataList:
   - _idx: str_currency_name_1
@@ -543,6 +573,10 @@ MonoBehaviour:
     _ko: "\uC0C1\uD0DC \uD3EC\uC778\uD2B8 +{0} \uD68D\uB4DD!"
     _en: 
     _ja: 
+  - _idx: str_month_profit_info
+    _ko: "30\uC77C\uB9C8\uB2E4 \uC218\uC775"
+    _en: 
+    _ja: 
   - _idx: str_land_event_101
     _ko: 1
     _en: 
@@ -743,10 +777,6 @@ MonoBehaviour:
     _ko: 50
     _en: 
     _ja: 
-  - _idx: str_month_profit_info
-    _ko: "30\uC77C\uB9C8\uB2E4 \uC218\uC775"
-    _en: 
-    _ja: 
   - _idx: str_stage_clear_title
     _ko: "{0} \uD074\uB9AC\uC5B4 \uBBF8\uC158"
     _en: 
@@ -793,5 +823,127 @@ MonoBehaviour:
     _ja: 
   - _idx: str_stage_comingsoon
     _ko: "\uCEE4\uBC0D\uC468.."
+    _en: 
+    _ja: 
+  - _idx: str_ingame_shop_desc_1
+    _ko: "\uBD80\uB3D9\uC0B0 \uAC00\uCE58\uB97C \uB192\uC774\uB294 \uBB3C\uAC74\uC744
+      \uD31D\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+  - _idx: str_ingame_shop_building_group_1
+    _ko: "\uB18D\uC0AC"
+    _en: 
+    _ja: 
+  - _idx: str_ingame_shop_building_group_2
+    _ko: "\uAC74\uBB3C"
+    _en: 
+    _ja: 
+  - _idx: str_ingame_shop_reset_time
+    _ko: "\uC7AC\uC785\uACE0\uAE4C\uC9C0"
+    _en: 
+    _ja: 
+  - _idx: str_ingame_shop_category_1
+    _ko: "\uBD80\uB3D9\uC0B0 \uAD00\uB9AC"
+    _en: 
+    _ja: 
+  - _idx: str_ingame_shop_category_2
+    _ko: "\uC778\uB9E5 \uAD00\uB9AC"
+    _en: 
+    _ja: 
+  - _idx: str_sold_out
+    _ko: "\uD488\uC808"
+    _en: 
+    _ja: 
+  - _idx: str_ingame_shop_desc_2
+    _ko: "\uC8FC\uBBFC\uC758 \uD638\uAC10\uC744 \uC0B4 \uC218 \uC788\uB294 \uBB3C\uAC74\uC744
+      \uD31D\uB2C8\uB2E4."
+    _en: 
+    _ja: 
+  - _idx: str_ingame_shop_luxury
+    _ko: "\uC0AC\uCE58\uD488"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_101
+    _ko: "\uBCF4\uD1B5 \uBE44\uB8CC"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_102
+    _ko: "\uC88B\uC740 \uBE44\uB8CC"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_103
+    _ko: "\uD55C\uC815\uD310 \uB8E8\uC641 \uBE44\uB8CC"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_201
+    _ko: "\uD30C\uB9AC\uCC44"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_202
+    _ko: "\uC804\uAE30\uD30C\uB9AC\uCC44"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_203
+    _ko: "3000W \uC2E0\uD615 \uC804\uAE30\uD30C\uB9AC\uCC44"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_204
+    _ko: "\uAC10\uC131 \uBCBD\uB3CC"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_205
+    _ko: "\uAC10\uC131 \uBB34\uB4DC\uB4F1"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_206
+    _ko: "\uAC2C\uC131 \uCEA3\uB2E2 \uD654\uBD84"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_207
+    _ko: "\uB9CC\uAC1C\uD55C \uC5F0\uAF43"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_208
+    _ko: "\uACE0\uAE09 \uC9C1\uC870 \uC6D0\uB2E8"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_209
+    _ko: "7.5mm \uCD5C\uC0C1\uAE09 \uACE8\uD310\uC9C0"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_1001
+    _ko: "\uC950\uB3CC\uC774"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_1002
+    _ko: "\uD138\uC2E4"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_1003
+    _ko: "\uAE43\uD138 \uB09A\uC2DC\uB300"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_1004
+    _ko: "\uC6B0\uC720"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_1005
+    _ko: "\uBE0C\uB85C\uCF5C\uB9AC"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_1006
+    _ko: "\uB2ED\uAC00\uC2B4\uC0B4"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_1007
+    _ko: "\uCE04\uB974"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_1008
+    _ko: "\uCEA3\uB2E2 \uC0AC\uD0D5"
+    _en: 
+    _ja: 
+  - _idx: str_point_item_1009
+    _ko: "\uC5F0\uC5B4 \uD1B5\uC870\uB9BC"
     _en: 
     _ja: 

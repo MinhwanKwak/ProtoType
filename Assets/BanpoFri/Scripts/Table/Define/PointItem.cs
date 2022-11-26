@@ -14,6 +14,13 @@ namespace BanpoFri
 			set { _idx = value;}
 		}
 		[SerializeField]
+		private int _type;
+		public int type
+		{
+			get { return _type;}
+			set { _type = value;}
+		}
+		[SerializeField]
 		private string _name;
 		public string name
 		{
@@ -38,7 +45,7 @@ namespace BanpoFri
     }
 
     [System.Serializable]
-    public class PointItem : Table<PointItemData, int>
+    public class PointItem : Table<PointItemData, KeyValuePair<int,int>>
     {
     }
 }

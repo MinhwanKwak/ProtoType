@@ -1,0 +1,227 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b28a9dcf2f1bfb2438754149c97b929c, type: 3}
+  m_Name: ItemShop
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 1001
+  - 1002
+  - 1003
+  - 2001
+  - 2002
+  - 2003
+  - 2004
+  - 2005
+  - 2006
+  - 2007
+  - 2008
+  - 2009
+  - 10001
+  - 10002
+  - 10003
+  - 10004
+  - 10005
+  - 10006
+  - 10007
+  - 10008
+  - 10009
+  mSecondKey:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  mDataList:
+  - _idx: 1001
+    _category: 1
+    _group: 1
+    _order: 1
+    _item_idx: 101
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 1002
+    _category: 1
+    _group: 1
+    _order: 2
+    _item_idx: 102
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 1003
+    _category: 1
+    _group: 1
+    _order: 3
+    _item_idx: 103
+    _item_stock_value: 010000000a000000
+    _cost_idx: 2
+    _cost_value: 30
+  - _idx: 2001
+    _category: 1
+    _group: 2
+    _order: 1
+    _item_idx: 201
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 2002
+    _category: 1
+    _group: 2
+    _order: 2
+    _item_idx: 202
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 2003
+    _category: 1
+    _group: 2
+    _order: 3
+    _item_idx: 203
+    _item_stock_value: 010000000a000000
+    _cost_idx: 2
+    _cost_value: 30
+  - _idx: 2004
+    _category: 1
+    _group: 2
+    _order: 4
+    _item_idx: 204
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 2005
+    _category: 1
+    _group: 2
+    _order: 5
+    _item_idx: 205
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 2006
+    _category: 1
+    _group: 2
+    _order: 6
+    _item_idx: 206
+    _item_stock_value: 010000000a000000
+    _cost_idx: 2
+    _cost_value: 30
+  - _idx: 2007
+    _category: 1
+    _group: 2
+    _order: 7
+    _item_idx: 207
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 2008
+    _category: 1
+    _group: 2
+    _order: 8
+    _item_idx: 208
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 2009
+    _category: 1
+    _group: 2
+    _order: 9
+    _item_idx: 209
+    _item_stock_value: 010000000a000000
+    _cost_idx: 2
+    _cost_value: 30
+  - _idx: 10001
+    _category: 2
+    _group: 1
+    _order: 1
+    _item_idx: 1001
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 10002
+    _category: 2
+    _group: 1
+    _order: 2
+    _item_idx: 1002
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 10003
+    _category: 2
+    _group: 1
+    _order: 3
+    _item_idx: 1003
+    _item_stock_value: 010000000a000000
+    _cost_idx: 2
+    _cost_value: 30
+  - _idx: 10004
+    _category: 2
+    _group: 1
+    _order: 4
+    _item_idx: 1004
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 10005
+    _category: 2
+    _group: 1
+    _order: 5
+    _item_idx: 1005
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 10006
+    _category: 2
+    _group: 1
+    _order: 6
+    _item_idx: 1006
+    _item_stock_value: 010000000a000000
+    _cost_idx: 2
+    _cost_value: 30
+  - _idx: 10007
+    _category: 2
+    _group: 1
+    _order: 7
+    _item_idx: 1007
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 10008
+    _category: 2
+    _group: 1
+    _order: 8
+    _item_idx: 1008
+    _item_stock_value: 010000000a000000
+    _cost_idx: 1
+    _cost_value: 999
+  - _idx: 10009
+    _category: 2
+    _group: 1
+    _order: 9
+    _item_idx: 1009
+    _item_stock_value: 010000000a000000
+    _cost_idx: 2
+    _cost_value: 30
