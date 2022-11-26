@@ -24,6 +24,8 @@ public class GameRoot : Singleton<GameRoot>
 	public InGameSystem InGameSystem { get; private set; } = new InGameSystem();
 	public SnapshotCamera SnapshotCam { get; private set; } = null;
 	public PluginSystem PluginSystem { get; private set; } = new PluginSystem();
+	public FacilitySystem FacilitySystem { get; private set; } = new FacilitySystem();
+
 
 
 	public GameObject UILock;

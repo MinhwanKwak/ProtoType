@@ -37,13 +37,17 @@ public struct UserData : IFlatbufferObject
   public bool MutateCash(int cash) { int o = __p.__offset(8); if (o != 0) { __p.bb.PutInt(o + __p.bb_pos, cash); return true; } else { return false; } }
   public int Material { get { int o = __p.__offset(10); return o != 0 ? __p.bb.GetInt(o + __p.bb_pos) : (int)0; } }
   public bool MutateMaterial(int material) { int o = __p.__offset(10); if (o != 0) { __p.bb.PutInt(o + __p.bb_pos, material); return true; } else { return false; } }
+  public BanpoFri.Data.FacilityData? Facilitydatas(int j) { int o = __p.__offset(12); return o != 0 ? (BanpoFri.Data.FacilityData?)(new BanpoFri.Data.FacilityData()).__assign(__p.__indirect(__p.__vector(o) + j * 4), __p.bb) : null; }
+  public int FacilitydatasLength { get { int o = __p.__offset(12); return o != 0 ? __p.__vector_len(o) : 0; } }
 
   public static Offset<BanpoFri.Data.UserData> CreateUserData(FlatBufferBuilder builder,
       StringOffset moneyOffset = default(StringOffset),
       StringOffset storemoneyOffset = default(StringOffset),
       int cash = 0,
-      int material = 0) {
-    builder.StartTable(4);
+      int material = 0,
+      VectorOffset facilitydatasOffset = default(VectorOffset)) {
+    builder.StartTable(5);
+    UserData.AddFacilitydatas(builder, facilitydatasOffset);
     UserData.AddMaterial(builder, material);
     UserData.AddCash(builder, cash);
     UserData.AddStoremoney(builder, storemoneyOffset);
@@ -51,11 +55,15 @@ public struct UserData : IFlatbufferObject
     return UserData.EndUserData(builder);
   }
 
-  public static void StartUserData(FlatBufferBuilder builder) { builder.StartTable(4); }
+  public static void StartUserData(FlatBufferBuilder builder) { builder.StartTable(5); }
   public static void AddMoney(FlatBufferBuilder builder, StringOffset moneyOffset) { builder.AddOffset(0, moneyOffset.Value, 0); }
   public static void AddStoremoney(FlatBufferBuilder builder, StringOffset storemoneyOffset) { builder.AddOffset(1, storemoneyOffset.Value, 0); }
   public static void AddCash(FlatBufferBuilder builder, int cash) { builder.AddInt(2, cash, 0); }
   public static void AddMaterial(FlatBufferBuilder builder, int material) { builder.AddInt(3, material, 0); }
+  public static void AddFacilitydatas(FlatBufferBuilder builder, VectorOffset facilitydatasOffset) { builder.AddOffset(4, facilitydatasOffset.Value, 0); }
+  public static VectorOffset CreateFacilitydatasVector(FlatBufferBuilder builder, Offset<BanpoFri.Data.FacilityData>[] data) { builder.StartVector(4, data.Length, 4); for (int i = data.Length - 1; i >= 0; i--) builder.AddOffset(data[i].Value); return builder.EndVector(); }
+  public static VectorOffset CreateFacilitydatasVectorBlock(FlatBufferBuilder builder, Offset<BanpoFri.Data.FacilityData>[] data) { builder.StartVector(4, data.Length, 4); builder.Add(data); return builder.EndVector(); }
+  public static void StartFacilitydatasVector(FlatBufferBuilder builder, int numElems) { builder.StartVector(4, numElems, 4); }
   public static Offset<BanpoFri.Data.UserData> EndUserData(FlatBufferBuilder builder) {
     int o = builder.EndTable();
     return new Offset<BanpoFri.Data.UserData>(o);

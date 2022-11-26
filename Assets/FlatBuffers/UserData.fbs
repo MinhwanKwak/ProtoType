@@ -13,7 +13,8 @@ table UserData {
 table FacilityData {
   groundidx:int = 0;
   facilitygrade:int = 0; 
-  Landstatuseventidx:int = 0
+  landstatuseventidx:int = 0;
+  landbenefittime:long = 0;
   iseventground:bool = false;
 }
 

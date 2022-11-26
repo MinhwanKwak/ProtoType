@@ -39,16 +39,45 @@ public class InGameStage : MonoBehaviour
 
         for(int i = 0; i  < tdlist.Count; ++i)
         {
-            Addressables.InstantiateAsync(tdlist[i].prefab.First(), LandTrList.First()).Completed += (handle) =>
+            var finddata = GameRoot.Instance.UserData.CurMode.FacilityDatas.Find(x => x.GroundIndex == tdlist[i].idx && stageidx == tdlist[i].stage);
+
+
+            if (finddata != null)
             {
-                var facility = handle.Result.GetComponent<InGameFacility>();
-                if(facility != null)
+
+
+                Addressables.InstantiateAsync(tdlist[i].prefab[finddata.FacilityGradeIdx], LandTrList[FacilityIdx]).Completed += (handle) =>
                 {
-                    facility.Init();
-                    facility.transform.position = LandTrList[FacilityIdx].position;
-                    ++FacilityIdx;
-                }
-            };
+                    var facility = handle.Result.GetComponent<InGameFacility>();
+                    if (facility != null)
+                    {
+
+                        facility.Init(tdlist[i].idx);
+
+
+                        facility.transform.position = LandTrList[FacilityIdx].position;
+                        ++FacilityIdx;
+                    }
+                };
+
+            }
+            else
+            {
+                var idx = tdlist[i].idx;
+                Addressables.InstantiateAsync(tdlist[i].prefab.First(), LandTrList.First()).Completed += (handle) =>
+                {
+                    var facility = handle.Result.GetComponent<InGameFacility>();
+                    if (facility != null)
+                    {
+
+                        facility.Init(idx);
+
+
+                        facility.transform.position = LandTrList[FacilityIdx].position;
+                        ++FacilityIdx;
+                    }
+                };
+            }
 
         }
 
@@ -60,13 +89,6 @@ public class InGameStage : MonoBehaviour
     }
 
 
-    //public InGameFacility GetFacility(int order)
-    //{
-    //    if (facilities.Count > order && order >= 0)
-    //        return facilities[order];
-
-    //    return null;
-    //}
 
 
 

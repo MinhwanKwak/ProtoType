@@ -37,6 +37,54 @@ MonoBehaviour:
   - 1
   - 1
   - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
   mSecondKey:
   - 1
   - 2
@@ -62,6 +110,54 @@ MonoBehaviour:
   - 22
   - 23
   - 24
+  - 25
+  - 26
+  - 27
+  - 28
+  - 29
+  - 30
+  - 31
+  - 32
+  - 33
+  - 34
+  - 35
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45
+  - 46
+  - 47
+  - 48
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+  - 54
+  - 55
+  - 56
+  - 57
+  - 58
+  - 59
+  - 60
+  - 61
+  - 62
+  - 63
+  - 64
+  - 65
+  - 66
+  - 67
+  - 68
+  - 69
+  - 70
+  - 71
+  - 72
   mDataList:
   - _stage: 1
     _idx: 1
@@ -75,11 +171,12 @@ MonoBehaviour:
     - Grade_4_1_Normal_1
     - Grade_5_1_Normal_1
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal
-    - Grade_4_1_Normal
-    - Grade_5_1_Normal
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 2
     _name: str_land_name_2
@@ -92,11 +189,12 @@ MonoBehaviour:
     - Grade_4_1_Normal_2
     - Grade_5_1_Normal_2
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_2
-    - Grade_4_1_Normal_2
-    - Grade_5_1_Normal_2
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 3
     _name: str_land_name_3
@@ -109,11 +207,12 @@ MonoBehaviour:
     - Grade_4_1_Normal_3
     - Grade_5_1_Normal_3
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_3
-    - Grade_4_1_Normal_3
-    - Grade_5_1_Normal_3
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 4
     _name: str_land_name_4
@@ -126,11 +225,12 @@ MonoBehaviour:
     - Grade_4_1_Normal_4
     - Grade_5_1_Normal_4
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_4
-    - Grade_4_1_Normal_4
-    - Grade_5_1_Normal_4
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 5
     _name: str_land_name_5
@@ -143,11 +243,12 @@ MonoBehaviour:
     - Grade_4_1_Normal_5
     - Grade_5_1_Normal_5
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_5
-    - Grade_4_1_Normal_5
-    - Grade_5_1_Normal_5
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 6
     _name: str_land_name_6
@@ -160,11 +261,12 @@ MonoBehaviour:
     - Grade_4_1_Normal_6
     - Grade_5_1_Normal_6
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_6
-    - Grade_4_1_Normal_6
-    - Grade_5_1_Normal_6
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 7
     _name: str_land_name_7
@@ -177,11 +279,12 @@ MonoBehaviour:
     - Grade_4_1_Normal_7
     - Grade_5_1_Normal_7
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_7
-    - Grade_4_1_Normal_7
-    - Grade_5_1_Normal_7
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 8
     _name: str_land_name_8
@@ -194,11 +297,12 @@ MonoBehaviour:
     - Grade_4_1_Special
     - Grade_5_1_Special
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Special
-    - Grade_3_1_Special
-    - Grade_4_1_Special
-    - Grade_5_1_Special
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 9
     _name: str_land_name_9
@@ -211,11 +315,12 @@ MonoBehaviour:
     - Grade_4_2_Normal_1
     - Grade_5_2_Normal_1
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal
-    - Grade_4_1_Normal
-    - Grade_5_1_Normal
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 10
     _name: str_land_name_10
@@ -228,11 +333,12 @@ MonoBehaviour:
     - Grade_4_2_Normal_2
     - Grade_5_2_Normal_2
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_2
-    - Grade_4_1_Normal_2
-    - Grade_5_1_Normal_2
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 11
     _name: str_land_name_11
@@ -245,11 +351,12 @@ MonoBehaviour:
     - Grade_4_2_Normal_3
     - Grade_5_2_Normal_3
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_3
-    - Grade_4_1_Normal_3
-    - Grade_5_1_Normal_3
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 12
     _name: str_land_name_12
@@ -262,11 +369,12 @@ MonoBehaviour:
     - Grade_4_2_Normal_4
     - Grade_5_2_Normal_4
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_4
-    - Grade_4_1_Normal_4
-    - Grade_5_1_Normal_4
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 13
     _name: str_land_name_13
@@ -279,11 +387,12 @@ MonoBehaviour:
     - Grade_4_2_Normal_5
     - Grade_5_2_Normal_5
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_5
-    - Grade_4_1_Normal_5
-    - Grade_5_1_Normal_5
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 14
     _name: str_land_name_14
@@ -296,11 +405,12 @@ MonoBehaviour:
     - Grade_4_2_Normal_6
     - Grade_5_2_Normal_6
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_6
-    - Grade_4_1_Normal_6
-    - Grade_5_1_Normal_6
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 15
     _name: str_land_name_15
@@ -313,11 +423,12 @@ MonoBehaviour:
     - Grade_4_2_Normal_7
     - Grade_5_2_Normal_7
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_7
-    - Grade_4_1_Normal_7
-    - Grade_5_1_Normal_7
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 16
     _name: str_land_name_16
@@ -330,7 +441,12 @@ MonoBehaviour:
     - Grade_4_2_Special
     - Grade_5_2_Special
     _prefab:
-    - Grade_1_1_Normal
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 17
     _name: str_land_name_17
@@ -343,11 +459,12 @@ MonoBehaviour:
     - Grade_4_3_Normal_1
     - Grade_5_3_Normal_1
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal
-    - Grade_4_1_Normal
-    - Grade_5_1_Normal
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 18
     _name: str_land_name_18
@@ -360,11 +477,12 @@ MonoBehaviour:
     - Grade_4_3_Normal_2
     - Grade_5_3_Normal_2
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_2
-    - Grade_4_1_Normal_2
-    - Grade_5_1_Normal_2
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 19
     _name: str_land_name_19
@@ -377,11 +495,12 @@ MonoBehaviour:
     - Grade_4_3_Normal_3
     - Grade_5_3_Normal_3
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_3
-    - Grade_4_1_Normal_3
-    - Grade_5_1_Normal_3
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 20
     _name: str_land_name_20
@@ -394,11 +513,12 @@ MonoBehaviour:
     - Grade_4_3_Normal_4
     - Grade_5_3_Normal_4
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_4
-    - Grade_4_1_Normal_4
-    - Grade_5_1_Normal_4
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 21
     _name: str_land_name_21
@@ -411,11 +531,12 @@ MonoBehaviour:
     - Grade_4_3_Normal_5
     - Grade_5_3_Normal_5
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_5
-    - Grade_4_1_Normal_5
-    - Grade_5_1_Normal_5
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 22
     _name: str_land_name_22
@@ -428,11 +549,12 @@ MonoBehaviour:
     - Grade_4_3_Normal_6
     - Grade_5_3_Normal_6
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_6
-    - Grade_4_1_Normal_6
-    - Grade_5_1_Normal_6
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 23
     _name: str_land_name_23
@@ -445,11 +567,12 @@ MonoBehaviour:
     - Grade_4_3_Normal_7
     - Grade_5_3_Normal_7
     _prefab:
-    - Grade_1_1_Normal
-    - Grade_2_1_Normal
-    - Grade_3_1_Normal_7
-    - Grade_4_1_Normal_7
-    - Grade_5_1_Normal_7
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
   - _stage: 1
     _idx: 24
     _name: str_land_name_24
@@ -462,8 +585,873 @@ MonoBehaviour:
     - Grade_4_3_Special
     - Grade_5_3_Special
     _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 25
+    _name: str_land_name_25
+    _open_cost: e803
+    _default_point: 31
+    _icon:
     - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_1
+    - Grade_4_1_Normal_1
+    - Grade_5_1_Normal_1
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 26
+    _name: str_land_name_26
+    _open_cost: d007
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_2
+    - Grade_4_1_Normal_2
+    - Grade_5_1_Normal_2
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 27
+    _name: str_land_name_27
+    _open_cost: a00f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_3
+    - Grade_4_1_Normal_3
+    - Grade_5_1_Normal_3
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 28
+    _name: str_land_name_28
+    _open_cost: 401f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_4
+    - Grade_4_1_Normal_4
+    - Grade_5_1_Normal_4
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 29
+    _name: str_land_name_29
+    _open_cost: 803e
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_5
+    - Grade_4_1_Normal_5
+    - Grade_5_1_Normal_5
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 30
+    _name: str_land_name_30
+    _open_cost: 007d
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_6
+    - Grade_4_1_Normal_6
+    - Grade_5_1_Normal_6
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 31
+    _name: str_land_name_31
+    _open_cost: 00fa00
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_7
+    - Grade_4_1_Normal_7
+    - Grade_5_1_Normal_7
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 32
+    _name: str_land_name_32
+    _open_cost: 00f401
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Special
     - Grade_2_1_Special
     - Grade_3_1_Special
     - Grade_4_1_Special
     - Grade_5_1_Special
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 33
+    _name: str_land_name_33
+    _open_cost: 00e803
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_1
+    - Grade_4_2_Normal_1
+    - Grade_5_2_Normal_1
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 34
+    _name: str_land_name_34
+    _open_cost: 00d007
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_2
+    - Grade_4_2_Normal_2
+    - Grade_5_2_Normal_2
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 35
+    _name: str_land_name_35
+    _open_cost: 00a00f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_3
+    - Grade_4_2_Normal_3
+    - Grade_5_2_Normal_3
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 36
+    _name: str_land_name_36
+    _open_cost: 00401f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_4
+    - Grade_4_2_Normal_4
+    - Grade_5_2_Normal_4
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 37
+    _name: str_land_name_37
+    _open_cost: 00803e
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_5
+    - Grade_4_2_Normal_5
+    - Grade_5_2_Normal_5
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 38
+    _name: str_land_name_38
+    _open_cost: 00007d
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_6
+    - Grade_4_2_Normal_6
+    - Grade_5_2_Normal_6
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 39
+    _name: str_land_name_39
+    _open_cost: 0000fa00
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_7
+    - Grade_4_2_Normal_7
+    - Grade_5_2_Normal_7
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 40
+    _name: str_land_name_40
+    _open_cost: 0000f401
+    _default_point: 31
+    _icon:
+    - Grade_1_2_Special
+    - Grade_2_2_Special
+    - Grade_3_2_Special
+    - Grade_4_2_Special
+    - Grade_5_2_Special
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 41
+    _name: str_land_name_41
+    _open_cost: 0000e803
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_1
+    - Grade_4_3_Normal_1
+    - Grade_5_3_Normal_1
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 42
+    _name: str_land_name_42
+    _open_cost: 0000d007
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_2
+    - Grade_4_3_Normal_2
+    - Grade_5_3_Normal_2
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 43
+    _name: str_land_name_43
+    _open_cost: 0000a00f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_3
+    - Grade_4_3_Normal_3
+    - Grade_5_3_Normal_3
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 44
+    _name: str_land_name_44
+    _open_cost: 0000401f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_4
+    - Grade_4_3_Normal_4
+    - Grade_5_3_Normal_4
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 45
+    _name: str_land_name_45
+    _open_cost: 0000803e
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_5
+    - Grade_4_3_Normal_5
+    - Grade_5_3_Normal_5
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 46
+    _name: str_land_name_46
+    _open_cost: 0000007d
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_6
+    - Grade_4_3_Normal_6
+    - Grade_5_3_Normal_6
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 47
+    _name: str_land_name_47
+    _open_cost: 000000fa00
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_7
+    - Grade_4_3_Normal_7
+    - Grade_5_3_Normal_7
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 2
+    _idx: 48
+    _name: str_land_name_48
+    _open_cost: 000000f401
+    _default_point: 31
+    _icon:
+    - Grade_1_3_Special
+    - Grade_2_3_Special
+    - Grade_3_3_Special
+    - Grade_4_3_Special
+    - Grade_5_3_Special
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 49
+    _name: str_land_name_49
+    _open_cost: e803
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_1
+    - Grade_4_1_Normal_1
+    - Grade_5_1_Normal_1
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 50
+    _name: str_land_name_50
+    _open_cost: d007
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_2
+    - Grade_4_1_Normal_2
+    - Grade_5_1_Normal_2
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 51
+    _name: str_land_name_51
+    _open_cost: a00f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_3
+    - Grade_4_1_Normal_3
+    - Grade_5_1_Normal_3
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 52
+    _name: str_land_name_52
+    _open_cost: 401f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_4
+    - Grade_4_1_Normal_4
+    - Grade_5_1_Normal_4
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 53
+    _name: str_land_name_53
+    _open_cost: 803e
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_5
+    - Grade_4_1_Normal_5
+    - Grade_5_1_Normal_5
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 54
+    _name: str_land_name_54
+    _open_cost: 007d
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_6
+    - Grade_4_1_Normal_6
+    - Grade_5_1_Normal_6
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 55
+    _name: str_land_name_55
+    _open_cost: 00fa00
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_1_Normal
+    - Grade_3_1_Normal_7
+    - Grade_4_1_Normal_7
+    - Grade_5_1_Normal_7
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 56
+    _name: str_land_name_56
+    _open_cost: 00f401
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Special
+    - Grade_2_1_Special
+    - Grade_3_1_Special
+    - Grade_4_1_Special
+    - Grade_5_1_Special
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 57
+    _name: str_land_name_57
+    _open_cost: 00e803
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_1
+    - Grade_4_2_Normal_1
+    - Grade_5_2_Normal_1
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 58
+    _name: str_land_name_58
+    _open_cost: 00d007
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_2
+    - Grade_4_2_Normal_2
+    - Grade_5_2_Normal_2
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 59
+    _name: str_land_name_59
+    _open_cost: 00a00f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_3
+    - Grade_4_2_Normal_3
+    - Grade_5_2_Normal_3
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 60
+    _name: str_land_name_60
+    _open_cost: 00401f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_4
+    - Grade_4_2_Normal_4
+    - Grade_5_2_Normal_4
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 61
+    _name: str_land_name_61
+    _open_cost: 00803e
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_5
+    - Grade_4_2_Normal_5
+    - Grade_5_2_Normal_5
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 62
+    _name: str_land_name_62
+    _open_cost: 00007d
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_6
+    - Grade_4_2_Normal_6
+    - Grade_5_2_Normal_6
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 63
+    _name: str_land_name_63
+    _open_cost: 0000fa00
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_2_Normal
+    - Grade_3_2_Normal_7
+    - Grade_4_2_Normal_7
+    - Grade_5_2_Normal_7
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 64
+    _name: str_land_name_64
+    _open_cost: 0000f401
+    _default_point: 31
+    _icon:
+    - Grade_1_2_Special
+    - Grade_2_2_Special
+    - Grade_3_2_Special
+    - Grade_4_2_Special
+    - Grade_5_2_Special
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 65
+    _name: str_land_name_65
+    _open_cost: 0000e803
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_1
+    - Grade_4_3_Normal_1
+    - Grade_5_3_Normal_1
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 66
+    _name: str_land_name_66
+    _open_cost: 0000d007
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_2
+    - Grade_4_3_Normal_2
+    - Grade_5_3_Normal_2
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 67
+    _name: str_land_name_67
+    _open_cost: 0000a00f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_3
+    - Grade_4_3_Normal_3
+    - Grade_5_3_Normal_3
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 68
+    _name: str_land_name_68
+    _open_cost: 0000401f
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_4
+    - Grade_4_3_Normal_4
+    - Grade_5_3_Normal_4
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 69
+    _name: str_land_name_69
+    _open_cost: 0000803e
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_5
+    - Grade_4_3_Normal_5
+    - Grade_5_3_Normal_5
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 70
+    _name: str_land_name_70
+    _open_cost: 0000007d
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_6
+    - Grade_4_3_Normal_6
+    - Grade_5_3_Normal_6
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 71
+    _name: str_land_name_71
+    _open_cost: 000000fa00
+    _default_point: 31
+    _icon:
+    - Grade_1_1_Normal
+    - Grade_2_3_Normal
+    - Grade_3_3_Normal_7
+    - Grade_4_3_Normal_7
+    - Grade_5_3_Normal_7
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5
+  - _stage: 3
+    _idx: 72
+    _name: str_land_name_72
+    _open_cost: 000000f401
+    _default_point: 31
+    _icon:
+    - Grade_1_3_Special
+    - Grade_2_3_Special
+    - Grade_3_3_Special
+    - Grade_4_3_Special
+    - Grade_5_3_Special
+    _prefab:
+    - Site_Grade_0
+    - Site_Grade_1
+    - Site_Grade_2
+    - Site_Grade_3
+    - Site_Grade_4
+    - Site_Grade_5

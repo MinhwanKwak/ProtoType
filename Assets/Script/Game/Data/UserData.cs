@@ -124,6 +124,31 @@ public partial class UserDataSystem
 		BanpoFri.Data.UserData.AddCash(builder, Cash.Value);
 		BanpoFri.Data.UserData.AddMaterial(builder, mainData.Material.Value);
 
+
+
+		//facilitydata
+
+			var save_facilitys = new Offset<BanpoFri.Data.FacilityData>[mainData.FacilityDatas.Count];
+			dataIdx = 0;
+			foreach (var fs in mainData.FacilityDatas)
+			{
+				BanpoFri.Data.FacilityData.StartFacilityData(builder);
+				BanpoFri.Data.FacilityData.AddGroundidx(builder, fs.GroundIndex);
+				BanpoFri.Data.FacilityData.AddFacilitygrade(builder, fs.FacilityGradeIdx);
+				BanpoFri.Data.FacilityData.AddLandstatuseventidx(builder, fs.LandStatusEventIdx);
+				BanpoFri.Data.FacilityData.AddLandbenefittime(builder, fs.BenefitTime.Ticks);
+				BanpoFri.Data.FacilityData.AddIseventground(builder, fs.IsEventGround);
+				save_facilitys[dataIdx++] = BanpoFri.Data.FacilityData.EndFacilityData(builder);
+			}
+
+
+
+		if (save_facilitys.Count() > 0)
+		{
+			var facilityVec = BanpoFri.Data.UserData.CreateFacilitydatasVector(builder, save_facilitys);
+			BanpoFri.Data.UserData.AddFacilitydatas(builder, facilityVec);
+		}
+
 		var orc = BanpoFri.Data.UserData.EndUserData(builder);
 		builder.Finish(orc.Value);
 

@@ -43,6 +43,18 @@ public partial class UserDataSystem
         mainData.Money.Value = BigInteger.Parse(flatBufferUserData.Money);
         mainData.Material.Value = flatBufferUserData.Material;
 
+
+
+        for (int i = 0; i < flatBufferUserData.FacilitydatasLength; ++i)
+        {
+            var data = flatBufferUserData.Facilitydatas(i);
+
+            var facilitydata = new FacilityData(data.Value.Groundidx , data.Value.Facilitygrade , data.Value.Landstatuseventidx
+                ,data.Value.Iseventground , data.Value.Landbenefittime);
+
+            mainData.FacilityDatas.Add(facilitydata);
+
+        }
     }
 
 
