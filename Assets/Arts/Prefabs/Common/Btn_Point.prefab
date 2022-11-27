@@ -41,7 +41,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 151466487835973984, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 70
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 151466487835973984, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_LocalPosition.x
@@ -105,15 +105,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1886699361323060050, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_EffectColor.b
-      value: 0.007843138
+      value: 0.3137255
       objectReference: {fileID: 0}
     - target: {fileID: 1886699361323060050, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_EffectColor.g
-      value: 0.27450982
+      value: 0.48235297
       objectReference: {fileID: 0}
     - target: {fileID: 1886699361323060050, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_EffectColor.r
-      value: 0.75294125
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3475731716948630290, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_Text
@@ -129,15 +129,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7022728015750263943, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_EffectColor.b
-      value: 0
+      value: 0.31288344
       objectReference: {fileID: 0}
     - target: {fileID: 7022728015750263943, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_EffectColor.g
-      value: 0.27058825
+      value: 0.4811321
       objectReference: {fileID: 0}
     - target: {fileID: 7022728015750263943, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_EffectColor.r
-      value: 0.7490196
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8853070612787996467, guid: df6845e6d611a964d83dd5b8fb73c195, type: 3}
       propertyPath: m_Sprite

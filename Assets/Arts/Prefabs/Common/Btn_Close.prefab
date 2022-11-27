@@ -37,11 +37,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 151466487835973984, guid: 05ece455e3eb3ac498f8d86c7ca1c1db, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 40
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 151466487835973984, guid: 05ece455e3eb3ac498f8d86c7ca1c1db, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 40
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 151466487835973984, guid: 05ece455e3eb3ac498f8d86c7ca1c1db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -94,7 +94,7 @@ PrefabInstance:
     - target: {fileID: 847850763035632982, guid: 05ece455e3eb3ac498f8d86c7ca1c1db, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: df4c30b755a01f341b63adc6d2367594, type: 3}
+      objectReference: {fileID: 21300000, guid: 00c6909df78c59a45b6fcd89a2a1463a, type: 3}
     - target: {fileID: 868798073123577723, guid: 05ece455e3eb3ac498f8d86c7ca1c1db, type: 3}
       propertyPath: m_Name
       value: Btn_Close
@@ -102,6 +102,6 @@ PrefabInstance:
     - target: {fileID: 8853070612787996467, guid: 05ece455e3eb3ac498f8d86c7ca1c1db, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: df4c30b755a01f341b63adc6d2367594, type: 3}
+      objectReference: {fileID: 21300000, guid: 00c6909df78c59a45b6fcd89a2a1463a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05ece455e3eb3ac498f8d86c7ca1c1db, type: 3}
