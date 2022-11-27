@@ -69,6 +69,10 @@ MonoBehaviour:
     m_Address: UI/Popup/PopupPurchaseLand
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 7bf25720c3962164783e7fdfe766ad36
+    m_Address: UI/Popup/PopupInfoLand
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 33d34b1065dcd4c0db03f94efd6e0ee1, type: 2}
   m_SchemaSet:

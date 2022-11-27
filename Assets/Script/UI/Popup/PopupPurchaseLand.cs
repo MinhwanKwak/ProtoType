@@ -57,9 +57,9 @@ public class PopupPurchaseLand : UIBase
 
         Value = landbasictd.open_cost;
 
-        BuyText.text = landbasictd.open_cost.ToString();
+        BuyText.text = Utility.CalculateMoneyToString(landbasictd.open_cost);
 
-        MonthBenefitText.text = landupgradetd.profit.ToString();
+        MonthBenefitText.text = Utility.CalculateMoneyToString(landupgradetd.profit);
 
         LandNameText.text = Tables.Instance.GetTable<Localize>().GetString(landbasictd.name);
     }

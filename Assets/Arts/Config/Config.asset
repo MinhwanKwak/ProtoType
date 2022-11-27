@@ -112,26 +112,10 @@ MonoBehaviour:
   DisableSpriteMat: {fileID: 2100000, guid: 51d61b76f79d6914e9927c63443fdc07, type: 2}
   EnableSpriteMat: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   ImgAddtiveMat: {fileID: 0}
-  managerAtlas: {fileID: 0}
-  slotAtlas: {fileID: 0}
   DynamicAtlas: {fileID: 4343727234628468602, guid: a0da1cbfe2829c94089382e7c85dc4da, type: 2}
   DynamicShopAtlas: {fileID: 0}
   ItemCardAtlas: {fileID: 4343727234628468602, guid: bdb731d8d17d94040b9e82121056d113, type: 2}
   CommonAtlas: {fileID: 4343727234628468602, guid: d7ecd32d1d8cb5f4695a7efa6348d156, type: 2}
-  facilityAtlas: {fileID: 0}
-  furnitureIconAtlas: {fileID: 0}
-  wardrobeIconAtlas: {fileID: 0}
-  costumeAtlas: {fileID: 0}
-  PentHousePreviewAtlas: {fileID: 0}
-  CabinetBoxAtlas: {fileID: 0}
-  competitionAtlas: {fileID: 0}
-  SpecialCatAtlas: {fileID: 0}
+  facilityAtlas: {fileID: 4343727234628468602, guid: 7d09e8646b6e84829ac1f2c0ed84a172, type: 2}
   UiIconAtlas: {fileID: 0}
   UiBgAtlas: {fileID: 0}
-  Seasonal_10001_ImgAtlas: {fileID: 0}
-  SeasonalCommonImgAtlas: {fileID: 0}
-  SeasonalFacilityImgAtlas: {fileID: 0}
-  ExpeditionAreaAtlas: {fileID: 0}
-  OneLinkAtlas: {fileID: 0}
-  DragonHuntAtlas: {fileID: 0}
-  DragonEggAtlas: {fileID: 0}
