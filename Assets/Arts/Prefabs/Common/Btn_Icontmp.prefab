@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 699755673745331820}
   - component: {fileID: 4769174962768164474}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -438,11 +438,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4553952992523197057, guid: 26323d49d1e9e074489de424b9ea0e23, type: 3}
       propertyPath: m_EffectColor.b
-      value: 0.41960785
+      value: 0.4745098
       objectReference: {fileID: 0}
     - target: {fileID: 4553952992523197057, guid: 26323d49d1e9e074489de424b9ea0e23, type: 3}
       propertyPath: m_EffectColor.g
-      value: 0.4745098
+      value: 0.28022027
       objectReference: {fileID: 0}
     - target: {fileID: 4553952992523197057, guid: 26323d49d1e9e074489de424b9ea0e23, type: 3}
       propertyPath: m_EffectColor.r
@@ -454,11 +454,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4929681140077847892, guid: 26323d49d1e9e074489de424b9ea0e23, type: 3}
       propertyPath: m_EffectColor.b
-      value: 0.41960788
+      value: 0.47450984
       objectReference: {fileID: 0}
     - target: {fileID: 4929681140077847892, guid: 26323d49d1e9e074489de424b9ea0e23, type: 3}
       propertyPath: m_EffectColor.g
-      value: 0.47450984
+      value: 0.2784314
       objectReference: {fileID: 0}
     - target: {fileID: 4929681140077847892, guid: 26323d49d1e9e074489de424b9ea0e23, type: 3}
       propertyPath: m_EffectColor.r

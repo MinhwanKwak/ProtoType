@@ -18,13 +18,13 @@ MonoBehaviour:
   - key_string: Popup_Desc_DarkGolden
     color: {r: 0.6117647, g: 0.42352945, b: 0.1254902, a: 1}
   - key_string: Btn_Yes_DarkBlue
-    color: {r: 0, g: 0.4745098, b: 0.41960785, a: 1}
+    color: {r: 0, g: 0.28022027, b: 0.4745098, a: 1}
   - key_string: Btn_No_DarkRed
     color: {r: 0.7803922, g: 0.18039216, b: 0.18039216, a: 1}
   - key_string: Btn_Cash_Purple
     color: {r: 0.6784314, g: 0, b: 0.69803923, a: 1}
   - key_string: Btn_Point_Orange
-    color: {r: 0.7490196, g: 0.27058825, b: 0, a: 1}
+    color: {r: 0, g: 0.4745098, b: 0.41960785, a: 1}
   - key_string: Default_White
     color: {r: 1, g: 1, b: 1, a: 1}
   - key_string: Default_Black
