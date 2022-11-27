@@ -60,6 +60,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 151a2d646cdbec14ab6bcfaeca5d4416, type: 3}
   - {fileID: 21300000, guid: 170fe9e4922979948add204f2069cf33, type: 3}
   - {fileID: 21300000, guid: 84a709458406c384482435e99cc57042, type: 3}
+  - {fileID: 21300000, guid: 0999ee2638e48ae41835e764ed75918c, type: 3}
   - {fileID: 21300000, guid: 8bdcce76d9e87734ab9b52eba3abaa13, type: 3}
   - {fileID: 21300000, guid: d82a14671e26a4d418dd849823fca6ed, type: 3}
   - {fileID: 21300000, guid: df4c30b755a01f341b63adc6d2367594, type: 3}
@@ -83,6 +84,7 @@ SpriteAtlas:
   - Common_Deco_Arrow
   - Common_Frame_Popup
   - Common_BG_Round
+  - Common_BG_HalfRound_Vertical
   - Common_Header
   - Common_Btn_Cash
   - Common_Btn_Exit
