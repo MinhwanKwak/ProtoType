@@ -25,7 +25,7 @@ public class ClickCallback : MonoBehaviour
                 return;
             }
 
-           SoundPlayer.Instance.PlaySound("btn");
+           //SoundPlayer.Instance.PlaySound("btn");
         }
     }
 

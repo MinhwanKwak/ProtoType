@@ -25,6 +25,9 @@ public class PopupPurchaseLand : UIBase
     [SerializeField]
     private Button BuyBtn;
 
+    [SerializeField]
+    private Button CloseDimBtn;
+
     System.Numerics.BigInteger Value;
 
     private int GroundIdx = 0;
@@ -34,6 +37,7 @@ public class PopupPurchaseLand : UIBase
         base.Awake();
 
         BuyBtn.onClick.AddListener(OnClickBuy);
+        CloseDimBtn.onClick.AddListener(Hide);
     }
 
 
@@ -69,6 +73,7 @@ public class PopupPurchaseLand : UIBase
             GameRoot.Instance.UserData.SetReward((int)Config.RewardGroup.Currency, (int)Config.CurrencyID.Money, -Value);
 
             GameRoot.Instance.FacilitySystem.AddFacility(GroundIdx);
+            Hide();
 
         }
     }

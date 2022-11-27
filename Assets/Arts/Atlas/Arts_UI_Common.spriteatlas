@@ -54,7 +54,9 @@ SpriteAtlas:
   - {fileID: 21300000, guid: beb8ea31f9ef1cd4c807404ffb22d945, type: 3}
   - {fileID: 21300000, guid: fcebc9f1e92f4124981729eeef8a34da, type: 3}
   - {fileID: 21300000, guid: f6395572cd32a8548bc0617b8240510a, type: 3}
+  - {fileID: 21300000, guid: 80f6f1038447ffd4295471999e7dc1fc, type: 3}
   - {fileID: 21300000, guid: 4182e6533c4485c408ad5294337dba6d, type: 3}
+  - {fileID: 21300000, guid: f9332c644d0babf41994d5ebf60de9b7, type: 3}
   - {fileID: 21300000, guid: 151a2d646cdbec14ab6bcfaeca5d4416, type: 3}
   - {fileID: 21300000, guid: 170fe9e4922979948add204f2069cf33, type: 3}
   - {fileID: 21300000, guid: 84a709458406c384482435e99cc57042, type: 3}
@@ -67,6 +69,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 00c6909df78c59a45b6fcd89a2a1463a, type: 3}
   - {fileID: 21300000, guid: 70e5100e8b3c3134394d0d1adc208b0f, type: 3}
   - {fileID: 21300000, guid: a43de06f6bcdf8545b4ec3e66b2b1d75, type: 3}
+  - {fileID: 21300000, guid: bcee1f7f92dab1848bb6f25e58c2adf6, type: 3}
   - {fileID: 21300000, guid: a250ff7f39f0d2144b2c006e5e7ef558, type: 3}
   - {fileID: 21300000, guid: 2ad874bfa9b299a4cbc00619ca5e9627, type: 3}
   m_PackedSpriteNamesToIndex:
@@ -74,7 +77,9 @@ SpriteAtlas:
   - Common_Reddot
   - Common_Btn_No
   - Common_Btn_Yes
+  - Common_Frame_SubPopup
   - Common_Arrow
+  - Common_Deco
   - Common_Deco_Arrow
   - Common_Frame_Popup
   - Common_BG_Round
@@ -87,6 +92,7 @@ SpriteAtlas:
   - Common_Btn_Close
   - Common_Rectangle
   - Common_BG_HalfRound
+  - Common_Tab
   - Common_Deco_Star
   - Common_Inner_Frame
   m_RenderDataMap: {}

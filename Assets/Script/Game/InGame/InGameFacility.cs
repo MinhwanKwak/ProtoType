@@ -1,24 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using BanpoFri;
+using System.Linq;
 public class InGameFacility : MonoBehaviour
 {
 
-    int FacilityGroundIdx = 0;
+    int FacilityIdx = 0;
 
+    public int GetFacilityIdx { get { return FacilityIdx; } }
 
-    public void Init(int facilitygroundidx)
+    public void Init(int facilityidx)
     {
-        FacilityGroundIdx = facilitygroundidx;
+        FacilityIdx = facilityidx;
 
     }
 
 
-
+        
     public void OnClickFacility()
     {
-        var finddata = GameRoot.Instance.UserData.CurMode.FacilityDatas.Find(x => x.GroundIndex == FacilityGroundIdx);
+        var finddata = GameRoot.Instance.UserData.CurMode.FacilityDatas.ToList().Find(x => x.GroundIndex == FacilityIdx);
 
         if(finddata != null)
         {
@@ -26,6 +28,7 @@ public class InGameFacility : MonoBehaviour
         }
         else
         {
+            GameRoot.Instance.UISystem.OpenUI<PopupPurchaseLand>(popup=> popup.Set(FacilityIdx));
 
         }
     }

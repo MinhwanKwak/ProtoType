@@ -117,14 +117,6 @@ public partial class UserDataSystem
 		var money = builder.CreateString(mainData.Money.Value.ToString());
 
 
-		//insert start
-		BanpoFri.Data.UserData.StartUserData(builder);
-
-		BanpoFri.Data.UserData.AddMoney(builder, money);
-		BanpoFri.Data.UserData.AddCash(builder, Cash.Value);
-		BanpoFri.Data.UserData.AddMaterial(builder, mainData.Material.Value);
-
-
 
 		//facilitydata
 
@@ -142,14 +134,26 @@ public partial class UserDataSystem
 			}
 
 
+		var facilityVec = BanpoFri.Data.UserData.CreateFacilitydatasVector(builder, save_facilitys);
 
-		if (save_facilitys.Count() > 0)
-		{
-			var facilityVec = BanpoFri.Data.UserData.CreateFacilitydatasVector(builder, save_facilitys);
-			BanpoFri.Data.UserData.AddFacilitydatas(builder, facilityVec);
-		}
 
+		//insert start
+		BanpoFri.Data.UserData.StartUserData(builder);
+
+
+
+		BanpoFri.Data.UserData.AddMoney(builder, money);
+		BanpoFri.Data.UserData.AddCash(builder, Cash.Value);
+		BanpoFri.Data.UserData.AddMaterial(builder, mainData.Material.Value);
+
+		BanpoFri.Data.UserData.AddFacilitydatas(builder, facilityVec);
+		
+
+
+		//end 
 		var orc = BanpoFri.Data.UserData.EndUserData(builder);
+
+
 		builder.Finish(orc.Value);
 
 		var dataBuf = builder.DataBuffer;

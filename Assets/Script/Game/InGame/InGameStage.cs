@@ -21,129 +21,102 @@ public class InGameStage : MonoBehaviour
     private List<Transform> LandTrList = new List<Transform>();
 
 
+    [SerializeField]
+    private List<InGameFacility> CurStageFacilityList = new List<InGameFacility>();
+
     public bool IsLoadComplete { get; private set; }
 
 
-    private int FacilityIdx = 0;
+    private CompositeDisposable disposable = new CompositeDisposable();
 
     public void Init()
     {
         IsLoadComplete = false;
+        CurStageFacilityList.Clear();
+        disposable.Clear();
 
+
+        GameRoot.Instance.UserData.CurMode.FacilityDatas.ObserveAdd().Subscribe(x => {
+            SearchGroundAdd(x.Value.FacilityGradeIdx, x.Value.GroundIndex);
+        }).AddTo(disposable);
 
         //tempdata
         var stageidx = 1;
-        FacilityIdx = 0;
-
         var tdlist = Tables.Instance.GetTable<LandBasic>().DataList.Where(x => stageidx == x.stage).ToList();
 
         for(int i = 0; i  < tdlist.Count; ++i)
         {
-            var finddata = GameRoot.Instance.UserData.CurMode.FacilityDatas.Find(x => x.GroundIndex == tdlist[i].idx && stageidx == tdlist[i].stage);
+            var finddata = GameRoot.Instance.UserData.CurMode.FacilityDatas.ToList().Find(x => x.GroundIndex == tdlist[i].idx && stageidx == tdlist[i].stage);
 
 
             if (finddata != null)
             {
-
-
-                Addressables.InstantiateAsync(tdlist[i].prefab[finddata.FacilityGradeIdx], LandTrList[FacilityIdx]).Completed += (handle) =>
-                {
-                    var facility = handle.Result.GetComponent<InGameFacility>();
-                    if (facility != null)
-                    {
-
-                        facility.Init(tdlist[i].idx);
-
-
-                        facility.transform.position = LandTrList[FacilityIdx].position;
-                        ++FacilityIdx;
-                    }
-                };
-
+                SearchGroundAdd(finddata.FacilityGradeIdx, finddata.GroundIndex);
             }
             else
             {
-                var idx = tdlist[i].idx;
-                Addressables.InstantiateAsync(tdlist[i].prefab.First(), LandTrList.First()).Completed += (handle) =>
-                {
-                    var facility = handle.Result.GetComponent<InGameFacility>();
-                    if (facility != null)
-                    {
-
-                        facility.Init(idx);
-
-
-                        facility.transform.position = LandTrList[FacilityIdx].position;
-                        ++FacilityIdx;
-                    }
-                };
+                SearchGroundAdd(0, tdlist[i].idx);
             }
-
         }
 
-
-
-        //GameRoot.Instance.InGameSystem.CurInGame.SetCameraBoundMinY(-(defaultCameraMinY + cameraYInterval * (nextOpenFloor)));
-
-        //load 
     }
 
-
-
-
-
-
-    //public InGameFacilityBase GetFacilityByIdx(int facilityIdx)
-    //{
-    //    if (facilityStart.FacilityIndex == facilityIdx)
-    //        return facilityStart;
-    //    else if (facilityEnd.FacilityIndex == facilityIdx)
-    //        return facilityEnd;
-    //    else if (facilityIdx == Config.RouletteIdx)
-    //        return facilityRoulette;
-    //    else
-    //        return facilities.Find(x => x.FacilityIndex == facilityIdx);
-    //}
-
-    public void OpenFacility(int order)
+    private void OnDestroy()
     {
-        //var Facility = GetFacility(order);
-        //if (Facility != null)
-        //{
-        //    var nextOpenFloor = GameRoot.Instance.UserData.CurMode.StageData.NextOpenFloor;
-        //    Utility.SetActiveCheck(Facility.gameObject, true);
-        //    Facility.SetOpen(true);
-        //    GameRoot.Instance.InGameSystem.CurInGame.IngameCamera.FocusPosition(Facility.transform.position,
-        //        GameRoot.Instance.InGameSystem.CurInGame.IngameCamera.zoomOutSize);
-        //    GameRoot.Instance.InGameSystem.CurInGame.SetCameraBoundMinY(-(defaultCameraMinY + cameraYInterval * (nextOpenFloor)));
-        //    GameRoot.Instance.EffectSystem.Play<FacilityOpenEffect>(Facility.OpenFacilityEffectTrans.position);
-
-        //    if (GameRoot.Instance.UserData.CurMode.StageData.IsMaxFloor)
-        //    {
-        //        Utility.SetActiveCheck(facilityEmpty.gameObject, false);
-        //        facilityEmpty.UIActive(false);
-        //        facilityEnd.transform.position = new Vector3(0f, -cameraYInterval * nextOpenFloor, 0f);
-        //    }
-        //    else
-        //    {
-        //        facilityEmpty.transform.position = new Vector3(0f, -cameraYInterval * nextOpenFloor, 0f);
-        //        facilityEnd.transform.position = new Vector3(0f, -cameraYInterval * (nextOpenFloor + 1), 0f);
-
-        //        Utility.SetActiveCheck(facilityEmpty.gameObject, true);
-        //        facilityEmpty.UpdatePos();
-        //    }
-        //    if (GameRoot.Instance.UserData.CurMode.StageData.IsMaxFloor)
-        //        facilityEnd.ChangeDir((int)Facility.transform.localScale.x * -1);
-        //    else
-        //    {
-        //        var EndFacility = GetFacility(nextOpenFloor - 1);
-        //        Utility.SetActiveCheck(EndFacility.gameObject, true);
-        //        EndFacility.DisableEffect(false);
-        //        var endScaleX = EndFacility.transform.localScale.x * -1;
-        //        facilityEnd.ChangeDir((int)endScaleX);
-        //    }
-        //    facilityEnd.UpdatePos();
-        //    facilityRoulette?.UpdatePos();
-        //}
+        disposable.Clear();
     }
+
+
+    public void SearchGroundAdd(int facilitygradeidx ,int facilityidx)
+    {
+        var tdlist = Tables.Instance.GetTable<LandBasic>().DataList.Where(x => 1 == x.stage).ToList();
+
+
+        var finddata = CurStageFacilityList.Find(x => x.GetFacilityIdx == facilityidx);
+
+        var getfacilitydata = GameRoot.Instance.UserData.CurMode.FacilityDatas.ToList().Find(x => x.GroundIndex == facilityidx);
+
+        if(getfacilitydata != null)
+        {
+            if (finddata != null)
+            {
+                CurStageFacilityList.Remove(finddata);
+
+                Destroy(finddata.gameObject);
+            }
+
+            Addressables.InstantiateAsync(tdlist[facilitygradeidx].prefab[facilitygradeidx], LandTrList[facilityidx]).Completed += (handle) =>
+            {
+                var facility = handle.Result.GetComponent<InGameFacility>();
+                if (facility != null)
+                {
+
+                    facility.Init(facilityidx);
+
+                    CurStageFacilityList.Add(facility);
+
+                    facility.transform.position = LandTrList[facilityidx - 1].position;
+                } 
+            };
+        }
+        else
+        {
+            Addressables.InstantiateAsync(tdlist[facilitygradeidx].prefab[facilitygradeidx], LandTrList[facilityidx]).Completed += (handle) =>
+            {
+                var facility = handle.Result.GetComponent<InGameFacility>();
+                if (facility != null)
+                {
+
+                    facility.Init(facilityidx);
+
+                    CurStageFacilityList.Add(facility);
+
+                    facility.transform.position = LandTrList[facilityidx - 1].position;
+                }
+            };
+        }
+    }
+
+
+
 }
