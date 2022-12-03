@@ -175,7 +175,6 @@ MonoBehaviour:
   CashText: {fileID: 520067937525833715}
   MaterialText: {fileID: 7543422990659105305}
   MoneyText: {fileID: 6088197985361739935}
-  TimeText: {fileID: 0}
 --- !u!95 &7439215022324522934
 Animator:
   serializedVersion: 3
@@ -510,7 +509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 366870097045892905, guid: 97a36920723d02440bcec22b52819075, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 65
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 366870097045892905, guid: 97a36920723d02440bcec22b52819075, type: 3}
       propertyPath: m_LocalPosition.x
