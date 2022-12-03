@@ -25,6 +25,7 @@ public class GameRoot : Singleton<GameRoot>
 	public SnapshotCamera SnapshotCam { get; private set; } = null;
 	public PluginSystem PluginSystem { get; private set; } = new PluginSystem();
 	public FacilitySystem FacilitySystem { get; private set; } = new FacilitySystem();
+	public PlayTimeSystem PlayTimeSystem { get; private set; } = new PlayTimeSystem();
 
 
 
@@ -71,6 +72,7 @@ public class GameRoot : Singleton<GameRoot>
 			return;
 
 		UserData.Update();
+		PlayTimeSystem.Update();
 
 		if (deltaTime >= 1f) // one seconds updates;
 		{
@@ -319,6 +321,8 @@ public class GameRoot : Singleton<GameRoot>
 		for (int i = 0; i < frame; i++)
 			yield return new WaitForEndOfFrame();
 		callback?.Invoke();
+
+
 	}
 
 	public void WaitTimeAndCallback(float time, System.Action callback)
@@ -342,6 +346,8 @@ public class GameRoot : Singleton<GameRoot>
 	{
 		if (!LoadComplete)
 			return;
+
+
 
 
 		if (pause)

@@ -42,7 +42,8 @@ public partial class UserDataSystem
         Cash.Value = flatBufferUserData.Cash;
         mainData.Money.Value = BigInteger.Parse(flatBufferUserData.Money);
         mainData.Material.Value = flatBufferUserData.Material;
-
+        mainData.LastLoginTime = new System.DateTime(flatBufferUserData.Lastlogintime);
+        mainData.CurPlayDateTime = new System.DateTime(flatBufferUserData.Curplaydatetime);
 
 
         for (int i = 0; i < flatBufferUserData.FacilitydatasLength; ++i)

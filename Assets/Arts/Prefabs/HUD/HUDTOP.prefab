@@ -175,6 +175,7 @@ MonoBehaviour:
   CashText: {fileID: 520067937525833715}
   MaterialText: {fileID: 7543422990659105305}
   MoneyText: {fileID: 6088197985361739935}
+  TimeText: {fileID: 0}
 --- !u!95 &7439215022324522934
 Animator:
   serializedVersion: 3

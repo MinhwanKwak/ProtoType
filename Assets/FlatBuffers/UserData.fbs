@@ -8,6 +8,8 @@ table UserData {
   cash:int = 0;
   material:int = 0;
   facilitydatas:[FacilityData];
+  lastlogintime:long = 0;
+  curplaydatetime:long = 0;
 }
 
 table FacilityData {

@@ -16,6 +16,9 @@ public class HUD : UIBase
     [SerializeField]
     private Text MoneyText;
 
+
+
+
     public void Init()
     {
     }

@@ -117,7 +117,6 @@ public partial class UserDataSystem
 		var money = builder.CreateString(mainData.Money.Value.ToString());
 
 
-
 		//facilitydata
 
 			var save_facilitys = new Offset<BanpoFri.Data.FacilityData>[mainData.FacilityDatas.Count];
@@ -141,8 +140,10 @@ public partial class UserDataSystem
 		BanpoFri.Data.UserData.StartUserData(builder);
 
 
-
+		
+		BanpoFri.Data.UserData.AddLastlogintime(builder, mainData.LastLoginTime.Ticks);
 		BanpoFri.Data.UserData.AddMoney(builder, money);
+		BanpoFri.Data.UserData.AddCurplaydatetime(builder, mainData.CurPlayDateTime.Ticks);
 		BanpoFri.Data.UserData.AddCash(builder, Cash.Value);
 		BanpoFri.Data.UserData.AddMaterial(builder, mainData.Material.Value);
 

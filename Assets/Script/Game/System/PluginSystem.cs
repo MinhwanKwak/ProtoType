@@ -25,7 +25,7 @@ public class PluginSystem
                 return;
             }
 
-//            GameRoot.Instance.UserData.CurMode.LastLoginTime = TimeSystem.GetCurTime();
+            GameRoot.Instance.UserData.CurMode.LastLoginTime = TimeSystem.GetCurTime();
             GameRoot.Instance.UserData.Save(true);
         }
     }

@@ -160,6 +160,14 @@ namespace BanpoFri
                 return $"{time.Seconds}s";      
         }
 
+
+        public static string GetPlayerTimeStringFormattingShort(long PlayerTime)
+        {
+            var time = new TimeSpan(0, (int)PlayerTime , 0);
+
+            return $"{time.Days}y {time.Hours}d";
+        }
+
         public static string GetTimeStringFormattingStageClearSkill(int seconds)
         {
             var time = new TimeSpan(0, 0, seconds);
