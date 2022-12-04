@@ -328,6 +328,18 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 2479922862980018172, guid: 41e77eae4f1f580418fbaa7adadd44ec, type: 3}
+      propertyPath: m_EffectColor.b
+      value: 0.4745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479922862980018172, guid: 41e77eae4f1f580418fbaa7adadd44ec, type: 3}
+      propertyPath: m_EffectColor.g
+      value: 0.28022027
+      objectReference: {fileID: 0}
+    - target: {fileID: 2773932674726483785, guid: 41e77eae4f1f580418fbaa7adadd44ec, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4298007387058133880, guid: 41e77eae4f1f580418fbaa7adadd44ec, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -482,6 +494,14 @@ PrefabInstance:
     - target: {fileID: 297347613087794474, guid: 41e77eae4f1f580418fbaa7adadd44ec, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479922862980018172, guid: 41e77eae4f1f580418fbaa7adadd44ec, type: 3}
+      propertyPath: m_EffectColor.b
+      value: 0.4745098
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479922862980018172, guid: 41e77eae4f1f580418fbaa7adadd44ec, type: 3}
+      propertyPath: m_EffectColor.g
+      value: 0.28022027
       objectReference: {fileID: 0}
     - target: {fileID: 2687035612874690815, guid: 41e77eae4f1f580418fbaa7adadd44ec, type: 3}
       propertyPath: m_IsActive

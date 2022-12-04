@@ -23,7 +23,7 @@ SpriteAtlas:
     platformSettings:
     - serializedVersion: 3
       m_BuildTarget: DefaultTexturePlatform
-      m_MaxTextureSize: 512
+      m_MaxTextureSize: 1024
       m_ResizeAlgorithm: 0
       m_TextureFormat: -1
       m_TextureCompression: 1
@@ -60,12 +60,15 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 151a2d646cdbec14ab6bcfaeca5d4416, type: 3}
   - {fileID: 21300000, guid: 170fe9e4922979948add204f2069cf33, type: 3}
   - {fileID: 21300000, guid: 84a709458406c384482435e99cc57042, type: 3}
+  - {fileID: 21300000, guid: 371a85857f5acfd43adc35f860ad4f60, type: 3}
   - {fileID: 21300000, guid: 0999ee2638e48ae41835e764ed75918c, type: 3}
   - {fileID: 21300000, guid: 8bdcce76d9e87734ab9b52eba3abaa13, type: 3}
   - {fileID: 21300000, guid: d82a14671e26a4d418dd849823fca6ed, type: 3}
   - {fileID: 21300000, guid: df4c30b755a01f341b63adc6d2367594, type: 3}
   - {fileID: 21300000, guid: 18156f38b16d5d84eb749d7b1d8ef134, type: 3}
+  - {fileID: 21300000, guid: 9156f679983a14d4992ffe70ac506729, type: 3}
   - {fileID: 21300000, guid: c314ec9bb6734c442adcf5e1b462bf70, type: 3}
+  - {fileID: 21300000, guid: a173a13c5860dee40bd484433374ccfc, type: 3}
   - {fileID: 21300000, guid: dce626dca2187ae4a9fd1a297f73856f, type: 3}
   - {fileID: 21300000, guid: 00c6909df78c59a45b6fcd89a2a1463a, type: 3}
   - {fileID: 21300000, guid: 70e5100e8b3c3134394d0d1adc208b0f, type: 3}
@@ -83,13 +86,16 @@ SpriteAtlas:
   - Common_Deco
   - Common_Deco_Arrow
   - Common_Frame_Popup
-  - Common_BG_Round
+  - Common_Round
+  - Common_Line_Frame
   - Common_BG_HalfRound_Vertical
   - Common_Header
   - Common_Btn_Cash
   - Common_Btn_Exit
   - Common_Inner_Frame_R
+  - Common_BG_Round
   - Common_Frame
+  - Common_Round_Frame
   - Common_Popup_Frame
   - Common_Btn_Close
   - Common_Rectangle
