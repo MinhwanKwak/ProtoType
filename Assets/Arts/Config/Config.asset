@@ -38,7 +38,7 @@ MonoBehaviour:
   - key_string: Default_RedPink
     color: {r: 0.81960785, g: 0.08627451, b: 0.15686275, a: 1}
   - key_string: Default_Orange
-    color: {r: 1, g: 0.5058824, b: 0.047058824, a: 1}
+    color: {r: 1, g: 0.7176471, b: 0.41568628, a: 1}
   - key_string: Default_Yellow
     color: {r: 1, g: 0.9372549, b: 0.4117647, a: 1}
   - key_string: Default_Green

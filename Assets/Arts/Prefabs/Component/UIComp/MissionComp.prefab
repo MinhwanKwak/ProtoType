@@ -131,7 +131,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 35, y: 35}
+  m_SizeDelta: {x: 52, y: 52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4181519266033671593
 CanvasRenderer:
@@ -516,7 +516,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8107077810897567056, guid: 77bdfb5d6dbcc204f9b03bcc91ba7f31, type: 3}
       propertyPath: keyColor
-      value: Default_Brown
+      value: Popup_Desc_DarkGolden
       objectReference: {fileID: 0}
     - target: {fileID: 8669433642628014246, guid: 77bdfb5d6dbcc204f9b03bcc91ba7f31, type: 3}
       propertyPath: m_Value
