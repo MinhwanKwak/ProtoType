@@ -9,16 +9,22 @@ using System.Linq;
 public class PopupInfoLand : UIBase
 {
     [SerializeField]
-    private Text MonthBenefitText;
+    private Text CurGradeText;
 
     [SerializeField]
-    private Text BenefitNumberText;
-
-    [SerializeField]
-    private Text CurStatusDescText;
+    private Text NextGradeText;
 
     [SerializeField]
     private Text UpgradeValueText;
+
+    [SerializeField]
+    private Text LandNameText;
+
+    [SerializeField]
+    private Text CurBenefitText;
+
+    [SerializeField]
+    private Text NextBenefitText;
 
     [SerializeField]
     private Image CurFacilityImg;
@@ -61,22 +67,36 @@ public class PopupInfoLand : UIBase
         NextGradeIdx = landdata.FacilityGradeIdx + 1;
 
         //var td = Tables.Instance.GetTable<LandEvent>().GetData(groundidx);
-        var upgradetd = Tables.Instance.GetTable<LandUpgrade>().GetData(NextGradeIdx);
+        var upgradetd = Tables.Instance.GetTable<LandUpgrade>().GetData(landdata.FacilityGradeIdx);
+        var nextupgradetd = Tables.Instance.GetTable<LandUpgrade>().GetData(NextGradeIdx);
         var basictd = Tables.Instance.GetTable<LandBasic>().GetData(new KeyValuePair<int, int>(1, landdata.GroundIndex));
 
-        if (upgradetd == null || basictd == null)
+        if (nextupgradetd == null || basictd == null)
         {
             Utility.SetActiveCheck(this.gameObject, false);
             return;
         }
 
+        CurBenefitText.text = Utility.CalculateMoneyToString(nextupgradetd.profit);
 
-        CurFacilityImg.sprite = Config.Instance.GetFacilityImg(basictd.icon[landdata.FacilityGradeIdx]);
+        NextBenefitText.text = Utility.CalculateMoneyToString(upgradetd.profit);
 
-        NextFacilityImg.sprite = Config.Instance.GetFacilityImg(basictd.icon[NextGradeIdx]);
 
-        UpgradeValueText.text = Utility.CalculateMoneyToString(upgradetd.cost);
-        CostFacilityUpgrade = upgradetd.cost;
+        CurFacilityImg.sprite = Config.Instance.GetFacilityImg(basictd.icon[landdata.FacilityGradeIdx - 1]);
+
+        CurGradeText.text = Tables.Instance.GetTable<Localize>().GetFormat("str_grade", landdata.FacilityGradeIdx);
+
+
+        NextGradeText.text = Tables.Instance.GetTable<Localize>().GetFormat("str_grade", NextGradeIdx);
+
+
+
+        NextFacilityImg.sprite = Config.Instance.GetFacilityImg(basictd.icon[NextGradeIdx - 1]);
+
+        LandNameText.text = Tables.Instance.GetTable<Localize>().GetString(basictd.name);
+
+        UpgradeValueText.text = Utility.CalculateMoneyToString(nextupgradetd.cost);
+        CostFacilityUpgrade = nextupgradetd.cost;
     }
 
 

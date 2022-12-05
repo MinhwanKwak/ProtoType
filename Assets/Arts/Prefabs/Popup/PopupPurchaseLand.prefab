@@ -23,6 +23,7 @@ MonoBehaviour:
   BuyText: {fileID: 5336707928458267343}
   MonthBenefitText: {fileID: 6512505862592145539}
   LandNameText: {fileID: 4514753728282742989}
+  LandDescText: {fileID: 1224630461465869406}
   StatusIcon: {fileID: 3655142801837879638}
   ProgressValue: {fileID: 1547925894104038195}
   BuyBtn: {fileID: 467997839298348430}
@@ -334,6 +335,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1224630461465869406 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4427046035961147147, guid: b1a43a744a162c04d9ad8dcdfc96b0db, type: 3}
+  m_PrefabInstance: {fileID: 3282776685313282901}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &3655142801837879638 stripped

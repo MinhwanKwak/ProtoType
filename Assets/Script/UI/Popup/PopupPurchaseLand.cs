@@ -17,6 +17,9 @@ public class PopupPurchaseLand : UIBase
     private Text LandNameText;
 
     [SerializeField]
+    private Text LandDescText;
+
+    [SerializeField]
     private Image StatusIcon;
 
     [SerializeField]
@@ -62,6 +65,21 @@ public class PopupPurchaseLand : UIBase
         MonthBenefitText.text = Utility.CalculateMoneyToString(landupgradetd.profit);
 
         LandNameText.text = Tables.Instance.GetTable<Localize>().GetString(landbasictd.name);
+
+
+        var condinationidx = ProjectUtility.LandCondination(landbasictd.default_point);
+
+
+        var condinationtd = Tables.Instance.GetTable<LandCondition>().GetData(condinationidx);
+
+
+        if(condinationtd != null)
+        {
+            StatusIcon.sprite = Config.Instance.GetDynamicImg(condinationtd.icon);
+            ProgressValue.value = (float)landbasictd.default_point / 100f;
+            LandDescText.text = Tables.Instance.GetTable<Localize>().GetString(condinationtd.name);
+        }
+
     }
 
 

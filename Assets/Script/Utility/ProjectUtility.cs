@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using BanpoFri;
 public class ProjectUtility 
 {
+
 
     public static int FindNextSearchFacilityidx()
     {
@@ -25,6 +27,22 @@ public class ProjectUtility
             else if (!value && target.activeSelf)
                 target.SetActive(false);
         }
+    }
+
+
+    public static int LandCondination(int needpoint)
+    {
+        var tdlist = Tables.Instance.GetTable<LandCondition>().DataList.ToList();
+
+        foreach(var td in tdlist)
+        {
+            if (td.need_point[0] <= needpoint && td.need_point[1] >= needpoint)
+                return td.condition;
+        }
+
+
+
+        return 0;
     }
 
 

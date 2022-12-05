@@ -9,15 +9,11 @@ using BanpoFri;
 public class Config : BanpoFri.SingletonScriptableObject<Config>, BanpoFri.ILoader
 {
 
-    public enum HeroAnimState
+    public enum LandCondination
     {
-        None,
-        Attack,
-        Attack2,
-        Idle,
-        Run,
-        Win,
-        Stop,
+        Great,
+        Basic,
+        Sad,
     }
 
 
