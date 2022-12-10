@@ -496,8 +496,9 @@ GameObject:
   - component: {fileID: 5292269219871241682}
   - component: {fileID: 644941278135878205}
   - component: {fileID: 7313921937955896271}
+  - component: {fileID: 900624642549902454}
   m_Layer: 5
-  m_Name: FacilityMoney
+  m_Name: InGameFacilityBenefit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -587,6 +588,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &900624642549902454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7118647407345573968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe5da34921e540738190e1e93e391ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TrackingScale: 0
+  TrackingPos: 1
+  BenefitBtn: {fileID: 644941278135878205}
 --- !u!1 &7850909682240135468
 GameObject:
   m_ObjectHideFlags: 0

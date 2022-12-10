@@ -35,6 +35,7 @@ public class InGameFacility : MonoBehaviour
     }
 
 
+
     private void OnDestroy()
     {
         disposable.Clear();

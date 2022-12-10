@@ -24,6 +24,7 @@ public class FacilityData : IReadOnlyData
 	public IReactiveProperty<int> FacilityGradeProperty = new ReactiveProperty<int>();
 	public IReactiveProperty<int> LandStatusProperty = new ReactiveProperty<int>();
 
+	public IReactiveProperty<bool> IsBenefit = new ReactiveProperty<bool>(false);
 
 	public void Create()
 	{
@@ -36,20 +37,21 @@ public class FacilityData : IReadOnlyData
 	}
 
 
-	public FacilityData(int groundidx, int facilitygradeidx, int landstatuseventidx, bool iseventground, long benefittime)
+	public FacilityData(int groundidx, int facilitygradeidx, int landstatuseventidx, bool iseventground, long benefittime , bool isbenefit)
 	{
 		GroundIndex = groundidx;
 		FacilityGradeIdx = facilitygradeidx;
 		LandStatusEventIdx = landstatuseventidx;
 		IsEventGround = iseventground;
 		BenefitTime = new System.DateTime(benefittime);
+		IsBenefit.Value = isbenefit;
 
 		Create();
 	}
 
 	public virtual object Clone()
 	{
-		var clone = new FacilityData(GroundIndex, FacilityGradeIdx, LandStatusEventIdx, IsEventGround , BenefitTime.Ticks);
+		var clone = new FacilityData(GroundIndex, FacilityGradeIdx, LandStatusEventIdx, IsEventGround , BenefitTime.Ticks, IsBenefit.Value);
 		return clone;
 	}
 

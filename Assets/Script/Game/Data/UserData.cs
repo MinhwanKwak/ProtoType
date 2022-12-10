@@ -129,6 +129,7 @@ public partial class UserDataSystem
 				BanpoFri.Data.FacilityData.AddLandstatuseventidx(builder, fs.LandStatusEventIdx);
 				BanpoFri.Data.FacilityData.AddLandbenefittime(builder, fs.BenefitTime.Ticks);
 				BanpoFri.Data.FacilityData.AddIseventground(builder, fs.IsEventGround);
+				BanpoFri.Data.FacilityData.AddIsbenefit(builder, fs.IsBenefit.Value);
 				save_facilitys[dataIdx++] = BanpoFri.Data.FacilityData.EndFacilityData(builder);
 			}
 

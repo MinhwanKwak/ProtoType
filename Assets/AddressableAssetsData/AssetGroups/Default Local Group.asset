@@ -77,6 +77,10 @@ MonoBehaviour:
     m_Address: UI/Page/HUDQuest
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 4e95d34cc1148ff4799daf9e022343d8
+    m_Address: UI/InGame/InGameFacilityBenefit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 33d34b1065dcd4c0db03f94efd6e0ee1, type: 2}
   m_SchemaSet:

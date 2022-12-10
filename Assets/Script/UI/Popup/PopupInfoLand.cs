@@ -77,9 +77,9 @@ public class PopupInfoLand : UIBase
             return;
         }
 
-        CurBenefitText.text = Utility.CalculateMoneyToString(nextupgradetd.profit);
+        CurBenefitText.text = Utility.CalculateMoneyToString(upgradetd.profit);
 
-        NextBenefitText.text = Utility.CalculateMoneyToString(upgradetd.profit);
+        NextBenefitText.text = Utility.CalculateMoneyToString(nextupgradetd.profit);
 
 
         CurFacilityImg.sprite = Config.Instance.GetFacilityImg(basictd.icon[landdata.FacilityGradeIdx - 1]);

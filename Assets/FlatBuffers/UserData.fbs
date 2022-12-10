@@ -18,6 +18,7 @@ table FacilityData {
   landstatuseventidx:int = 0;
   landbenefittime:long = 0;
   iseventground:bool = false;
+  isbenefit:bool = false;
 }
 
 

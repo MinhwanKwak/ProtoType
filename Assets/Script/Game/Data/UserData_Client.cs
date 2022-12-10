@@ -51,7 +51,7 @@ public partial class UserDataSystem
             var data = flatBufferUserData.Facilitydatas(i);
 
             var facilitydata = new FacilityData(data.Value.Groundidx , data.Value.Facilitygrade , data.Value.Landstatuseventidx
-                ,data.Value.Iseventground , data.Value.Landbenefittime);
+                ,data.Value.Iseventground , data.Value.Landbenefittime, data.Value.Isbenefit);
 
             mainData.FacilityDatas.Add(facilitydata);
 
