@@ -10,6 +10,8 @@ public class PlayTimeSystem
 
     private float deltaTime = 0f;
 
+    
+
     public void Update()
     {
         if (deltaTime < 1f)

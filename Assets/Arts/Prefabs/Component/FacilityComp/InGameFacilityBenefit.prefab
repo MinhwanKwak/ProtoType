@@ -603,6 +603,7 @@ MonoBehaviour:
   TrackingScale: 0
   TrackingPos: 1
   BenefitBtn: {fileID: 644941278135878205}
+  JackPodObj: {fileID: 6622716552832901404}
 --- !u!1 &7850909682240135468
 GameObject:
   m_ObjectHideFlags: 0

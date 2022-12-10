@@ -27,10 +27,16 @@ public class PopupInfoLand : UIBase
     private Text NextBenefitText;
 
     [SerializeField]
+    private Text CurMonthBenefitText;
+
+    [SerializeField]
     private Image CurFacilityImg;
 
     [SerializeField]
     private Image NextFacilityImg;
+
+    [SerializeField]
+    private Image CurStatusImg;
 
     [SerializeField]
     private Button BuyBtn;
@@ -97,6 +103,10 @@ public class PopupInfoLand : UIBase
 
         UpgradeValueText.text = Utility.CalculateMoneyToString(nextupgradetd.cost);
         CostFacilityUpgrade = nextupgradetd.cost;
+
+
+
+
     }
 
 
