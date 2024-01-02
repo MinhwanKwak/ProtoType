@@ -9,20 +9,11 @@ using BanpoFri;
 
 public class InGameStage : MonoBehaviour
 {
- 
-
-
     [Header("Input Value")]
     [SerializeField]
     private float cameraYInterval = 8.77f;
     [SerializeField]
     private float defaultCameraMinY = 17f;
-    [SerializeField]
-    private List<Transform> LandTrList = new List<Transform>();
-
-
-    [SerializeField]
-    private List<InGameFacility> CurStageFacilityList = new List<InGameFacility>();
 
     public bool IsLoadComplete { get; private set; }
 
@@ -32,7 +23,6 @@ public class InGameStage : MonoBehaviour
     public void Init()
     {
         IsLoadComplete = false;
-        CurStageFacilityList.Clear();
         disposable.Clear();
 
 
@@ -67,56 +57,9 @@ public class InGameStage : MonoBehaviour
     }
 
 
-    public void SearchGroundAdd(int facilitygradeidx ,int facilityidx)
+    public void SearchGroundAdd(int facilitygradeidx, int facilityidx)
     {
-        var tdlist = Tables.Instance.GetTable<LandBasic>().DataList.Where(x => 1 == x.stage).ToList();
-
-
-        var finddata = CurStageFacilityList.Find(x => x.GetFacilityIdx == facilityidx);
-
-        var getfacilitydata = GameRoot.Instance.UserData.CurMode.FacilityDatas.ToList().Find(x => x.GroundIndex == facilityidx);
-
-        if(getfacilitydata != null)
-        {
-            if (finddata != null)
-            {
-                CurStageFacilityList.Remove(finddata);
-
-                Destroy(finddata.gameObject);
-            }
-
-            Addressables.InstantiateAsync(tdlist[facilitygradeidx].prefab[facilitygradeidx], LandTrList[facilityidx]).Completed += (handle) =>
-            {
-                var facility = handle.Result.GetComponent<InGameFacility>();
-                if (facility != null)
-                {
-
-                    facility.Init(facilityidx);
-
-                    CurStageFacilityList.Add(facility);
-
-                    facility.transform.position = LandTrList[facilityidx - 1].position;
-                } 
-            };
-        }
-        else
-        {
-            Addressables.InstantiateAsync(tdlist[facilitygradeidx].prefab[facilitygradeidx], LandTrList[facilityidx]).Completed += (handle) =>
-            {
-                var facility = handle.Result.GetComponent<InGameFacility>();
-                if (facility != null)
-                {
-
-                    facility.Init(facilityidx);
-
-                    CurStageFacilityList.Add(facility);
-
-                    facility.transform.position = LandTrList[facilityidx - 1].position;
-                }
-            };
-        }
     }
-
 
 
 }
