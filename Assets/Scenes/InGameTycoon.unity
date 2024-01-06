@@ -209,8 +209,8 @@ MonoBehaviour:
   useBounds: 1
   boundMinX: -1
   boundMaxX: 8
-  boundMinY: -6
-  boundMaxY: 20
+  boundMinY: 3
+  boundMaxY: 50
   focusSize: 12
   focusMoveDuration: 0.5
   zoomOutSizeDefault: 10

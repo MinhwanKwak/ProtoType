@@ -14,6 +14,12 @@ public class InGameStage : MonoBehaviour
     private float cameraYInterval = 8.77f;
     [SerializeField]
     private float defaultCameraMinY = 17f;
+    [SerializeField]
+    private Transform LeftHouse;
+
+    [SerializeField]
+    private Transform RightHouse;
+
 
     public bool IsLoadComplete { get; private set; }
 
@@ -24,6 +30,7 @@ public class InGameStage : MonoBehaviour
     {
         IsLoadComplete = false;
         disposable.Clear();
+
 
 
         GameRoot.Instance.UserData.CurMode.FacilityDatas.ObserveAdd().Subscribe(x => {

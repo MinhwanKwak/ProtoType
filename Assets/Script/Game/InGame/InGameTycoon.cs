@@ -56,8 +56,6 @@ public class InGameTycoon : InGameMode
         base.LoadUI();
 
         GameRoot.Instance.UISystem.OpenUI<HUD>(popup => popup.Init());
-        GameRoot.Instance.UISystem.OpenUI<HUDBottom>(popup => popup.Init());
-        GameRoot.Instance.UISystem.OpenUI<HUDQuest>(popup => popup.Init());
 
         //GameRoot.Instance.UISystem.OpenUI<HUD>();
         //GameRoot.Instance.UISystem.OpenUI<HUDQuest>(quest => { quest.Init(); });

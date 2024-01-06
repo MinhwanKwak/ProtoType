@@ -353,7 +353,9 @@ public class PanAndZoom : MonoBehaviour {
         if (controlCamera && cameraControlEnabled) {
             if (cam == null) cam = Camera.main;
 
-            cam.transform.position -= (cam.ScreenToWorldPoint(deltaPosition) - cam.ScreenToWorldPoint(Vector2.zero));
+            var vec3 = (cam.ScreenToWorldPoint(deltaPosition) - cam.ScreenToWorldPoint(Vector2.zero));
+
+            cam.transform.position -= new Vector3(vec3.x, 0, 0);
         }
     }
     void OnPinch(Vector2 center, float oldDistance, float newDistance, Vector2 touchDelta) {
@@ -571,7 +573,7 @@ public class PanAndZoom : MonoBehaviour {
                 }
                 if (over)
                 {
-                    cam.transform.position = target;//Vector3.Lerp(cam.transform.position, target,  Time.deltaTime * 5f);
+                    cam.transform.position = new Vector3(target.x , 7.8f , -10);//Vector3.Lerp(cam.transform.position, target,  Time.deltaTime * 5f);
                     //cam.transform.position = new Vector3(result.x, result.y, cam.transform.position.z);
 
                     //FocusPosition(target, cam.orthographicSize);
@@ -607,7 +609,7 @@ public class PanAndZoom : MonoBehaviour {
 
                 if (over)
                 {
-                    cam.transform.position = target;
+                    cam.transform.position = new Vector3(target.x, 7.8f, -10);
                 }
             }
 
