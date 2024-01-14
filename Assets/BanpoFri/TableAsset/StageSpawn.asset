@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f8c07ff9d0c46359d806c73ea3ca8d, type: 3}
+  m_Name: StageSpawn
+  m_EditorClassIdentifier: 
+  mFirstKey:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  mSecondKey: []
+  mDataList:
+  - _stage: 1
+    _order: 1
+    _enemy_idx: 1
+    _spwan_time: 100
+    _spawn_count: 3
+  - _stage: 1
+    _order: 2
+    _enemy_idx: 1
+    _spwan_time: 50
+    _spawn_count: 5
+  - _stage: 1
+    _order: 3
+    _enemy_idx: 1
+    _spwan_time: 50
+    _spawn_count: 5
+  - _stage: 1
+    _order: 4
+    _enemy_idx: 2
+    _spwan_time: 100
+    _spawn_count: 3
+  - _stage: 1
+    _order: 5
+    _enemy_idx: 3
+    _spwan_time: 100
+    _spawn_count: 3

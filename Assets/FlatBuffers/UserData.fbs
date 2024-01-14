@@ -10,6 +10,7 @@ table UserData {
   facilitydatas:[FacilityData];
   lastlogintime:long = 0;
   curplaydatetime:long = 0;
+  stageidx:int = 1;
 }
 
 table FacilityData {

@@ -12,6 +12,7 @@ public interface IUserDataMode
 	IReactiveCollection<FacilityData> FacilityDatas { get; set; }
 	DateTime LastLoginTime { get; set; }
 	DateTime CurPlayDateTime { get; set; }
+	public int StageIdx { get; set; }
 
 	//int EventIdx {get; set;}
 	//IReactiveProperty<BigInteger> EventQuestValue { get; set; }
@@ -26,6 +27,7 @@ public class UserDataMain : IUserDataMode
 	public IReactiveCollection<FacilityData> FacilityDatas  { get; set; } = new ReactiveCollection<FacilityData>();
 	public DateTime LastLoginTime { get; set; } = default(DateTime);
 	public DateTime CurPlayDateTime { get; set; } = new DateTime(1, 1, 1);
+	public int StageIdx { get; set; } = 1;
 }
 
 public class UserDataEvent : UserDataMain
